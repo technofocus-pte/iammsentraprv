@@ -1,6 +1,6 @@
-# Day 1 – Lab 1 – Setting up your Microsoft Entra tenant
+# Lab 1 – Setting up your Microsoft Entra tenant
 
-## Objective:
+## Objective
 
 In this lab we will first redeem a pass for an Azure subscription.
 
@@ -16,14 +16,14 @@ conditional access policy.
 
 ### Task 1 – Redeem the Azure Pass
 
-1.  Log into the **LON-CL1** with the credentials provided in the Home
+1. Log into the **LON-CL1** with the credentials provided in the Home
     tab of your lab.
 
-2.  **Note down the Office 365 Tenant Credentials** and the **Promo
+2. **Note down the Office 365 Tenant Credentials** and the **Promo
     Code** provided on the **Home/Resources** tab of your lab
     environment.
 
-3.  Open a browser on the Lab VM in **incognito/InPrivate** mode and
+3. Open a browser on the Lab VM in **incognito/InPrivate** mode and
     navigate to: `http://www.microsoftazurepass.com/`. Click
     the **Start** button.
 
@@ -36,53 +36,53 @@ conditional access policy.
 
     </font>
 
-4.  Enter the **Office 365 tenant credentials** given on the Resources
+4. Enter the **Office 365 tenant credentials** given on the Resources
     page of your lab environment and select "**Sign In**".
 
-5.  Click "**Confirm Microsoft Account**" if the email address is
+5. Click "**Confirm Microsoft Account**" if the email address is
     correct.
 
      ![A screenshot of a computer Description automatically
  generated](./media/image2.png)
 
-6.  Paste the promo code given on the **Resources** page of your lab
+6. Paste the promo code given on the **Resources** page of your lab
     environment in the **Enter Promo code box,** enter the captcha and
     select **Submit** button.
 
      ![A screenshot of a computer Description automatically
  generated](./media/image3.png)
 
-7.  If asked login with your tenant credentials again. It may take few
+7. If asked login with your tenant credentials again. It may take few
     seconds to process the redemption.
 
-8.  Enter the mandatory profile information. Select the check box – **I
+8. Enter the mandatory profile information. Select the check box – **I
     agree to the subscription agreement, offer details.**, and then
     select **Sign up**.
 
      ![A screenshot of a computer Description automatically
  generated](./media/image4.png)
 
-9.  On the Protect your account prompt, click on **the** Next button
+9. On the Protect your account prompt, click on **the** Next button
 
     ![A screenshot of a computer error Description automatically
     generated](./media/image5.png)
 
 10. Click on the **Next** button on the **More information required**
-    prompt. 
+    prompt.
 
     ![Graphical user interface, application Description automatically
-    generated](./media/image6.png) 
+    generated](./media/image6.png)
 
-11. 11.Provide the credentials and then complete the MFA sign in 
-
-    ![Graphical user interface, text, application, email Description
-    automatically generated](./media/image7.png) 
+11. 11.Provide the credentials and then complete the MFA sign in
 
     ![Graphical user interface, text, application, email Description
-    automatically generated](./media/image8.png) 
+    automatically generated](./media/image7.png)
+
+    ![Graphical user interface, text, application, email Description
+    automatically generated](./media/image8.png)
 
 12. Once the authentication is completed you will be redirected to the
-    Azure Pass redemption page. 
+    Azure Pass redemption page.
 
 13. Wait for the account setup to complete and then click on **submit**
     button.
@@ -101,32 +101,32 @@ generated](./media/image10.png)
 
 ## Exercise 2 – Integrate a single AD forest using Password Hash Sync (PHS)
 
-### Task 1 – Install Azure AD Connect 
+### Task 1 – Install Azure AD Connect
 
 **Password Hash Sync (PHS)**
 
 Password hash synchronization is one of the sign-in methods used to
 accomplish hybrid identity. Azure AD Connect synchronizes a hash, of the
 hash, of a user's password from an on-premises Active Directory instance
-to a cloud-based Microsoft Entra instance. 
+to a cloud-based Microsoft Entra instance.
 
 Password hash synchronization is an extension to the directory
 synchronization feature implemented by Azure AD Connect sync. You can
 use this feature to sign in to Azure AD services like Microsoft 365. You
 sign in to the service by using the same password you use to sign in to
-your on-premises Active Directory instance. 
+your on-premises Active Directory instance.
 
 Password hash synchronization helps by reducing the number of passwords,
 your users need to maintain to just one. Password hash synchronization
-can: 
+can:
 
 - Improve the productivity of your users.
 
 - Reduce your helpdesk costs.
 
-1.  Switch to the **LON-DC1** machine in the lab environment.
+1. Switch to the **LON-DC1** machine in the lab environment.
 
-2.  Sign in with the username and the password given in the Home tab of
+2. Sign in with the username and the password given in the Home tab of
     your environment.
 
 3. Open a browser and navigate to
@@ -139,15 +139,15 @@ can: 
 
     ![](./media/image11.png)
 
-5. Enter the following information under **Basics**: 
+5. Enter the following information under **Basics**:
 
     - **User principal name**: `meconnect`
 
     - **Display name**: `MEConnect`
 
-    - **First name**: Blank 
+    - **First name**: Blank
 
-    - **Last name**: Blank 
+    - **Last name**: Blank
 
     - **Password**: uncheck Auto-generate password and provide
     `Pa$$.w0rd@MS01`
@@ -203,14 +203,14 @@ generated](./media/image19.png)
     will start. select the **Terms & Conditions** check box and click
     **Continue**.
 
-    ![](./media/image20.png) 
+    ![](./media/image20.png)
 
-16. On the **Express Settings** page click **Customize**. 
+16. On the **Express Settings** page click **Customize**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image21.png)
 
-17. On the Install required components page click **Install**. 
+17. On the Install required components page click **Install**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image22.png)
@@ -244,7 +244,7 @@ generated](./media/image23.png)
     ![A screenshot of a computer Description automatically
     generated](./media/image27.png)
 
-23. On the connect your directories page click **Add directory**. 
+23. On the connect your directories page click **Add directory**.
 
     ![](./media/image28.png)
 
@@ -260,7 +260,7 @@ generated](./media/image23.png)
 
 26. On the Azure AD sign in configuration page select the check box for
     **Continue without matching all UPN suffixes to verified domains**
-    check box and click **Next**. 
+    check box and click **Next**.
 
     ![](./media/image31.png)
 
@@ -283,7 +283,7 @@ generated](./media/image23.png)
 
     ![](./media/image33.png)
 
-32. Once the installation is complete, select **Exit**. 
+32. Once the installation is complete, select **Exit**.
 
     ![](./media/image34.png)
 
@@ -291,34 +291,34 @@ generated](./media/image23.png)
 
 We will now verify that the users that we had in our on-premises
 directory have been synchronized and now exist in Microsoft Entra ID
-tenant. To verify users are synchronized do the following. 
+tenant. To verify users are synchronized do the following.
 
-1.  Switch back to the browser with the **Microsoft Entra admin center**
+1. Switch back to the browser with the **Microsoft Entra admin center**
     opened, then select **Identity**, expand **Users**, select **All
     users**.
 
     ![](./media/image35.png)
 
-2.  If required click on the Refresh button and verify that you see the
-    new users in our tenant, the **On-premises synced** enabled. 
+2. If required click on the Refresh button and verify that you see the
+    new users in our tenant, the **On-premises synced** enabled.
 
     ![](./media/image36.png)
 
     ![](./media/image37.png)
 
-3.  From the list of users, select the user **Abbi Skinner**, then click
+3. From the list of users, select the user **Abbi Skinner**, then click
     on **Edit properties**
 
     ![](./media/image38.png)
 
-4.  Select the **Settings** tab, then from the drop-down choose **United
+4. Select the **Settings** tab, then from the drop-down choose **United
     states** for Usage location and then click on the **Save** button.
 
     ![](./media/image39.png)
 
     ![](./media/image40.png)
 
-5.  Repeat the same steps to verify the Usage location for the below
+5. Repeat the same steps to verify the Usage location for the below
     users.
 
     - Beth Burke
@@ -331,21 +331,18 @@ tenant. To verify users are synchronized do the following. 
 License assignment will fail for a user who does not have a Usage
 location.
 
-## Exercise 3 – Create Groups and assign Licenses from Microsoft Entra admin center.
+## Exercise 3 – Create Groups and assign Licenses from Microsoft Entra admin center
 
-### Task 1 - Create Groups and assign Licenses
+### 1.4.1. Task 1 - Create Groups and assign Licenses
 
-1.  Open the Edge browser and login to the **Microsoft Entra admin
+1. Open the Edge browser and login to the **Microsoft Entra admin
     center** `https://entra.microsoft.com`.
 
-&nbsp;
-&nbsp;
-
-47. If prompted for credentials enter your **Office365 Tenant
+2. If prompted for credentials enter your **Office365 Tenant
     Credentials** provided on the **Home tab** of the lab Interface as
     show in the Image.
 
-48. Select **Identity** expand the **Groups**, select **All groups**
+3. Select **Identity** expand the **Groups**, select **All groups**
     then click on **New group**.
 
     ![](./media/image41.png)
@@ -430,13 +427,13 @@ generated](./media/image48.png)
 57. From the list of users select the below users and then click on
     Remove license
 
-    1.  Lee Gu
+    1. Lee Gu
 
-    2.  Nestor Wilke
+    2. Nestor Wilke
 
-    3.  Patti Fernandez
+    3. Patti Fernandez
 
-    4.  Pradeep Gupta
+    4. Pradeep Gupta
 
             ![](./media/image53.png)
 
@@ -484,12 +481,10 @@ generated](./media/image59.png)
 
     ![](./media/image63.png)
 
-### Task 2 – Add a Guest account and create an External Collaborators group.
+### Task 2 – Add a Guest account and create an External Collaborators group
 
-1.  Open the Edge browser and login to the **Microsoft Entra admin
+1. Open the Edge browser and login to the **Microsoft Entra admin
     center `https://entra.microsoft.com`.
-
-&nbsp;
 
 67. If prompted for credentials enter your **Office365 Tenant
     Credentials** provided on the **Home tab** of the lab Interface as
@@ -585,10 +580,8 @@ sign in (with some exceptions, such as when they sign in from trusted IP
 addresses or when the remember MFA on trusted devices feature is turned
 on).
 
-1.  Open the Edge browser and login to the Microsoft Entra admin center
+1. Open the Edge browser and login to the Microsoft Entra admin center
     `https://entra.microsoft.com`.
-
-&nbsp;
 
 82. If prompted for credentials enter your **Office365 Tenant
     Credentials** provided on the **Home tab** of the lab Interface as
@@ -673,64 +666,60 @@ generated](./media/image86.png)
 Conditional Access policies at their simplest are if-then statements, if
 a user wants to access a resource, then they must complete an action.
 
-    ![Timeline Description automatically generated](./media/image89.png)
+![](./media/image89.png)
 
 We will set a Conditional Access policy to require MFA for Research
 Group only when the Access **Microsoft Forms**
 
-1.  Open the Edge browser and login to the **Microsoft Entra admin
-    center `https://entra.microsoft.com`.
+1. Open the Edge browser and login to the **Microsoft Entra admin
+center `https://entra.microsoft.com`.
+2. In the **Microsoft Entra admin center**, expand **Protection** and
+select **Conditional Access**. Click on **Create new policy**.
 
-&nbsp;
+![](./media/image90.png)
 
-99. In the **Microsoft Entra admin center**, expand **Protection** and
-    select **Conditional Access**. Click on **Create new policy**.
+3. On the **New Conditional Access Policy** page, provide the below details
 
-    ![](./media/image90.png)
+- Name – `CA for Microsoft Forms`
 
-100. On the **New Conditional Access Policy** page, provide the below
-     details
+- Under **Users**, select **Specific users included**. Then under
+**Include**, choose **Select users and groups**. Select the check
+box near **Users and groups**. Then under **Select**, choose **0
+users and groups selected**.
 
-     - Name – `CA for Microsoft Forms`
-
-     - Under **Users**, select **Specific users included**. Then under
-       **Include**, choose **Select users and groups**. Select the check
-       box near **Users and groups**. Then under **Select**, choose **0
-       users and groups selected**.
-
-    ![A screenshot of a computer Description automatically
+![A screenshot of a computer Description automatically
 generated](./media/image91.png)
 
 - Scroll down on the **Select users and groups** page, select
-  **Research101**. Choose **Select**.
+**Research101**. Choose **Select**.
 
-    ![](./media/image92.png)
+![](./media/image92.png)
 
 - Under **Target Resources**, select **No target resources selected**.
-  Then under **Include**, choose **Select apps**. Under select, choose
-  **None**. In the side pane, search for and select **Microsoft Forms**
-  by selecting the check box near the app. Then choose **Select**.
+Then under **Include**, choose **Select apps**. Under select, choose
+**None**. In the side pane, search for and select **Microsoft Forms**
+by selecting the check box near the app. Then choose **Select**.
 
-    ![A screenshot of a computer Description automatically
+![A screenshot of a computer Description automatically
 generated](./media/image93.png)
 
 - Similarly select **Access Controls** \ **Grant** \ **0 controls
-  selected** \ **Grant access** \ **Require multi-factor
-  authentication** \ **Select**.
+selected** \ **Grant access** \ **Require multi-factor
+authentication** \ **Select**.
 
-    ![A screenshot of a computer Description automatically
+![A screenshot of a computer Description automatically
 generated](./media/image94.png)
 
 - Enable policy – **Report-only**
 
 - Click on **Create**
 
-    ![A screenshot of a computer Description automatically
+![A screenshot of a computer Description automatically
 generated](./media/image95.png)
 
 101. You should get the notification as shown in below image.
 
-    ![A screenshot of a computer Description automatically
+![A screenshot of a computer Description automatically
 generated](./media/image96.png)
 
 **NOTE** - Report-only mode is a new Conditional Access policy state
@@ -741,75 +730,75 @@ report-only mode:
 - Conditional Access policies can be enabled in report-only mode.
 
 - During sign-in, policies in report-only mode are evaluated but not
-  enforced.
+enforced.
 
 - Results are logged in the Conditional Access and Report-only tabs of
-  the Sign-in log details.
+the Sign-in log details.
 
 - Customers with an Azure Monitor subscription can monitor the impact of
-  their Conditional Access policies using the Conditional Access
-  insights workbook.​
+their Conditional Access policies using the Conditional Access
+insights workbook.​
 
 102. Now open a browser in InPrivate/incognito mode and login to
-     **MyApps portal** – `https://myapps.microsoft.com`.
+**MyApps portal** – `https://myapps.microsoft.com`.
 
 103. Login using **Logan Boyle’s** credentials you will be signed in
-     without any additional information required prompt
+without any additional information required prompt
 
 - Username – `Logan@` paste the **Tenant name** from the Home
-  tab.
+tab.
 
 - Password – `Pa55w.rd`
 
 104. Click on Forms to access **Microsoft Forms**.
 
-    ![](./media/image97.png)
+![](./media/image97.png)
 
 105. Select **Create new**.
 
-    ![](./media/image98.png)
+![](./media/image98.png)
 
 106. Switch back to the **Microsoft Entra admin center** and set the
-     Conditional access policy to **On** and **Save** it.
+Conditional access policy to **On** and **Save** it.
 
-         ![](./media/image99.png)
+    ![](./media/image99.png)
 
 107. Now log off on the InPrivate tab and login to **MyApps portal**
-     – `https://myapps.microsoft.com`.
+– `https://myapps.microsoft.com`.
 
 108. Login using **Logan Boyle’s** credentials you will be signed in
-     without any additional information required prompt
+without any additional information required prompt
 
 - Username – `Logan@` paste the **Tenant name** from the Home
-  tab.
+tab.
 
 - Password – `Pa55w.rd`
 
 109. Click on Forms to access **Microsoft Forms**.
 
-    ![](./media/image97.png)
+![](./media/image97.png)
 
 110. You will notice that the Conditional Access policy requires you to
-     perform MFA in order to access Forms.
+perform MFA in order to access Forms.
 
-    ![](./media/image100.png)
+![](./media/image100.png)
 
 111. Click on **Next** and complete the MFA process to gain access to
-     Forms.
+Forms.
 
 112. You would be required to go through the Microsoft Authenticator
-     process, once completed you will be logged in Microsoft Forms
-     successfully as shown in below images
+process, once completed you will be logged in Microsoft Forms
+successfully as shown in below images
 
-    ![](./media/image87.png)
+![](./media/image87.png)
 
 113. You should be able to login successfully
 
-         ![](./media/image101.png)
+![](./media/image101.png)
 
-         ![](./media/image102.png)
+![](./media/image102.png)
 
-## Summary:
+## Summary
 
 In this lab we assigned the required licenses and created the required
 records using the provided public domain. We enabled MFA for our users
