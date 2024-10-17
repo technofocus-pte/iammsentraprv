@@ -333,7 +333,7 @@ location.
 
 ## Exercise 3 – Create Groups and assign Licenses from Microsoft Entra admin center
 
-### 1.4.1. Task 1 - Create Groups and assign Licenses
+### Task 1 - Create Groups and assign Licenses
 
 1. Open the Edge browser and login to the **Microsoft Entra admin
     center** `https://entra.microsoft.com`.
@@ -369,7 +369,7 @@ location.
      ![A screenshot of a computer Description automatically
  generated](./media/image43.png)
 
-- Click on **Create**.
+    - Click on **Create**.
 
     ![](./media/image44.png)
 
@@ -385,17 +385,17 @@ generated](./media/image46.png)
 
 52. Repeat the steps 3-5 to create another group with below details
 
-- Group type – **Microsoft 365**
+    - Group type – **Microsoft 365**
 
-- Group name – `Research101`
+    - Group name – `Research101`
 
-- Group email address – `Research101`
+    - Group email address – `Research101`
 
-- Group Description – `Group for users in Research department`
+    - Group Description – `Group for users in Research department`
 
-- Microsoft Entra roles can be assigned to the group – **Yes**
+    - Microsoft Entra roles can be assigned to the group – **Yes**
 
-- Members – **Beth Burke** and **Logan Boyle**
+    - Members – **Beth Burke** and **Logan Boyle**
 
     ![A screenshot of a computer Description automatically
 generated](./media/image47.png)
@@ -403,81 +403,81 @@ generated](./media/image47.png)
     ![A screenshot of a computer Description automatically
 generated](./media/image48.png)
 
-53. Once both the **Groups** have been created, click on the **Refresh**
+1.  Once both the **Groups** have been created, click on the **Refresh**
     button and the Group list should appear as shown in the below image.
 
     ![](./media/image49.png)
 
-54. While in the **Microsoft Entra admin center**, click on **… Show
+2.  While in the **Microsoft Entra admin center**, click on **… Show
     more**.
 
     ![](./media/image50.png)
 
-55. Expand **Billing** then click on **Licenses**, then select **All
+3.  Expand **Billing** then click on **Licenses**, then select **All
     Products**.
 
     ![](./media/image51.png)
 
-56. Click on the **Microsoft 365 E5** license, you will notice that
+4.  Click on the **Microsoft 365 E5** license, you will notice that
     **20/20** licenses have been assigned, we will release few licenses
     to be used for the upcoming steps.
 
-        ![](./media/image52.png)
+    ![](./media/image52.png)
 
-57. From the list of users select the below users and then click on
+5.  From the list of users select the below users and then click on
     Remove license
 
-    1. Lee Gu
+    * Lee Gu
 
-    2. Nestor Wilke
+    * Nestor Wilke
 
-    3. Patti Fernandez
+    * Patti Fernandez
 
-    4. Pradeep Gupta
+    * Pradeep Gupta
 
-            ![](./media/image53.png)
+    ![](./media/image53.png)
 
-58. When prompted to Remove license click on the **Yes** button.
+6.  When prompted to Remove license click on the **Yes** button.
 
-        ![](./media/image54.png)
+    ![](./media/image54.png)
 
-        ![](./media/image55.png)
+    ![](./media/image55.png)
 
-59. Close the **Microsoft 365 E5** blade and then refresh the page, now
+7.  Close the **Microsoft 365 E5** blade and then refresh the page, now
     the available number should be **4.**
 
-        ![](./media/image56.png)
+    ![](./media/image56.png)
 
-60. Select **Microsoft 365 E5** and **Office 365 E5** licenses and then
+8.  Select **Microsoft 365 E5** and **Office 365 E5** licenses and then
     click on **+ Assign**.
 
     ![](./media/image57.png)
 
-61. On the **Assign license** window, on the **Users and groups** tab,
+9.  On the **Assign license** window, on the **Users and groups** tab,
     select on **Add users and groups**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image58.png)
 
-62. Under Groups tab, select the groups **Sales101** and
+1.  Under Groups tab, select the groups **Sales101** and
     **Research101**, then click on **Select**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image59.png)
 
-63. Click on **Review + assign**.
+1.  Click on **Review + assign**.
 
     ![](./media/image60.png)
 
-64. Click on **Assign**.
+2.  Click on **Assign**.
 
     ![](./media/image61.png)
 
-65. You should get the notification as shown in below image.
+3.  You should get the notification as shown in below image.
 
     ![](./media/image62.png)
 
-66. Both the Groups have the license assigned.
+4.  Both the Groups have the license assigned.
 
     ![](./media/image63.png)
 
@@ -493,7 +493,7 @@ generated](./media/image59.png)
 68. Select **Identity** expand **Users**, select **All Users**, the from
     the **New user** drop-down menu select **Invite external user**.
 
-        ![](./media/image64.png)
+    ![](./media/image64.png)
 
 69. On the Invite external user page, provide the below details
 
@@ -506,34 +506,34 @@ generated](./media/image59.png)
 
 70. Click on **Next: Properties \**
 
-        ![](./media/image65.png)
+    ![](./media/image65.png)
 
 71. On the **Properties** tab, set the Usage location to **United
     States** and then click on **Review + invite** button.
 
-        ![](./media/image66.png)
+    ![](./media/image66.png)
 
 72. On the **Review + invite** tab, click on the **Invite** button.
 
-        ![](./media/image67.png)
+    ![](./media/image67.png)
 
-        ![](./media/image68.png)
+    ![](./media/image68.png)
 
 73. Open an InPrivate window and open the Outlook for the external
     account on which the invite was sent.
 
-        ![](./media/image69.png)
+    ![](./media/image69.png)
 
 74. Click on the **Accept invitation** link.
 
 75. Click on the **Accept** button to grant permission.
 
-        ![](./media/image70.png)
+    ![](./media/image70.png)
 
 76. You should successfully be logged into My Apps portal for the
     Microsoft Entra Tenant.
 
-        ![](./media/image71.png)
+    ![](./media/image71.png)
 
 77. Switch back to the tab with **Microsoft Entra admin center** portal
     logged with Tenant admin.
@@ -545,30 +545,30 @@ generated](./media/image59.png)
 
 79. Create the group with below details.
 
-- Group type – **Security**
+    - Group type – **Security**
 
-- Group name – `External Collaborators`
+    - Group name – `External Collaborators`
 
-- Group Description – `Group of External Users`
+    - Group Description – `Group of External Users`
 
-- Microsoft Entra roles can be assigned to the group – **Yes**
+    - Microsoft Entra roles can be assigned to the group – **Yes**
 
-      ![](./media/image72.png)
+    ![](./media/image72.png)
 
 - Scroll down and add the Invited user account – External User and then
   click on **Select** button.
 
-      ![](./media/image73.png)
+    ![](./media/image73.png)
 
-80. Click on **Create** button
+1.  Click on **Create** button
 
-        ![](./media/image74.png)
+    ![](./media/image74.png)
 
-81. Click on the Yes button when prompted.
+2.  Click on the Yes button when prompted.
 
-        ![](./media/image75.png)
+    ![](./media/image75.png)
 
-        ![](./media/image76.png)
+    ![](./media/image76.png)
 
 ## Exercise 4 – Enabling Microsoft Entra ID per-user Multifactor Authentication
 
@@ -612,15 +612,15 @@ on).
 
 88. Enter the credentials for **Beth Burke** account
 
-- Username – `Beth@` paste the **Tenant name** from the Home
-  tab.
+    - Username – `Beth@` paste the **Tenant name** from the Home
+      tab.
 
-- Password – `Pa55w.rd`
+    - Password – `Pa55w.rd`
 
 89. You will be prompted to More information is required, click
     on **Next**
 
-        ![](./media/image81.png).
+    ![](./media/image81.png).
 
 90. On the **Start by getting the app** page, click on **Next**
 
@@ -637,28 +637,28 @@ on).
     account on your Microsoft Authenticator App on your phone.
 
     ![A screenshot of a computer Description automatically
-generated](./media/image84.png)
+    generated](./media/image84.png)
 
-94. Now, select **Next**.
+1.  Now, select **Next**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image85.png)
 
-95. When prompted, approve the notification on your phone. Once you see
+1.  When prompted, approve the notification on your phone. Once you see
     that the notification is approved, select **Next**.
 
     ![Graphical user interface, text, application Description automatically
 generated](./media/image86.png)
 
-96. Click on **Done**
+1.  Click on **Done**
 
     ![](./media/image87.png)
 
-97. You should be logged in to the **My Apps Portal**
+2.  You should be logged in to the **My Apps Portal**
 
     ![](./media/image88.png)
 
-98. You have completed this task, please proceed ahead with the next
+3.  You have completed this task, please proceed ahead with the next
     task.
 
 ## Exercise 5 – Enabling Conditional Access for the Research Group
@@ -680,113 +680,113 @@ select **Conditional Access**. Click on **Create new policy**.
 
 3. On the **New Conditional Access Policy** page, provide the below details
 
-- Name – `CA for Microsoft Forms`
+   - Name – `CA for Microsoft Forms`
 
-- Under **Users**, select **Specific users included**. Then under
-**Include**, choose **Select users and groups**. Select the check
-box near **Users and groups**. Then under **Select**, choose **0
-users and groups selected**.
+   - Under **Users**, select **Specific users included**. Then under
+   **Include**, choose **Select users and groups**. Select the check
+   box near **Users and groups**. Then under **Select**, choose **0
+   users and groups selected**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image91.png)
+   ![A screenshot of a computer Description automatically
+   generated](./media/image91.png)
 
-- Scroll down on the **Select users and groups** page, select
-**Research101**. Choose **Select**.
+   - Scroll down on the **Select users and groups** page, select
+   **Research101**. Choose **Select**.
 
-![](./media/image92.png)
+   ![](./media/image92.png)
 
-- Under **Target Resources**, select **No target resources selected**.
-Then under **Include**, choose **Select apps**. Under select, choose
-**None**. In the side pane, search for and select **Microsoft Forms**
-by selecting the check box near the app. Then choose **Select**.
+   - Under **Target Resources**, select **No target resources selected**.
+   Then under **Include**, choose **Select apps**. Under select, choose
+   **None**. In the side pane, search for and select **Microsoft Forms**
+   by selecting the check box near the app. Then choose **Select**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image93.png)
+   ![A screenshot of a computer Description automatically
+   generated](./media/image93.png)
 
-- Similarly select **Access Controls** \ **Grant** \ **0 controls
-selected** \ **Grant access** \ **Require multi-factor
-authentication** \ **Select**.
+   - Similarly select **Access Controls** \ **Grant** \ **0 controls
+   selected** \ **Grant access** \ **Require multi-factor
+   authentication** \ **Select**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image94.png)
+   ![A screenshot of a computer Description automatically
+   generated](./media/image94.png)
 
-- Enable policy – **Report-only**
+   - Enable policy – **Report-only**
 
-- Click on **Create**
+   - Click on **Create**
 
-![A screenshot of a computer Description automatically
-generated](./media/image95.png)
+   ![A screenshot of a computer Description automatically
+   generated](./media/image95.png)
 
-101. You should get the notification as shown in below image.
+4.   You should get the notification as shown in below image.
 
-![A screenshot of a computer Description automatically
-generated](./media/image96.png)
+    ![A screenshot of a computer Description automatically
+    generated](./media/image96.png)
 
-**NOTE** - Report-only mode is a new Conditional Access policy state
-that allows administrators to evaluate the impact of Conditional Access
-policies before enabling them in their environment. With the release of
-report-only mode:
+    **NOTE** - Report-only mode is a new Conditional Access policy state
+    that allows administrators to evaluate the impact of Conditional Access
+    policies before enabling them in their environment. With the release of
+    report-only mode:
 
-- Conditional Access policies can be enabled in report-only mode.
+     - Conditional Access policies can be enabled in report-only mode.
 
-- During sign-in, policies in report-only mode are evaluated but not
-enforced.
+     - During sign-in, policies in report-only mode are evaluated but not
+     enforced.
 
-- Results are logged in the Conditional Access and Report-only tabs of
-the Sign-in log details.
+     - Results are logged in the Conditional Access and Report-only tabs of
+     the Sign-in log details.
 
-- Customers with an Azure Monitor subscription can monitor the impact of
-their Conditional Access policies using the Conditional Access
-insights workbook.​
+     - Customers with an Azure Monitor subscription can monitor the impact of
+     their Conditional Access policies using the Conditional Access
+     insights workbook.​
 
-102. Now open a browser in InPrivate/incognito mode and login to
+5.   Now open a browser in InPrivate/incognito mode and login to
 **MyApps portal** – `https://myapps.microsoft.com`.
 
-103. Login using **Logan Boyle’s** credentials you will be signed in
+1.   Login using **Logan Boyle’s** credentials you will be signed in
 without any additional information required prompt
 
-- Username – `Logan@` paste the **Tenant name** from the Home
-tab.
+     - Username – `Logan@` paste the **Tenant name** from the Home
+     tab.
 
-- Password – `Pa55w.rd`
+     - Password – `Pa55w.rd`
 
-104. Click on Forms to access **Microsoft Forms**.
+1.   Click on Forms to access **Microsoft Forms**.
 
-![](./media/image97.png)
+    ![](./media/image97.png)
 
-105. Select **Create new**.
+2.   Select **Create new**.
 
-![](./media/image98.png)
+    ![](./media/image98.png)
 
-106. Switch back to the **Microsoft Entra admin center** and set the
+3.   Switch back to the **Microsoft Entra admin center** and set the
 Conditional access policy to **On** and **Save** it.
 
     ![](./media/image99.png)
 
-107. Now log off on the InPrivate tab and login to **MyApps portal**
+1.   Now log off on the InPrivate tab and login to **MyApps portal**
 – `https://myapps.microsoft.com`.
 
-108. Login using **Logan Boyle’s** credentials you will be signed in
+1.   Login using **Logan Boyle’s** credentials you will be signed in
 without any additional information required prompt
 
-- Username – `Logan@` paste the **Tenant name** from the Home
-tab.
+    - Username – `Logan@` paste the **Tenant name** from the Home
+    tab.
 
-- Password – `Pa55w.rd`
+    - Password – `Pa55w.rd`
 
-109. Click on Forms to access **Microsoft Forms**.
+1.   Click on Forms to access **Microsoft Forms**.
 
-![](./media/image97.png)
+    ![](./media/image97.png)
 
-110. You will notice that the Conditional Access policy requires you to
+2.   You will notice that the Conditional Access policy requires you to
 perform MFA in order to access Forms.
 
-![](./media/image100.png)
+    ![](./media/image100.png)
 
-111. Click on **Next** and complete the MFA process to gain access to
+1.   Click on **Next** and complete the MFA process to gain access to
 Forms.
 
-112. You would be required to go through the Microsoft Authenticator
+1.   You would be required to go through the Microsoft Authenticator
 process, once completed you will be logged in Microsoft Forms
 successfully as shown in below images
 
