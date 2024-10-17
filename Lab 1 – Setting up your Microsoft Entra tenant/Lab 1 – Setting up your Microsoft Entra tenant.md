@@ -23,8 +23,7 @@ conditional access policy.
     Code** provided on the **Home/Resources** tab of your lab
     environment.
 
-3. Open a browser on the Lab VM in **incognito/InPrivate** mode and
-    navigate to: `http://www.microsoftazurepass.com/`. Click
+3. Open a browser on the Lab VM and navigate to `http://www.microsoftazurepass.com`. Click
     the **Start** button.
 
      ![A person sitting on a couch using a computer Description
