@@ -16,8 +16,7 @@ conditional access policy.
 
 ### Task 1 – Redeem the Azure Pass
 
-1. Log into the **LON-CL1** with the credentials provided in the Home
-    tab of your lab.
+1. Log into the **LON-CL1** with the credentials provided on the **Home/Resources** tab.
 
 2. **Note down the Office 365 Tenant Credentials** and the **Promo
     Code** provided on the **Home/Resources** tab of your lab
@@ -125,7 +124,7 @@ can:
 
 1. Switch to the **LON-DC1** machine in the lab environment.
 
-2. Sign in with the username and the password given in the Home tab of
+2. Sign in with the username and the password given in the **Home/Resources** tab of
     your environment.
 
 3. Open a browser and navigate to
@@ -180,7 +179,7 @@ generated](./media/image15.png)
 generated](./media/image17.png)
 
 11. Open an In Private / Incognito session in your browser and login to
-    `https://entra.microsoft.com/` as the user you created i.e.
+    `https://entra.microsoft.com` as the user you created i.e.
     **meconnect** with the password `Pa$$.w0rd@MS01` that you
     noted down in the previous step.
 
@@ -337,8 +336,7 @@ location.
 1. Open the Edge browser and login to the **Microsoft Entra admin
     center** `https://entra.microsoft.com`.
 
-2. If prompted for credentials enter your **Office365 Tenant
-    Credentials** provided on the **Home tab** of the lab Interface as
+2. If prompted for credentials enter your **Office365 Tenant Credentials** provided on the **Home/Resources** tab of the lab Interface as
     show in the Image.
 
 3. Select **Identity** expand the **Groups**, select **All groups**
@@ -362,7 +360,7 @@ location.
 
      ![](./media/image42.png)
 
-- On the Add members tab, add **Abbi Skinner** and **Huong Tang** and
+    - On the Add members tab, add **Abbi Skinner** and **Huong Tang** and
   click on **Select**.
 
      ![A screenshot of a computer Description automatically
@@ -372,17 +370,17 @@ location.
 
     ![](./media/image44.png)
 
-50. You will get a prompt as shown in below image, click **Yes**.
+1.  You will get a prompt as shown in below image, click **Yes**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image45.png)
 
-51. Your group is created, and you will get a successful notification.
+1.  Your group is created, and you will get a successful notification.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image46.png)
 
-52. Repeat the steps 3-5 to create another group with below details
+1.  Repeat the steps 3-5 to create another group with below details
 
     - Group type – **Microsoft 365**
 
@@ -486,7 +484,7 @@ generated](./media/image59.png)
     center `https://entra.microsoft.com`.
 
 67. If prompted for credentials enter your **Office365 Tenant
-    Credentials** provided on the **Home tab** of the lab Interface as
+    Credentials** provided on the **Home/Resources** tab** of the lab Interface as
     show in the Image.
 
 68. Select **Identity** expand **Users**, select **All Users**, the from
@@ -583,7 +581,7 @@ on).
     `https://entra.microsoft.com`.
 
 82. If prompted for credentials enter your **Office365 Tenant
-    Credentials** provided on the **Home tab** of the lab Interface as
+    Credentials** provided on the **Home/Resources** tab** of the lab Interface as
     show in the Image.
 
 83. In the **Microsoft Entra admin center** navigate
@@ -611,8 +609,7 @@ on).
 
 88. Enter the credentials for **Beth Burke** account
 
-    - Username – `Beth@` paste the **Tenant name** from the Home
-      tab.
+    - Username – `Beth@` paste the **Tenant name** from the **Home/Resources** tab.
 
     - Password – `Pa55w.rd`
 
@@ -716,86 +713,80 @@ select **Conditional Access**. Click on **Create new policy**.
    ![A screenshot of a computer Description automatically
    generated](./media/image95.png)
 
-4.   You should get the notification as shown in below image.
+4. You should get the notification as shown in below image.
 
-    ![A screenshot of a computer Description automatically
-    generated](./media/image96.png)
+    ![](./media/image96.png)
 
-    **NOTE** - Report-only mode is a new Conditional Access policy state
-    that allows administrators to evaluate the impact of Conditional Access
-    policies before enabling them in their environment. With the release of
-    report-only mode:
+    > **NOTE** - Report-only mode is a new Conditional Access policy state that allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment. With the release of report-only mode:
 
-     - Conditional Access policies can be enabled in report-only mode.
+   - Conditional Access policies can be enabled in report-only mode.
 
-     - During sign-in, policies in report-only mode are evaluated but not
-     enforced.
+   - During sign-in, policies in report-only mode are evaluated but not
+   enforced.
 
-     - Results are logged in the Conditional Access and Report-only tabs of
-     the Sign-in log details.
+   - Results are logged in the Conditional Access and Report-only tabs of
+   the Sign-in log details.
 
-     - Customers with an Azure Monitor subscription can monitor the impact of
-     their Conditional Access policies using the Conditional Access
-     insights workbook.​
+   - Customers with an Azure Monitor subscription can monitor the impact of
+   their Conditional Access policies using the Conditional Access
+   insights workbook.​
 
-5.   Now open a browser in InPrivate/incognito mode and login to
+5. Now open a browser in InPrivate/incognito mode and login to
 **MyApps portal** – `https://myapps.microsoft.com`.
 
-1.   Login using **Logan Boyle’s** credentials you will be signed in
+1. Login using **Logan Boyle’s** credentials you will be signed in
 without any additional information required prompt
 
-     - Username – `Logan@` paste the **Tenant name** from the Home
-     tab.
+     - Username – `Logan@` paste the **Tenant name** from the **Home/Resources** tab.
 
      - Password – `Pa55w.rd`
 
-1.   Click on Forms to access **Microsoft Forms**.
+1. Click on Forms to access **Microsoft Forms**.
 
     ![](./media/image97.png)
 
-2.   Select **Create new**.
+2. Select **Create new**.
 
     ![](./media/image98.png)
 
-3.   Switch back to the **Microsoft Entra admin center** and set the
+3. Switch back to the **Microsoft Entra admin center** and set the
 Conditional access policy to **On** and **Save** it.
 
     ![](./media/image99.png)
 
-1.   Now log off on the InPrivate tab and login to **MyApps portal**
+1. Now log off on the InPrivate tab and login to **MyApps portal**
 – `https://myapps.microsoft.com`.
 
-1.   Login using **Logan Boyle’s** credentials you will be signed in
+1. Login using **Logan Boyle’s** credentials you will be signed in
 without any additional information required prompt
 
-    - Username – `Logan@` paste the **Tenant name** from the Home
-    tab.
+    - Username – `Logan@` paste the **Tenant name** from the **Home/Resources** tab.
 
     - Password – `Pa55w.rd`
 
-1.   Click on Forms to access **Microsoft Forms**.
+1. Click on Forms to access **Microsoft Forms**.
 
     ![](./media/image97.png)
 
-2.   You will notice that the Conditional Access policy requires you to
+2. You will notice that the Conditional Access policy requires you to
 perform MFA in order to access Forms.
 
     ![](./media/image100.png)
 
-1.   Click on **Next** and complete the MFA process to gain access to
+3. Click on **Next** and complete the MFA process to gain access to
 Forms.
 
-1.   You would be required to go through the Microsoft Authenticator
+4. You would be required to go through the Microsoft Authenticator
 process, once completed you will be logged in Microsoft Forms
 successfully as shown in below images
 
-![](./media/image87.png)
+    ![](./media/image87.png)
 
-113. You should be able to login successfully
+5. You should be able to login successfully
 
-![](./media/image101.png)
+    ![](./media/image101.png)
 
-![](./media/image102.png)
+    ![](./media/image102.png)
 
 ## Summary
 
