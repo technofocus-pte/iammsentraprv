@@ -208,11 +208,12 @@ generated](./media/image18.png)
     ![A screenshot of a computer Description automatically
 generated](./media/image19.png)
 
-1.  Once installed, the **Microsoft Azure AD Connect** configuration
+1.  Once installed, the **Microsoft Entra Connect Sync** configuration
     will start. select the **Terms & Conditions** check box and click
     **Continue**.
 
     ![](./media/image20.png)
+    ![alt text](image.png)
 
 2.  On the **Express Settings** page click **Customize**.
 
