@@ -131,6 +131,8 @@ can:
     `https://entra.microsoft.com` and login using the admin
     tenant credentials.
 
+    ![](./media/image11a.png)
+
 4. In the **Microsoft Entra admin center** navigate to **Identity**
     then expand **Users**, click **All Users** then click on **New
     User** then click on **Create new user**.
@@ -139,81 +141,81 @@ can:
 
 5. Enter the following information under **Basics**:
 
-    - **User principal name**: `meconnect`
+    * **User principal name**: `meconnect`
 
-    - **Display name**: `MEConnect`
+    * **Display name**: `MEConnect`
+  
+    * **First name**: Blank
 
-    - **First name**: Blank
+    * **Last name**: Blank
 
-    - **Last name**: Blank
-
-    - **Password**: uncheck Auto-generate password and provide
+    * **Password**: uncheck Auto-generate password and provide
     `Pa$$.w0rd@MS01`
 
     ![A screenshot of a computer Description automatically
 generated](./media/image12.png)
 
-6. Under **Properties**, scroll down and select **United States** as
+1. Under **Properties**, scroll down and select **United States** as
     **Usage location**.
 
     ![](./media/image13.png)
 
-7. Under **Assignment** tab, select **Add role**.
+2. Under **Assignment** tab, select **Add role**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image14.png)
 
-8. Select **Global Administrator** and click **Select**.
+1. Select **Global Administrator** and click **Select**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image15.png)
 
-9. Then select **Review + Create**.
+1. Then select **Review + Create**.
 
     ![](./media/image16.png)
 
-10. Note the **User principal name** and **Password**, and then select
+2.  Note the **User principal name** and **Password**, and then select
     **Create**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image17.png)
 
-11. Open an In Private / Incognito session in your browser and login to
-    `https://entra.microsoft.com` as the user you created i.e.
-    **meconnect** with the password `Pa$$.w0rd@MS01` that you
+1.  Open an In Private / Incognito session in your browser and login to
+    `https://entra.microsoft.com` page as the user you created i.e.
+    `meconnect` with the password `Pa$$.w0rd@MS01` that you
     noted down in the previous step.
 
-12. When prompted, update the password to `Pa$$.w0rd@123`. Then
+2.  When prompted, update the password to `Pa$$.w0rd@123` then
     select **Sign in**.
 
     ![A screenshot of a login page Description automatically
 generated](./media/image18.png)
 
-13. Open a browser and navigate to the URL —
+1.  Open a browser and navigate to the URL —
     `https://www.microsoft.com/en-us/download/details.aspx?id=47594`
 
-14. Click **Download** and then select **Open file**.
+2.  Click **Download** and then select **Open file**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image19.png)
 
-15. Once installed, the **Microsoft Azure AD Connect** configuration
+1.  Once installed, the **Microsoft Azure AD Connect** configuration
     will start. select the **Terms & Conditions** check box and click
     **Continue**.
 
     ![](./media/image20.png)
 
-16. On the **Express Settings** page click **Customize**.
+2.  On the **Express Settings** page click **Customize**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image21.png)
 
-17. On the Install required components page click **Install**.
+1.  On the Install required components page click **Install**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image22.png)
 
-18. At the **User sign-in** page, choose **Password Hash
+1.  At the **User sign-in** page, choose **Password Hash
     Synchronization** as the **Sign On method** and click **Next**. We
     will use the MEConnect user we had created in the **Azure portal**
     to continue the installation process of **ADConnect**.
@@ -221,67 +223,67 @@ generated](./media/image22.png)
     ![A screenshot of a computer Description automatically
 generated](./media/image23.png)
 
-19. In the Username enter `meconnect@` and paste Tenant name and
+1.  In the Username enter `meconnect@` copy and paste Tenant name and
     for the password enter `Pa$$.w0rd@123`. Then select
     **Next**.
 
     ![](./media/image24.png)
 
-20. If you get a prompt that the content is blocked by Internet Explorer
+2.  If you get a prompt that the content is blocked by Internet Explorer
     Enhanced Security Configuration, select **Add**.
 
     ![](./media/image25.png)
 
-21. On the Trusted sites prompt, again select **Add** and then
+3.  On the Trusted sites prompt, again select **Add** and then
     **Close**. Do these for all the required sites.
 
     ![](./media/image26.png)
 
-22. If asked, provide the tenant credentials again.
+4.  If asked, provide the tenant credentials again.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image27.png)
 
-23. On the connect your directories page click **Add directory**.
+5.  On the connect your directories page click **Add directory**.
 
     ![](./media/image28.png)
 
-24.  On the **AD Forest account** window click **Create new account**
+6.   On the **AD Forest account** window click **Create new account**
     and enter the login credentials of your VM, i.e. the domain name and
     the password and select **Next**.
 
     ![](./media/image29.png)
 
-25. Back on the **Connect your directories** page click on **Next.**
+7.  Back on the **Connect your directories** page click on **Next.**
 
     ![](./media/image30.png)
 
-26. On the Azure AD sign in configuration page select the check box for
+8.  On the Azure AD sign in configuration page select the check box for
     **Continue without matching all UPN suffixes to verified domains**
     check box and click **Next**.
 
     ![](./media/image31.png)
 
-27. On the **Domain and OU filtering** page select the Sync **selected
+9.  On the **Domain and OU filtering** page select the Sync **selected
     domains and OUs** radio button and only select the **IT** OU and
     then click on **Next**
 
     ![](./media/image32.png)
 
-28. On the **Uniquely identify your users**, leave the default values
+10. On the **Uniquely identify your users**, leave the default values
     and click on **Next**.
 
-29. On the **Filter users and devices**, leave the default values and
+11. On the **Filter users and devices**, leave the default values and
     click on **Next**.
 
-30. On the **Optional features**, leave the default values and click on
+12. On the **Optional features**, leave the default values and click on
     **Next**.
 
-31. On the **Ready to configure** page, click on the **Install** button.
+13. On the **Ready to configure** page, click on the **Install** button.
 
     ![](./media/image33.png)
 
-32. Once the installation is complete, select **Exit**.
+14. Once the installation is complete, select **Exit**.
 
     ![](./media/image34.png)
 
@@ -334,7 +336,7 @@ location.
 ### Task 1 - Create Groups and assign Licenses
 
 1. Open the Edge browser and login to the **Microsoft Entra admin
-    center** `https://entra.microsoft.com`.
+    center** `https://entra.microsoft.com` page.
 
 2. If prompted for credentials enter your **Office365 Tenant Credentials** provided on the **Home/Resources** tab of the lab Interface as
     show in the Image.
@@ -346,13 +348,13 @@ location.
 
 49. The **New Group** pane will appear, provide the below details.
 
-    - Group type – **Microsoft 365**
+    * Group type – **Microsoft 365**
 
-    - Group name – `Sales101`
+    * Group name – `Sales101`
 
-    - Group email address – `Sales`
+    * Group email address – `Sales`
 
-    - Group Description – `Group for users in Sales department`
+    * Group Description – `Group for users in Sales department`
 
     - Microsoft Entra roles can be assigned to the group – **Yes**
 
@@ -382,15 +384,15 @@ generated](./media/image46.png)
 
 1.  Repeat the steps 3-5 to create another group with below details
 
-    - Group type – **Microsoft 365**
+    * Group type – **Microsoft 365**
 
-    - Group name – `Research101`
+    * Group name – `Research101`
 
-    - Group email address – `Research101`
+    * Group email address – `Research101`
 
-    - Group Description – `Group for users in Research department`
+    * Group Description – `Group for users in Research department`
 
-    - Microsoft Entra roles can be assigned to the group – **Yes**
+    * Microsoft Entra roles can be assigned to the group – **Yes**
 
     - Members – **Beth Burke** and **Logan Boyle**
 
@@ -481,7 +483,7 @@ generated](./media/image59.png)
 ### Task 2 – Add a Guest account and create an External Collaborators group
 
 1. Open the Edge browser and login to the **Microsoft Entra admin
-    center `https://entra.microsoft.com`.
+    center** `https://entra.microsoft.com` page.
 
 67. If prompted for credentials enter your **Office365 Tenant
     Credentials** provided on the **Home/Resources** tab** of the lab Interface as
@@ -501,7 +503,7 @@ generated](./media/image59.png)
 
     - Message – `Invite to my Org`
 
-70. Click on **Next: Properties \**
+70. Click on **Next: Properties**
 
     ![](./media/image65.png)
 
@@ -577,11 +579,10 @@ sign in (with some exceptions, such as when they sign in from trusted IP
 addresses or when the remember MFA on trusted devices feature is turned
 on).
 
-1. Open the Edge browser and login to the Microsoft Entra admin center
-    `https://entra.microsoft.com`.
+1. Open the Edge browser and login to the **Microsoft Entra admin center** `https://entra.microsoft.com` page.
 
 82. If prompted for credentials enter your **Office365 Tenant
-    Credentials** provided on the **Home/Resources** tab** of the lab Interface as
+    Credentials** provided on the **Home/Resources** tab of the lab Interface as
     show in the Image.
 
 83. In the **Microsoft Entra admin center** navigate
@@ -609,7 +610,7 @@ on).
 
 88. Enter the credentials for **Beth Burke** account
 
-    - Username – `Beth@` paste the **Tenant name** from the **Home/Resources** tab.
+    - Username – `Beth@` copy and paste the **Tenant name** from the **Home/Resources** tab.
 
     - Password – `Pa55w.rd`
 
@@ -668,7 +669,7 @@ We will set a Conditional Access policy to require MFA for Research
 Group only when the Access **Microsoft Forms**
 
 1. Open the Edge browser and login to the **Microsoft Entra admin
-center `https://entra.microsoft.com`.
+center** `https://entra.microsoft.com` page.
 2. In the **Microsoft Entra admin center**, expand **Protection** and
 select **Conditional Access**. Click on **Create new policy**.
 
