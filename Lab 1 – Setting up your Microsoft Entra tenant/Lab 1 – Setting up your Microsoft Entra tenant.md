@@ -213,7 +213,6 @@ generated](./media/image19.png)
     **Continue**.
 
     ![](./media/image20.png)
-    ![alt text](image.png)
 
 2.  On the **Express Settings** page click **Customize**.
 
@@ -225,6 +224,7 @@ generated](./media/image21.png)
     ![A screenshot of a computer Description automatically
 generated](./media/image22.png)
 
+
 1.  At the **User sign-in** page, choose **Password Hash
     Synchronization** as the **Sign On method** and click **Next**. We
     will use the MEConnect user we had created in the **Azure portal**
@@ -233,23 +233,11 @@ generated](./media/image22.png)
     ![A screenshot of a computer Description automatically
 generated](./media/image23.png)
 
-1.  In the Username enter `meconnect@` copy and paste Tenant name and
-    for the password enter `Pa$$.w0rd@123`. Then select
-    **Next**.
+1.  On the Connect to Microsoft Entra ID page, provide the **Office 365 Tenant ID** and then click on the **Next** button.
 
     ![](./media/image24.png)
 
-2.  If you get a prompt that the content is blocked by Internet Explorer
-    Enhanced Security Configuration, select **Add**.
-
-    ![](./media/image25.png)
-
-3.  On the Trusted sites prompt, again select **Add** and then
-    **Close**. Do these for all the required sites.
-
-    ![](./media/image26.png)
-
-4.  If asked, provide the tenant credentials again.
+4.  Provide the **Office 365 Tenant credentials** and then click on the **Next** button.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image27.png)
@@ -259,8 +247,7 @@ generated](./media/image23.png)
     ![](./media/image28.png)
 
 6.   On the **AD Forest account** window click **Create new account**
-    and enter the login credentials of your VM, i.e. the domain name and
-    the password and select **Next**.
+    and enter the AD Domain credentials **Username** - `ADATUM\Administrator` **Password** - `Pa55w.rd` click on the **OK** button.
 
     ![](./media/image29.png)
 
@@ -268,7 +255,7 @@ generated](./media/image23.png)
 
     ![](./media/image30.png)
 
-8.  On the Azure AD sign in configuration page select the check box for
+8.  On the **Microsoft Entra sign in configuration** page select the check box for
     **Continue without matching all UPN suffixes to verified domains**
     check box and click **Next**.
 
