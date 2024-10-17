@@ -129,7 +129,7 @@ can:
     your environment.
 
 3. Open a browser and navigate to
-    `https://entra.microsoft.com/` and login using the admin
+    `https://entra.microsoft.com` and login using the admin
     tenant credentials.
 
 4. In the **Microsoft Entra admin center** navigate to **Identity**
