@@ -123,23 +123,39 @@ can:
 - Reduce your helpdesk costs.
 
 1. Switch to the **LON-DC1** machine in the lab environment.
+2. Right click on the Start menu and choose **Windows PowerShell (Admin)**
+    ![alt text](image.png)
+3.Run the below script on the LON-DC1 to enable TLS ver. 1.2
 
-2. Sign in with the username and the password given in the **Home/Resources** tab of
+    #
+        If (-Not (Test-Path 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v4.0.30319'))
+        {
+        New-Item 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v4.0.30319' -Force | Out-Null}New-ItemProperty -Path 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v4.0.30319' -Name 'SystemDefaultTlsVersions' -Value '1' -PropertyType 'DWord' -Force | Out-NullNew-ItemProperty -Path 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v4.0.30319' -Name 'SchUseStrongCrypto' -Value '1' -PropertyType 'DWord' -Force | Out-NullIf (-Not (Test-Path 'HKLM:\SOFTWARE\Microsoft\.NETFramework\v4.0.30319'))
+        {
+        New-Item 'HKLM:\SOFTWARE\Microsoft\.NETFramework\v4.0.30319' -Force | Out-Null}New-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\.NETFramework\v4.0.30319' -Name 'SystemDefaultTlsVersions' -Value '1' -PropertyType 'DWord' -Force | Out-NullNew-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\.NETFramework\v4.0.30319' -Name 'SchUseStrongCrypto' -Value '1' -PropertyType 'DWord' -Force | Out-NullIf (-Not (Test-Path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server'))
+        {
+        New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server' -Force | Out-Null}New-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server' -Name 'Enabled' -Value '1' -PropertyType 'DWord' -Force | Out-NullNew-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server' -Name 'DisabledByDefault' -Value '0' -PropertyType 'DWord' -Force | Out-NullIf (-Not (Test-Path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client'))
+        {
+        New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client' -Force | Out-Null}New-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client' -Name 'Enabled' -Value '1' -PropertyType 'DWord' -Force | Out-NullNew-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client' -Name 'DisabledByDefault' -Value '0' -PropertyType 'DWord' -Force | Out-NullWrite-Host 'TLS 1.2 has been enabled. You must restart the Windows Server for the changes to take affect.' -ForegroundColor Cyan 
+
+
+
+4. Sign in with the username and the password given in the **Home/Resources** tab of
     your environment.
 
-3. Open a browser and navigate to
+5. Open a browser and navigate to
     `https://entra.microsoft.com` and login using the admin
     tenant credentials.
 
     ![](./media/image11a.png)
 
-4. In the **Microsoft Entra admin center** navigate to **Identity**
+6. In the **Microsoft Entra admin center** navigate to **Identity**
     then expand **Users**, click **All Users** then click on **New
     User** then click on **Create new user**.
 
     ![](./media/image11.png)
 
-5. Enter the following information under **Basics**:
+7. Enter the following information under **Basics**:
 
     * **User principal name**: `meconnect`
 
@@ -152,15 +168,13 @@ can:
     * **Password**: uncheck Auto-generate password and provide
     `Pa$$.w0rd@MS01`
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image12.png)
+    ![](./media/image12.png)
 
-1. Under **Properties**, scroll down and select **United States** as
-    **Usage location**.
+8. Under **Properties**, scroll down and select **United States** as **Usage location**.
 
     ![](./media/image13.png)
 
-2. Under **Assignment** tab, select **Add role**.
+9.  Under **Assignment** tab, select **Add role**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image14.png)
