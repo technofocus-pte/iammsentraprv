@@ -131,7 +131,7 @@ can:
 
     `C:\Labfiles\EnableTLS.ps1`
 
-    ![alt text](image.png)
+    ![](./media/image11c.png)
 
 4. Restart the **LON-DC1** and login again
 
@@ -345,11 +345,9 @@ location.
 
 49. The **New Group** pane will appear, provide the below details.
 
-    * Group type – **Microsoft 365**
+    * Group type – **Security**
 
     * Group name – `Sales101`
-
-    * Group email address – `Sales`
 
     * Group Description – `Group for users in Sales department`
 
@@ -381,14 +379,9 @@ generated](./media/image46.png)
 
 1.  Repeat the steps 3-5 to create another group with below details
 
-    * Group type – **Microsoft 365**
-
+    * Group type – **Security**
     * Group name – `Research101`
-
-    * Group email address – `Research101`
-
     * Group Description – `Group for users in Research department`
-
     * Microsoft Entra roles can be assigned to the group – **Yes**
 
     - Members – **Beth Burke** and **Logan Boyle**
@@ -399,83 +392,67 @@ generated](./media/image47.png)
     ![A screenshot of a computer Description automatically
 generated](./media/image48.png)
 
-1.  Once both the **Groups** have been created, click on the **Refresh**
+1.  You will get a prompt as shown in below image, click **Yes**.
+
+    ![](./media/image45a.png)
+
+3.  Once both the **Groups** have been created, click on the **Refresh**
     button and the Group list should appear as shown in the below image.
 
     ![](./media/image49.png)
 
-2.  While in the **Microsoft Entra admin center**, click on **… Show
+4.  While in the **Microsoft Entra admin center**, click on **… Show
     more**.
 
     ![](./media/image50.png)
 
-3.  Expand **Billing** then click on **Licenses**, then select **All
+5.  Expand **Billing** then click on **Licenses**, then select **All
     Products**.
 
     ![](./media/image51.png)
 
-4.  Click on the **Microsoft 365 E5** license, you will notice that
+6.  Click on the **Microsoft 365 E5 (no Teams)** license, you will notice that
     **20/20** licenses have been assigned, we will release few licenses
     to be used for the upcoming steps.
 
     ![](./media/image52.png)
 
-5.  From the list of users select the below users and then click on
-    Remove license
+7.  Click on the **Go to M365 Admin Center** link
+    ![](./media/image52a.png)
+
+8.  Click on the **Microsoft 365 E5 (no Teams)** License
+    ![](./media/image52b.png)
+
+9.  From the list of users select the below users and then click on **Unassign licenses**
 
     * Lee Gu
-
     * Nestor Wilke
-
     * Patti Fernandez
-
     * Pradeep Gupta
 
     ![](./media/image53.png)
 
-6.  When prompted to Remove license click on the **Yes** button.
+10. When prompted to Unassign 4 licenses click on the **Unassign** button.
 
     ![](./media/image54.png)
 
     ![](./media/image55.png)
 
-7.  Close the **Microsoft 365 E5** blade and then refresh the page, now
-    the available number should be **4.**
+11. While still on the **Microsoft 365 E5 (no Teams)** license page, select the **Groups** tab and then click on **Assign license**
 
     ![](./media/image56.png)
 
-8.  Select **Microsoft 365 E5** and **Office 365 E5** licenses and then
-    click on **+ Assign**.
-
-    ![](./media/image57.png)
-
-9.  On the **Assign license** window, on the **Users and groups** tab,
-    select on **Add users and groups**.
+13. On the **Assign license to groups** window, select the **Research101** and **Sales101** groups and then click on **Assign** button.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image58.png)
 
-1.  Under Groups tab, select the groups **Sales101** and
-    **Research101**, then click on **Select**.
-
-    ![A screenshot of a computer Description automatically
-generated](./media/image59.png)
-
-1.  Click on **Review + assign**.
-
-    ![](./media/image60.png)
-
-2.  Click on **Assign**.
-
-    ![](./media/image61.png)
-
-3.  You should get the notification as shown in below image.
+3. You should get the notification as shown in below image.
 
     ![](./media/image62.png)
 
-4.  Both the Groups have the license assigned.
-
-    ![](./media/image63.png)
+4. Both the Groups should have the license assigned.
+    ![](./media/image59.png)
 
 ### Task 2 – Add a Guest account and create an External Collaborators group
 
