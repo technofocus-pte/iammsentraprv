@@ -459,7 +459,7 @@ generated](./media/image58.png)
 1. Open the Edge browser and login to the **Microsoft Entra admin
     center** `https://entra.microsoft.com` page.
 
-67. If prompted for credentials enter your **Office365 Tenant
+2. If prompted for credentials enter your **Office365 Tenant
     Credentials** provided on the **Home/Resources** tab** of the lab Interface as
     show in the Image.
 
@@ -528,16 +528,16 @@ generated](./media/image58.png)
 
     ![](./media/image72.png)
 
-- Scroll down and add the Invited user account – External User and then
-  click on **Select** button.
+    - Scroll down and add the Invited user account – External User and then
+      click on **Select** button.
 
     ![](./media/image73.png)
 
-1.  Click on **Create** button
+80. Click on **Create** button
 
     ![](./media/image74.png)
 
-2.  Click on the Yes button when prompted.
+81. Click on the Yes button when prompted.
 
     ![](./media/image75.png)
 
@@ -555,81 +555,79 @@ on).
 
 1. Open the Edge browser and login to the **Microsoft Entra admin center** `https://entra.microsoft.com` page.
 
-82. If prompted for credentials enter your **Office365 Tenant
-    Credentials** provided on the **Home/Resources** tab of the lab Interface as
-    show in the Image.
+2. If prompted for credentials enter your **Office365 Tenant Credentials** provided on the **Home/Resources** tab of the lab Interface as show in the Image.
 
-83. In the **Microsoft Entra admin center** navigate
+3. In the **Microsoft Entra admin center** navigate
     to **Identity** then expand Users, click **All** **Users** then
     click on the ellipses **…** then select **Per-user MFA**.
 
     ![](./media/image77.png)
 
-84. Select the users **Abbi Skinner** and **Beth Burke** and click
+4. Select the users **Abbi Skinner** and **Beth Burke** and click
     on **Enable**.
 
     ![](./media/image78.png)
 
-85. On the Message About enabling multi-factor auth, click on **enable
+5. On the Message About enabling multi-factor auth, click on **enable
     multi-factor auth**.
 
     ![](./media/image79.png)
 
-86. Click on the **Close** button on the confirmation message.
+6. Click on the **Close** button on the confirmation message.
 
     ![](./media/image80.png)
 
-87. Open a browser in InPrivate/incognito mode and login to **My Apps
+7. Open a browser in InPrivate/incognito mode and login to **My Apps
     portal** `https://myapps.microsoft.com`.
 
-88. Enter the credentials for **Beth Burke** account
+8. Enter the credentials for **Beth Burke** account
 
     - Username – `Beth@` copy and paste the **Tenant name** from the **Home/Resources** tab.
 
     - Password – `Pa55w.rd`
 
-89. You will be prompted to More information is required, click
+9. You will be prompted to More information is required, click
     on **Next**
 
     ![](./media/image81.png).
 
-90. On the **Start by getting the app** page, click on **Next**
+10. On the **Start by getting the app** page, click on **Next**
 
     ![](./media/image82.png)
 
-91. Install the **Microsoft Authenticator App** on your phone from the
+11. Install the **Microsoft Authenticator App** on your phone from the
     play store or app store as appropriate.
 
-92. On the **Set up your account page**, select **Next.**
+12. On the **Set up your account page**, select **Next.**
 
     ![](./media/image83.png)
 
-93. On the **Scan the QR code** page, scan the QR image to add the
+13. On the **Scan the QR code** page, scan the QR image to add the
     account on your Microsoft Authenticator App on your phone.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image84.png)
 
-1.  Now, select **Next**.
+14. Now, select **Next**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image85.png)
 
-1.  When prompted, approve the notification on your phone. Once you see
+15. When prompted, approve the notification on your phone. Once you see
     that the notification is approved, select **Next**.
 
     ![Graphical user interface, text, application Description automatically
 generated](./media/image86.png)
 
-1.  Click on **Done**
+16. Click on **Done**
 
     ![](./media/image87.png)
 
-2.  You should be logged in to the **My Apps Portal**
+17. You should be logged in to the **My Apps Portal**
 
     ![](./media/image88.png)
 
-3.  You have completed this task, please proceed ahead with the next
+18. You have completed this task, please proceed ahead with the next
     task.
 
 ## Exercise 5 – Enabling Conditional Access for the Research Group
