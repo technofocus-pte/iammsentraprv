@@ -463,12 +463,12 @@ generated](./media/image58.png)
     Credentials** provided on the **Home/Resources** tab** of the lab Interface as
     show in the Image.
 
-68. Select **Identity** expand **Users**, select **All Users**, the from
+3. Select **Identity** expand **Users**, select **All Users**, the from
     the **New user** drop-down menu select **Invite external user**.
 
     ![](./media/image64.png)
 
-69. On the Invite external user page, provide the below details
+4. On the Invite external user page, provide the below details
 
     - Email – your personal outlook email address or create a new
       outlook email for testing.
@@ -477,46 +477,45 @@ generated](./media/image58.png)
 
     - Message – `Invite to my Org`
 
-70. Click on **Next: Properties**
+5. Click on **Next: Properties**
 
     ![](./media/image65.png)
 
-71. On the **Properties** tab, set the Usage location to **United
+6. On the **Properties** tab, set the Usage location to **United
     States** and then click on **Review + invite** button.
 
     ![](./media/image66.png)
 
-72. On the **Review + invite** tab, click on the **Invite** button.
+7. On the **Review + invite** tab, click on the **Invite** button.
 
     ![](./media/image67.png)
 
     ![](./media/image68.png)
 
-73. Open an InPrivate window and open the Outlook for the external
+8. Open an InPrivate window and open the Outlook for the external
     account on which the invite was sent.
 
     ![](./media/image69.png)
 
-74. Click on the **Accept invitation** link.
+9. Click on the **Accept invitation** link.
 
-75. Click on the **Accept** button to grant permission.
+10. Click on the **Accept** button to grant permission.
 
     ![](./media/image70.png)
 
-76. You should successfully be logged into My Apps portal for the
+11. You should successfully be logged into My Apps portal for the
     Microsoft Entra Tenant.
 
     ![](./media/image71.png)
 
-77. Switch back to the tab with **Microsoft Entra admin center** portal
+12. Switch back to the tab with **Microsoft Entra admin center** portal
     logged with Tenant admin.
 
-78. Select **Identity** expand the **Groups**, select **All groups**
-    then click on **New group**.
+13. Select **Identity** expand the **Groups**, select **All groups** then click on **New group**.
 
     ![](./media/image41.png)
 
-79. Create the group with below details.
+14. Create the group with below details.
 
     - Group type – **Security**
 
@@ -533,11 +532,11 @@ generated](./media/image58.png)
 
     ![](./media/image73.png)
 
-80. Click on **Create** button
+15. Click on **Create** button
 
     ![](./media/image74.png)
 
-81. Click on the Yes button when prompted.
+16. Click on the Yes button when prompted.
 
     ![](./media/image75.png)
 
@@ -567,15 +566,17 @@ on).
     on **Enable**.
 
     ![](./media/image78.png)
+    ![alt text](image.png)
 
-5. On the Message About enabling multi-factor auth, click on **enable
-    multi-factor auth**.
+5. On the Message About enabling multi-factor auth, click on **Enable**.
 
     ![](./media/image79.png)
+    ![alt text](image-1.png)
 
-6. Click on the **Close** button on the confirmation message.
+6. You should receive a notification as shown in below image.
 
     ![](./media/image80.png)
+    ![alt text](image-2.png)
 
 7. Open a browser in InPrivate/incognito mode and login to **My Apps
     portal** `https://myapps.microsoft.com`.
@@ -646,6 +647,7 @@ center** `https://entra.microsoft.com` page.
 select **Conditional Access**. Click on **Create new policy**.
 
 ![](./media/image90.png)
+![alt text](image-3.png)
 
 3. On the **New Conditional Access Policy** page, provide the below details
 
