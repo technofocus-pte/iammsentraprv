@@ -734,7 +734,8 @@ Conditional access policy to **On** and **Save** it.
 without any additional information required prompt
 
     - Username – `Logan@` paste the **Tenant name** from the **Home/Resources** tab.
-    - `Logan@$gd.com(spM365Tenant).domainName`
+    
+    `Logan@$gd.com(spM365Tenant).domainName`
 
     - Password – `Pa55w.rd`
 
@@ -747,16 +748,16 @@ perform MFA in order to access Forms.
 
     ![](./media/image100.png)
 
-3. Click on **Next** and complete the MFA process to gain access to
+1. Click on **Next** and complete the MFA process to gain access to
 Forms.
 
-4. You would be required to go through the Microsoft Authenticator
+1. You would be required to go through the Microsoft Authenticator
 process, once completed you will be logged in Microsoft Forms
 successfully as shown in below images
 
     ![](./media/image87.png)
 
-5. You should be able to login successfully
+1. You should be able to login successfully
 
     ![](./media/image101.png)
 
