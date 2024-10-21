@@ -733,6 +733,12 @@ Conditional access policy to **On** and **Save** it.
 1. Login using **Logan Boyle’s** credentials you will be signed in
 without any additional information required prompt
 
+     - Username – `Logan@` paste the **Tenant name** from the **Home/Resources** tab.
+
+     - Password – `Pa55w.rd`
+     - 
+     - `Logan@$gd.com(spM365Tenant).domainName`
+     - 
     - Username – `Logan@` paste the **Tenant name** from the **Home/Resources** tab.
     
     `Logan@$gd.com(spM365Tenant).domainName`
