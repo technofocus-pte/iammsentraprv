@@ -736,14 +736,6 @@ without any additional information required prompt
      - Username – `Logan@` paste the **Tenant name** from the **Home/Resources** tab.
 
      - Password – `Pa55w.rd`
-     - 
-     - `Logan@$gd.com(spM365Tenant).domainName`
-     - 
-    - Username – `Logan@` paste the **Tenant name** from the **Home/Resources** tab.
-    
-    `Logan@$gd.com(spM365Tenant).domainName`
-
-    - Password – `Pa55w.rd`
 
 1. Click on Forms to access **Microsoft Forms**.
 
