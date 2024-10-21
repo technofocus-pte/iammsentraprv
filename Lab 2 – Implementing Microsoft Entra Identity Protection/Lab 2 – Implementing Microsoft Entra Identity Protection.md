@@ -27,8 +27,7 @@ Identity Secure Score.
     ![](./media/image2.png)
 
 3. Under **Assignments**, select **All users** and review the available
-    options. Then choose **Select individuals and groups**. We will
-    limit our policy rollout to **Sales101** team.
+    options. Then choose **Select individuals and groups**. 
 
     ![](./media/image3.png)
 
