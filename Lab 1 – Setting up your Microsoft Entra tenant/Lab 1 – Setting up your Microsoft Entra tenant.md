@@ -566,17 +566,14 @@ on).
     on **Enable**.
 
     ![](./media/image78.png)
-    ![alt text](image.png)
 
 5. On the Message About enabling multi-factor auth, click on **Enable**.
 
     ![](./media/image79.png)
-    ![alt text](image-1.png)
 
 6. You should receive a notification as shown in below image.
 
     ![](./media/image80.png)
-    ![alt text](image-2.png)
 
 7. Open a browser in InPrivate/incognito mode and login to **My Apps
     portal** `https://myapps.microsoft.com`.
@@ -643,23 +640,24 @@ Group only when the Access **Microsoft Forms**
 
 1. Open the Edge browser and login to the **Microsoft Entra admin
 center** `https://entra.microsoft.com` page.
+
 2. In the **Microsoft Entra admin center**, expand **Protection** and
 select **Conditional Access**. Click on **Create new policy**.
 
-![](./media/image90.png)
-![alt text](image-3.png)
+    ![](./media/image90.png)
 
 3. On the **New Conditional Access Policy** page, provide the below details
 
    - Name – `CA for Microsoft Forms`
 
-   - Under **Users**, select **Specific users included**. Then under
+   - Under **Users**, select **0 Users and Groups selected**. Then under
    **Include**, choose **Select users and groups**. Select the check
    box near **Users and groups**. Then under **Select**, choose **0
    users and groups selected**.
 
    ![A screenshot of a computer Description automatically
    generated](./media/image91.png)
+   
 
    - Scroll down on the **Select users and groups** page, select
    **Research101**. Choose **Select**.
@@ -668,7 +666,7 @@ select **Conditional Access**. Click on **Create new policy**.
 
    - Under **Target Resources**, select **No target resources selected**.
    Then under **Include**, choose **Select apps**. Under select, choose
-   **None**. In the side pane, search for and select **Microsoft Forms**
+   **None**. In the side pane, search for and select `Microsoft Forms`
    by selecting the check box near the app. Then choose **Select**.
 
    ![A screenshot of a computer Description automatically
@@ -736,6 +734,7 @@ Conditional access policy to **On** and **Save** it.
 without any additional information required prompt
 
     - Username – `Logan@` paste the **Tenant name** from the **Home/Resources** tab.
+    - `Logan@$gd.com(spM365Tenant).domainName`
 
     - Password – `Pa55w.rd`
 
