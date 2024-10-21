@@ -71,7 +71,7 @@ conditional access policy.
     ![Graphical user interface, application Description automatically
     generated](./media/image6.png)
 
-11. 11.Provide the credentials and then complete the MFA sign in
+11. Provide the credentials and then complete the MFA sign in
 
     ![Graphical user interface, text, application, email Description
     automatically generated](./media/image7.png)
