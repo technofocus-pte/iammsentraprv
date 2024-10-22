@@ -112,10 +112,17 @@ applications. You must deploy a Conditional access policy.
 
     * Password – Paste the User Password from the Resources tab.
 
+    <font color=red>
+
+    > **Note** - if the password does not work, then navigate to `https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId` choose the User **Allan Deyoung** and then **reset the password**.
+
+    </font>
+
 15. Click on **Explore App** and then click on the **Engage** icon to
     see that it loads correctly.
 
     ![](./media/image16.png)
+
 
 16. Click on **Log in with Microsoft account**.
 
@@ -138,14 +145,14 @@ device type, location, and role.
 
 
 
-18. On the lefthand menu, under Identity, expand Protection, and then
+2. On the lefthand menu, under Identity, expand Protection, and then
     select **Conditional access**. On the **Overview (Preview)**,
     click **+ Create new policy**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image19.png)
 
-19. On the **New Conditional Access Policy** page, provide the below
+3. On the **New Conditional Access Policy** page, provide the below
     details
 
     - Name – `Block Engage for Allan Deyoung`
@@ -166,7 +173,7 @@ generated](./media/image21.png)
 
   - Under **Target Resources**, select **No target resources selected**.
   Then under **Include**, choose **Select apps**. Under select, choose
-  **None**. In the side pane, search for and select **Viva Engage** by
+  **None**. In the side pane, search for and select `Viva Engage` by
   selecting the check box near the app. Then choose **Select**.
 
     ![A screenshot of a computer Description automatically
@@ -185,7 +192,7 @@ generated](./media/image24.png)
 
     ![](./media/image25.png)
 
-**Note** - This policy is being configured for the exercise only and is
+> **Note** - This policy is being configured for the exercise only and is
 being used to quickly demonstrate a conditional access policy.
 
 Keep the page open we will return to this page in **Task 4**.
@@ -195,36 +202,43 @@ Keep the page open we will return to this page in **Task 4**.
 You should test your conditional access policies to ensure they working
 as expected.
 
-1. Close the InPrivate Window or Log out completely.
 
-2. Launch a new InPrivate browser window in your lab VM.
 
-21. Navigate to `https://www.office.com`.
+1.  Close the InPrivate Window or Log out completely.
 
-22. When prompted, log in as **Allan Deyoung**:
+2.  Launch a new InPrivate browser window in your lab VM.
+
+3.  Navigate to `https://www.office.com`.
+
+4.  When prompted, log in as **Allan Deyoung**:
 
     * Username – `alland@` copy and paste the Tenant name from the **Resources tab**
 
     * Password – Paste the User Password from the Resources tab.
 
-23. Click on **Explore App** and then click on the **Engage** icon to
+    <font color=red>
+
+    > **Note** - if the password reset in the previous task, use the new password.
+
+    </font>
+
+5.  Click on **Explore App** and then click on the **Engage** icon to
     see that it loads correctly.
 
-24. Verify you are prevented from accessing **Viva Engage**.
+6.  Verify you are prevented from accessing **Viva Engage**.
 
     ![](./media/image26.png)
 
-    > **Note** - If you are signed in, close the tab, wait 1 minute, and then
-    retry. If you are auto-logged into Engage as Allan, then you will need
-    to manually log out. Your credentials / access were cached. Once you log
+    > **Note** - If you were already signed in the policy may not get applied, hence close the tab, wait 1 minute, and then
+    re-login. Once you log
     out and sign-in, your Engage session should deny access. To disable the
     policy, follow the given steps.
 
-25. Close the tab and return to the Conditional Access page.
+7.  Close the tab and return to the Conditional Access page.
 
-26. Select the **Block Engage for Allan Deyoung** policy.
+8.  Select the **Block Engage for Allan Deyoung** policy.
 
-27. Under **Enable policy**, select **Off** and then select **Save**.
+9.  Under **Enable policy**, select **Off** and then select **Save**.
 
 ### Task 4 – Use ‘What if’ to test conditional access policies
 
