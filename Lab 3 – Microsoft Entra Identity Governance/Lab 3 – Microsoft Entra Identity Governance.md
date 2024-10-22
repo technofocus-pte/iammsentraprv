@@ -86,7 +86,7 @@ site collections.
 
     ![computer ](./media/image8.png)
 
-    - SharePoint sites – **Research101**
+    - SharePoint sites – **Sales and Marketing**
 
     ![computer ](./media/image9.png)
 
@@ -163,20 +163,20 @@ procedure to add it.
 
 - In the **Name** box, enter `Testing terms of use`.
 
-     **Note** - This is the terms of use that will be used in the Azure portal.
+    > **Note** - This is the terms of use that will be used in the Azure portal.
 
     - Select the **Terms of use document box**, browse to **C:\Labfiles**
     and select the file named **Contoso_TermsOfUse.pdf**.
 
     - Select **English** for the language for your terms of use document.
 
-     **Note** - The language option allows you to upload multiple terms of
+    > **Note** - The language option allows you to upload multiple terms of
      use, each with a different language. The version of the terms of use
      that an end user will see will be based on their browser preferences.
 
     - In the **Display name** box, enter `Contoso Terms of Use`.
 
-     **Note** - This is the title that users see when they sign in.
+    > **Note** - This is the title that users see when they sign in.
 
     - To require end users to view the terms of use prior to accepting them,
     set **Require users to expand the terms of use** to **On**.
@@ -197,18 +197,10 @@ procedure to add it.
 
     - Use the **Expire starting on** and the
     following **Frequency** settings to specify the schedule for terms of
-    use expirations.
-
-[TABLE]
-
- For example, if you set the expire starting on date to today,
- i.e. **Jan 1** and frequency to **Monthly**, here is how expirations
- might occur for two users:
-
-[TABLE]
-
-- Under **Conditional Access**, select Custom policy and then click on
-  the Create button.
+    use expirations. Choose the date **6 months** from Today and Frequency **Monthly** and Duration before re-acceptance required (days) - **60**
+ 
+    - Under **Conditional Access**, select Custom policy and then click on
+    the Create button.
 
      ![computer Description automatically
  generated](./media/image16.png)
@@ -255,30 +247,29 @@ procedure to add it.
 
 1.  Launch a new InPrivate browser window in your lab VM.
 
-&nbsp;
+2. Navigate to `https://www.office.com`.
 
-15. Navigate to `https://www.office.com`.
+3.  When prompted, log in as **Joni Sherman**:
 
-16. When prompted, log in as **Joni Sherman**:
+    Username – `jonis@`paste the Tenant name from the **Home/Resources**
+    tab.
 
- Username – `jonis@`paste the Tenant name from the Resources
- tab.**
+    Password – **paste the User Password from the Resources tab** and click on **Sign in**
 
- Password – **paste the User Password from the Resources tab** and
- click on **Sign in**
+    
 
-17. Expand to View the **Terms of Use**.
+4. Expand to View the **Terms of Use**.
 
      ![computer Description automatically
  generated](./media/image23.png)
 
-18. Scroll down and click on the **Accept** button to complete the
+5. Scroll down and click on the **Accept** button to complete the
     login.
 
         ![computer Description automatically
     generated](./media/image24.png)
 
-19. Once you have accepted the Terms of Use agreement, you should be
+6. Once you have accepted the Terms of Use agreement, you should be
     successfully signed in
 
         ![computer Description automatically
@@ -418,7 +409,7 @@ reviews.
 
 - Under **Select reviewers**, select **Group owners** as these reviewers
 
-  - **Note**: Guest users should not be allowed to review their own
+  -> **Note**: Guest users should not be allowed to review their own
     access as a good identity governance practice.
 
 - Enter a **Duration (in days)**, default is **3**, choose **Weekly**
@@ -609,7 +600,7 @@ Username – `Abbi@`paste the **Tenant name** from the
 
 - Password – `Pa55w.rd`
 
-  **Note** – You may be requested to do MFA registration, if so, proceed
+ > **Note** – You may be requested to do MFA registration, if so, proceed
   ahead and complete the MFA registration process
 
 49. From the **Identity** menu, open **Users** and then select **All
