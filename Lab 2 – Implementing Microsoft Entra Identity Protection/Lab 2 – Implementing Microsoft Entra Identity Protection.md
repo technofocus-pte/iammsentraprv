@@ -350,10 +350,9 @@ generated](./media/image39.png)
 
 ## Exercise 3 – Monitor and managed security posture with Identity Secure Score
 
-1. Browse to `https://entra.microsoft.com` and sign in using
-    the **Office 365 tenant credentials**.
+1. Browse to `https://entra.microsoft.com` and sign in using the **Office 365 tenant credentials**.
 
-36. On the left hand menu, under **Protection,** click on **… Show more**,
+2. On the left hand menu, under **Protection,** click on **… Show more**,
     select **Identity Secure Score.** Select **Identity Secure Score
     from the sub-menu.** This will take you to the Identity Secure Score
     dashboard.
@@ -361,14 +360,13 @@ generated](./media/image39.png)
     ![A screenshot of a computer Description automatically
 generated](./media/image40.png)
 
-37. You may not see many recommendations but in a production environment
-    you can view the **Improvement actions**. Sort the recommendations
+3. You may not see many recommendations but in a production environment you can view the **Improvement actions**. Sort the recommendations
     by **User impact**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image41.png)
 
-38. Select the first Improvement action. Review the recommendations
+4. Select the first Improvement action. Review the recommendations
     under **WHAT AM I ABOUT TO CHANGE?** section and then you can select
     the status of the action from the dropdown. Change it to **Planned**
     and then select **Save**.

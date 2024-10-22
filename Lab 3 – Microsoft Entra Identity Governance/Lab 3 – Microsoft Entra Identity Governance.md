@@ -27,29 +27,25 @@ catalog in your organization.
 
 ### Task 1 – Create a catalog
 
-1.  Sign in to +++https://entra.microsoft.com+++ using your **Office 365
+1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
-
-&nbsp;
 
 1.  In the left menu, expand **Identity Governance** and
     select **Entitlement management**. From the sub menu,
     select **Catalogs**. From the top menu, select **+ New Catalog**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image1.png)
+    ![computer ](./media/image1.png)
 
 2.  In the New catalog pane, enter the following information and then
     select **Create**.
 
-    - Name – +++**Marketing+++**
+    - Name – `Marketing`
 
-    - In the **Description** – **+++For marketing department users+++**
+    - In the **Description** – `For marketing department users`
 
     - Under **Enabled, select No**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image2.png)
+    ![computer ](./media/image2.png)
 
 3.  Stay on the Catalogs page and continue to the next exercise.
 
@@ -66,14 +62,12 @@ site collections.
 
 1.  In the **Catalogs** list, select **Marketing**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image3.png)
+    ![computer ](./media/image3.png)
 
 4.  In the left navigation, under **Manage**, select **Resources**. On
     the menu, select **+ Add resources**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image4.png)
+    ![computer ](./media/image4.png)
 
 5.  In the **Add resources to catalog** page, add the following
     information:
@@ -81,31 +75,25 @@ generated](./media/image4.png)
     - Select **Groups and Teams**, select. The check box near
       **Research101**, and then choose **Select.**
 
-![A screenshot of a computer Description automatically
-generated](./media/image5.png)
+    ![computer ](./media/image5.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image6.png)
+    ![computer ](./media/image6.png)
 
-- Click on + Applications and choose the **Box** application and click
-  on Select button.
+    - Click on + Applications and choose the **Box** application and click
+    on Select button.
 
-![A screenshot of a computer Description automatically
-generated](./media/image7.png)
+    ![computer ](./media/image7.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image8.png)
+    ![computer ](./media/image8.png)
 
-- SharePoint sites – **Research101**
+    - SharePoint sites – **Research101**
 
-![A screenshot of a computer Description automatically
-generated](./media/image9.png)
+    ![computer ](./media/image9.png)
 
 6.  When finished, Select **Add**. These resources can now be included
     in access packages within the catalog.
 
-![A screenshot of a computer Description automatically
-generated](./media/image10.png)
+    ![computer ](./media/image10.png)
 
 7.  Stay on the same page and move on to the next task.
 
@@ -119,16 +107,14 @@ role. This helps share the catalog management responsibilities.
     select **Roles and administrators**. On the top menu, review the
     available roles and then select **+ Add catalog owner**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image11.png)
+    ![computer ](./media/image11.png)
 
-8.  In **the Select members** pane, select your **Abbi Skinner** and
+2.  In **the Select members** pane, select your **Abbi Skinner** and
     then select **Select**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image12.png)
+    ![computer ](./media/image12.png)
 
-9.  Stay on the same page and move on to the next task.
+3.  Stay on the same page and move on to the next task.
 
 ### Task 4 – Edit a catalog
 
@@ -138,16 +124,14 @@ information in an access package’s details.
 1.  In the **Marketing** page, in the left navigation,
     select **Overview**. On the top menu, select **Edit**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image13.png)
+    ![computer ](./media/image13.png)
 
-10. Review the setting and, under **Properties** \> **Enabled**,
+2. Review the setting and, under **Properties** \ **Enabled**,
     select **Yes**. Select **Save**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image14.png)
+    ![computer ](./media/image14.png)
 
-11. Stay on the same page and move on to the next task.
+3. Stay on the same page and move on to the next task.
 
 ## Exercise 2 – Add terms of use and acceptance reporting
 
@@ -164,118 +148,108 @@ You must create and enforce a ToU policy for your organization.
 Once you have finalized your terms of use document, use the following
 procedure to add it.
 
-1.  Sign in to +++https://entra.microsoft.com+++ using a your **Office
+1.  Sign in to `https://entra.microsoft.com` using a your **Office
     365 tenant credentials**.
-
-&nbsp;
 
 12. In the left menu, expand **Identity Governance** and
     select **Entitlement management**. Then from the sub menu, scroll
     down and select **Terms of use**. On the Terms of use page, on the
     top menu, select **+ New terms.**
 
-![A screenshot of a computer Description automatically
-generated](./media/image15.png)
+    ![computer ](./media/image15.png)
 
 13. **On the New Terms page, add the following information and select
     Create.**
 
-- In the **Name** box, enter +++**Testing terms of use**+++.
+- In the **Name** box, enter `Testing terms of use`.
 
-> **Note** - This is the terms of use that will be used in the Azure
-> portal.
+     **Note** - This is the terms of use that will be used in the Azure portal.
 
-- Select the **Terms of use document box**, browse to **C:\Labfiles**
-  and select the file named **Contoso_TermsOfUse.pdf**.
+    - Select the **Terms of use document box**, browse to **C:\Labfiles**
+    and select the file named **Contoso_TermsOfUse.pdf**.
 
-- Select **English** for the language for your terms of use document.
+    - Select **English** for the language for your terms of use document.
 
-> **Note** - The language option allows you to upload multiple terms of
-> use, each with a different language. The version of the terms of use
-> that an end user will see will be based on their browser preferences.
+     **Note** - The language option allows you to upload multiple terms of
+     use, each with a different language. The version of the terms of use
+     that an end user will see will be based on their browser preferences.
 
-- In the **Display name** box, enter +++**Contoso Terms of Use**+++.
+    - In the **Display name** box, enter `Contoso Terms of Use`.
 
-> **Note** - This is the title that users see when they sign in.
+     **Note** - This is the title that users see when they sign in.
 
-- To require end users to view the terms of use prior to accepting them,
-  set **Require users to expand the terms of use** to **On**.
+    - To require end users to view the terms of use prior to accepting them,
+    set **Require users to expand the terms of use** to **On**.
 
-- To require end users to accept your terms of use on every device they
-  are accessing from, set **Require users to consent on every
-  device** to **Off**. Users may be required to install additional
-  applications if this option is enabled.
+    - To require end users to accept your terms of use on every device they
+    are accessing from, set **Require users to consent on every
+    device** to **Off**. Users may be required to install additional
+    applications if this option is enabled.
 
-> **Warning** - Consent on every device will require users to register
-> each device with Microsoft Entra ID prior to getting access. It is a
-> good practice to require this setting to On; however for the purpose
-> of a cleaner lab, we are using Off.
+     **Warning** - Consent on every device will require users to register
+     each device with Microsoft Entra ID prior to getting access. It is a
+     good practice to require this setting to On; however for the purpose
+     of a cleaner lab, we are using Off.
 
-- If you want to expire terms of use consents on a schedule,
-  set **Expire consents** to **On**. When set to On, two additional
-  schedule settings are displayed.
+    - If you want to expire terms of use consents on a schedule,
+    set **Expire consents** to **On**. When set to On, two additional
+    schedule settings are displayed.
 
-- Use the **Expire starting on** and the
-  following **Frequency** settings to specify the schedule for terms of
-  use expirations.
+    - Use the **Expire starting on** and the
+    following **Frequency** settings to specify the schedule for terms of
+    use expirations.
 
 [TABLE]
 
-> For example, if you set the expire starting on date to today,
-> i.e. **Jan 1** and frequency to **Monthly**, here is how expirations
-> might occur for two users:
+ For example, if you set the expire starting on date to today,
+ i.e. **Jan 1** and frequency to **Monthly**, here is how expirations
+ might occur for two users:
 
 [TABLE]
 
 - Under **Conditional Access**, select Custom policy and then click on
   the Create button.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image16.png)
+     ![computer Description automatically
+ generated](./media/image16.png)
 
 14. When the terms of use is created, you will automatically be
     redirected to the Conditional access policy page.
 
-    - On the page, in the **Name** box, enter +++**Enforce ToU**+++.
+    - On the page, in the **Name** box, enter `Enforce ToU`.
 
     - Under **Users**, select **0 users and groups selected/Specific
       users included**. Then under **Include**, choose **Select users
       and groups**. Select the check box near **Users and groups**. Then
       under **Select**, choose **0 users and groups selected**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image17.png)
+    ![computer ](./media/image17.png)
 
 - Scroll down on the **Select users and groups** page, select **Joni
   Sherman**. Choose **Select**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image18.png)
+    ![computer ](./media/image18.png)
 
 - Under **Target Resources**, select **No target resources selected**.
   Then under **Include**, choose **Select apps**. Under select, choose
   **None**. In the side pane, search for and select **Office 365** by
   selecting the check box near the app. Then choose **Select**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image19.png)
+    ![computer ](./media/image19.png)
 
 - Under **Access controls**, within the **Grant** section, select **0
   controls selected**. In the **Grant** pane, select **Testing terms of
   use** and then select **Select**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image20.png)
+    ![computer ](./media/image20.png)
 
 - Under **Enable policy**, select **On**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image21.png)
+    ![computer ](./media/image21.png)
 
 - When complete, select **Create**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image22.png)
+    ![computer ](./media/image22.png)
 
 ### Task 2 - Log in as Joni Sherman
 
@@ -283,38 +257,38 @@ generated](./media/image22.png)
 
 &nbsp;
 
-15. Navigate to +++**https://www.office.com+++**.
+15. Navigate to `https://www.office.com`.
 
 16. When prompted, log in as **Joni Sherman**:
 
-> Username – **+++jonis@+++paste the Tenant name from the Resources
-> tab.**
->
-> Password – **paste the User Password from the Resources tab** and
-> click on **Sign in**
+ Username – `jonis@`paste the Tenant name from the Resources
+ tab.**
+
+ Password – **paste the User Password from the Resources tab** and
+ click on **Sign in**
 
 17. Expand to View the **Terms of Use**.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image23.png)
+     ![computer Description automatically
+ generated](./media/image23.png)
 
 18. Scroll down and click on the **Accept** button to complete the
     login.
 
-    ![A screenshot of a computer Description automatically
+        ![computer Description automatically
     generated](./media/image24.png)
 
 19. Once you have accepted the Terms of Use agreement, you should be
     successfully signed in
 
-    ![A screenshot of a computer Description automatically
+        ![computer Description automatically
     generated](./media/image25.png)
 
 ## Exercise 3 – Microsoft Entra External Identities
 
 ### Task 1 – Configure basics
 
-1.  Sign in to +++https://entra.microsoft.com+++ using your **Office 365
+1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
 &nbsp;
@@ -323,44 +297,40 @@ generated](./media/image22.png)
     select **Entitlement management**. Then from the sub menu, scroll
     down and select **Access packages**. Select **New access package**.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image26.png)
+     ![computer Description automatically
+ generated](./media/image26.png)
 
 21. Enter the following details and then select **Next: Resource roles
-    \>**.
+    \**.
 
-- Name – **+++External user package+++**
+- Name – `External user package`
 
-- Description – **+++Access for external users pending approval+++**.
+- Description – `Access for external users pending approval`.
 
 - You can leave the **Catalog** drop-down list set to **General**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image27.png)
+    ![computer ](./media/image27.png)
 
 22. Select **Groups and Teams**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image28.png)
+    ![computer ](./media/image28.png)
 
 23. Tick the checkbox **See all Group and Team(s) not in the ‘General’
     catalog**. Then search for your group **External collaboration** and
     click on **Select** button.
 
-![A screenshot of a computer Description automatically
-generated](./media/image29.png)
+    ![computer ](./media/image29.png)
 
 24. In the role dropdown, select **Member**. Select **Next**: **Requests
-    \>** tab.
+    \** tab.
 
-![A screenshot of a computer Description automatically
-generated](./media/image30.png)
+    ![computer ](./media/image30.png)
 
 - In the **Users who can request access **section, select **For users
   not in your directory** and then select **All users (All connected
   organizations + any new external users)**.
 
-  ![A screenshot of a computer Description automatically
+      ![computer Description automatically
   generated](./media/image31.png)
 
 - Require approval select **Yes**.
@@ -369,20 +339,19 @@ generated](./media/image30.png)
 
 - For **How many stages** leave this as **1**.
 
-  ![A screenshot of a computer Description automatically
+      ![computer Description automatically
   generated](./media/image32.png)
 
 - For **First Approver** scenario select **Choose specific approvers**.
 
 - Select **Add Approvers**.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image33.png)
+     ![computer Description automatically
+ generated](./media/image33.png)
 
 - Choose Select **MOD Admin** user and then choose **Select**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image34.png)
+    ![computer ](./media/image34.png)
 
 - For **Decision must be made in how many days?** leave this as **14**.
 
@@ -393,13 +362,11 @@ generated](./media/image34.png)
 
 25. Select **Next: Requestor information** tab.
 
-![A screenshot of a computer Description automatically
-generated](./media/image35.png)
+    ![computer ](./media/image35.png)
 
-26. Select **Next: Lifecycle \>** tab.
+26. Select **Next: Lifecycle \** tab.
 
-![A screenshot of a computer Description automatically
-generated](./media/image36.png)
+    ![computer ](./media/image36.png)
 
 - In the **Expiration** section, set **Access package assignment
   expire** to **Number of days**.
@@ -409,20 +376,17 @@ generated](./media/image36.png)
 
 - Set **Require access review** to **No**.
 
-- Select **Next: Rules \>**.
+- Select **Next: Rules \**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image37.png)
+    ![computer ](./media/image37.png)
 
-27. Select **Next: Review + Create \>**.
+27. Select **Next: Review + Create \**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image38.png)
+    ![computer ](./media/image38.png)
 
 28. Select **Create**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image39.png)
+    ![computer ](./media/image39.png)
 
 29. Stay on the same page and move on to the next task.
 
@@ -436,8 +400,7 @@ reviews.
     select **Entitlement management**. From the sub menu,
     select **Access reviews**. Select **+ New access review**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image40.png)
+    ![computer ](./media/image40.png)
 
 30. Fill in the following information and select **Next: Reviews**.
 
@@ -448,8 +411,7 @@ generated](./media/image40.png)
 
     - Under **Select user scope**, select **Guest users only**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image41.png)
+    ![computer ](./media/image41.png)
 
 31. Fill in the following information and select the tab **Review +
     Create.**
@@ -463,13 +425,11 @@ generated](./media/image41.png)
   as **Review recurrence** and **today’s date** as a **Start date** for
   the review.
 
-![A screenshot of a computer Description automatically
-generated](./media/image42.png)
+    ![computer ](./media/image42.png)
 
 32. Select **Create** to create the new **Access review**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image43.png)
+    ![computer ](./media/image43.png)
 
 ## Exercise 4 – Manage the lifecycle of external users in Microsoft Entra Identity Governance settings
 
@@ -482,15 +442,14 @@ has any access package assignments, they are blocked from signing in to
 your directory. After 30 days, their guest user account is removed from
 your directory.
 
-1.  Sign in to +++https://entra.microsoft.com+++ using your **Office 365
+1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
 2.  In the left menu, expand **Identity Governance** and
     select **Entitlement management**. From the sub menu,
     select **Settings**. Select **Edit**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image44.png)
+    ![computer ](./media/image44.png)
 
 33. In the **Manage the lifecycle of external users** section, review
     the different settings for external users.
@@ -508,8 +467,7 @@ generated](./media/image44.png)
 
     - If you’ve made any changes, select **Save**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image45.png)
+    ![computer ](./media/image45.png)
 
 34. Stay on the same page and continue to the next exercise.
 
@@ -529,29 +487,27 @@ role.
 
 Follow these steps to open the settings for an Microsoft Entra role.
 
-1.  Sign in to +++https://entra.microsoft.com+++ using your **Office 365
+1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
 2.  In the left menu, expand **Identity Governance** and
     select **Privileged Identity management**. From the sub menu,
     select **Microsoft Entra roles.**
 
-![A screenshot of a computer Description automatically
-generated](./media/image46.png)
+    ![computer ](./media/image46.png)
 
 35. On the **Quick start** page, in the left navigation,
     select **Settings.** Review the list of roles and then,
     select **Compliance Administrator**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image47.png)
+    ![computer ](./media/image47.png)
 
 36. In the results, select **Compliance Administrator**.
 
 37. Review the role setting details information. Stay on the same page
     and continue to the next step.
 
-    ![A screenshot of a computer Description automatically
+        ![computer Description automatically
     generated](./media/image48.png)
 
 #### Step 2 – Require approval to activate.
@@ -563,27 +519,23 @@ To require approval to activate a role, follow these steps.
 1.  In the **Role setting** details page, on the top menu,
     select **Edit**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image49.png)
+    ![computer ](./media/image49.png)
 
 38. In the **Edit role setting – Compliance Administrator** page, select
     the **Require approval to activate** check box. Then select No
     **approver selected**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image50.png)
+    ![computer ](./media/image50.png)
 
 39. In the **Select a member** pane, select the **Office 365 Tenant
     administrator** account, and then choose **Select**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image51.png)
+    ![computer ](./media/image51.png)
 
 40. Once you have configured the role settings, select **Update** to
     save your changes.
 
-![A screenshot of a computer Description automatically
-generated](./media/image52.png)
+    ![computer ](./media/image52.png)
 
 41. Stay on the same page and continue to the next Task.
 
@@ -610,59 +562,52 @@ role.
     select **Privileged Identity Management**. Then select **Microsoft
     Entra roles.**
 
-![A screenshot of a computer Description automatically
-generated](./media/image53.png)
+    ![computer ](./media/image53.png)
 
 42. On the **Quick start** page, in the left navigation,
     select **Roles**. Then select **+ Add assignments.**
 
-![A screenshot of a computer Description automatically
-generated](./media/image54.png)
+    ![computer ](./media/image54.png)
 
 43. In the **Add assignments** page, on the **Membership** tab,
     select **Compliance Administrator** from the **Select
     role** dropdown.
 
-![A screenshot of a computer Description automatically
-generated](./media/image55.png)
+    ![computer ](./media/image55.png)
 
 44. Under **Select member(s)**, select **No members selected**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image56.png)
+    ![computer ](./media/image56.png)
 
 45. In the **Select a member** pane, select **Abbi Skinner** and then
     select **Select**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image57.png)
+    ![computer ](./media/image57.png)
 
 46. Select **Next**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image58.png)
+    ![computer ](./media/image58.png)
 
 47. On the **Settings** tab, under **Assignment type**, review the
     available options. For this task, use the default setting.
 
 48. Review the remaining settings and then select **Assign**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image59.png)
+    ![computer ](./media/image59.png)
 
 #### Step 2 – Log in with Abbi Skinner
 
 1.  Open the new tab in Edge browser using **InPrivate** mode and sign
-    in to +++https://entra.microsoft.com+++ using your **Office 365
+    in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
 2.  In the sign in prompt, sign in using the following credentials and
     complete the authentication.
 
-Username – **+++Abbi@+++**paste the **Tenant name** from the
+Username – `Abbi@`paste the **Tenant name** from the
 **Resources** tab.
 
-- Password – **+++Pa55w.rd+++**
+- Password – `Pa55w.rd`
 
   **Note** – You may be requested to do MFA registration, if so, proceed
   ahead and complete the MFA registration process
@@ -670,20 +615,17 @@ Username – **+++Abbi@+++**paste the **Tenant name** from the
 49. From the **Identity** menu, open **Users** and then select **All
     users**. Select **Abbi** in the list of users.
 
-![A screenshot of a computer Description automatically
-generated](./media/image60.png)
+    ![computer ](./media/image60.png)
 
 50. From the navigation, look for the **Assigned roles**.
     Select **Eligible assignments tab**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image61.png)
+    ![computer ](./media/image61.png)
 
 51. Notice that the **Compliance Administrator** role is now available
     to Abbi.
 
-![A screenshot of a computer Description automatically
-generated](./media/image62.png)
+    ![computer ](./media/image62.png)
 
 52. Stay on the same page and continue to the next step.
 
@@ -699,21 +641,19 @@ activation by opening **My roles** in Privileged Identity Management.
     select **Privileged Identity management**. From the sub menu,
     select **My roles.**
 
-![A screenshot of a computer Description automatically
-generated](./media/image63.png)
+    ![computer ](./media/image63.png)
 
 53. In the **My roles** page, review the list of **Eligible
     assignments**. In the **Compliance Administrator** role row,
     select **Activate**.
 
-![](./media/image64.png)
+    ![](./media/image64.png)
 
 54. In the **Activate – Compliance Administrator** pane, select
-    **Activate** tab. In the **Reason** box, enter the +++**This is my
-    justification for activating this role**+++. Select **Activate**.
+    **Activate** tab. In the **Reason** box, enter the `This is my
+    justification for activating this role`. Select **Activate**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image65.png)
+    ![computer ](./media/image65.png)
 
 **Important Note** - the principle of least privilege, you should only
 activate the account for the amount of time you need it. If the work
@@ -724,12 +664,11 @@ until after 3pm, choose a Custom activation time.
 55. You will see the notification that your request is pending for
     approval.
 
-![A screenshot of a computer Description automatically
-generated](./media/image66.png)
+    ![computer ](./media/image66.png)
 
 #### Step 4 – Approve the role request
 
-1.  Sign in to +++https://entra.microsoft.com+++ using your **Office 365
+1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
 &nbsp;
@@ -738,21 +677,18 @@ generated](./media/image66.png)
     select **Privileged Identity management**. From the sub menu,
     select **Microsoft Entra roles.**
 
-![A screenshot of a computer Description automatically
-generated](./media/image46.png)
+    ![computer ](./media/image46.png)
 
 4.  Select **Approve Request**. You will be able to see the request from
     **Abbi Skinner** under **Requests for role activations**. Select the
     request. Then select **Approve**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image67.png)
+    ![computer ](./media/image67.png)
 
-5.  In the **Justification** box, enter the +++**This is my
-    justification for activating this role**+++. Select **Confirm**.
+5.  In the **Justification** box, enter the `This is my
+    justification for activating this role`. Select **Confirm**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image68.png)
+    ![computer ](./media/image68.png)
 
 6.  he role of Compliance Administrator has now been assigned to Abbi
     Skinner for next 8 hours.
@@ -764,7 +700,7 @@ restricted to a single admin unit, service principal, or application.
 This procedure is an example if assigning a role that has the scope of
 an administrative unit.
 
-1.  Sign in to +++https://entra.microsoft.com+++ using your **Office 365
+1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
 &nbsp;
@@ -773,29 +709,25 @@ an administrative unit.
     select **Privileged Identity management**. From the sub menu,
     select **Microsoft Entra roles.**
 
-![A screenshot of a computer Description automatically
-generated](./media/image46.png)
+    ![computer ](./media/image46.png)
 
 56. Select **Roles**. In the Roles page, on the top menu, select **+ Add
     assignments.**
 
-![A screenshot of a computer Description automatically
-generated](./media/image69.png)
+    ![computer ](./media/image69.png)
 
 57. In the Add assignments page, select the **Select role** menu and
     then select **User administrator.** Select the **Scope type** menu
     and review the available options. For now, you will use
     the **Directory** scope type.
 
-![A screenshot of a computer Description automatically
-generated](./media/image70.png)
+    ![computer ](./media/image70.png)
 
 58. As you did when assigning a role without a restricted scope, you
     would add members and complete the settings options. For now,
     select **Cancel**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image71.png)
+    ![computer ](./media/image71.png)
 
 59. Stay on the same page and continue to the next step.
 
@@ -810,8 +742,7 @@ Follow these steps to update or remove an existing role assignment.
 60. In **Assignments** list, for **Compliance Administrator**, review
     the options in the **Action** column.
 
-![A screenshot of a computer Description automatically
-generated](./media/image72.png)
+    ![computer ](./media/image72.png)
 
 - Select **Update** and review the options available in the Membership
   settings pane. When complete, close the pane.
