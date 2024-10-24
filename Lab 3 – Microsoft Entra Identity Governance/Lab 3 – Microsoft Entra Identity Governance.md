@@ -256,7 +256,11 @@ procedure to add it.
 
     Password – **paste the User Password from the Resources tab** and click on **Sign in**
 
-    
+    <font color=red>
+
+    > **Note** - if the password does not work, then navigate to `https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId` choose the User **Joni Sherman** and then **reset the password**.
+
+    </font>
 
 4. Expand to View the **Terms of Use**.
 
@@ -266,13 +270,13 @@ procedure to add it.
 5. Scroll down and click on the **Accept** button to complete the
     login.
 
-        ![computer Description automatically
+    ![computer Description automatically
     generated](./media/image24.png)
 
 6. Once you have accepted the Terms of Use agreement, you should be
     successfully signed in
 
-        ![computer Description automatically
+    ![computer Description automatically
     generated](./media/image25.png)
 
 ## Exercise 3 – Microsoft Entra External Identities
@@ -282,60 +286,53 @@ procedure to add it.
 1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
-&nbsp;
-
-20. In the left menu, expand **Identity Governance** and
+2. In the left menu, expand **Identity Governance** and
     select **Entitlement management**. Then from the sub menu, scroll
     down and select **Access packages**. Select **New access package**.
 
      ![computer Description automatically
  generated](./media/image26.png)
 
-21. Enter the following details and then select **Next: Resource roles
-    \**.
+3. Enter the following details and then select **Next: Resource roles**.
 
-- Name – `External user package`
+    - Name – `External user package`
 
-- Description – `Access for external users pending approval`.
+    - Description – `Access for external users pending approval`.
 
-- You can leave the **Catalog** drop-down list set to **General**.
+    - You can leave the **Catalog** drop-down list set to **General**.
 
     ![computer ](./media/image27.png)
 
-22. Select **Groups and Teams**.
+4. Select **Groups and Teams**.
 
     ![computer ](./media/image28.png)
 
-23. Tick the checkbox **See all Group and Team(s) not in the ‘General’
+5. Tick the checkbox **See all Group and Team(s) not in the ‘General’
     catalog**. Then search for your group **External collaboration** and
     click on **Select** button.
 
     ![computer ](./media/image29.png)
 
-24. In the role dropdown, select **Member**. Select **Next**: **Requests
-    \** tab.
+6. In the role dropdown, select **Member**. Select **Next**: **Requests** tab.
 
     ![computer ](./media/image30.png)
 
-- In the **Users who can request access **section, select **For users
-  not in your directory** and then select **All users (All connected
-  organizations + any new external users)**.
+    - In the **Users who can request access** section, select **For users not in your directory** and then select **All users (All connected organizations + any new external users)**.
 
-      ![computer Description automatically
-  generated](./media/image31.png)
+    ![](./media/image31.png)
 
-- Require approval select **Yes**.
+    - Require approval - **Yes** will be greyed out.
 
-- For **Require requestor justification**, leave this as **Yes**.
+    - For **Require requestor justification**, leave this as **Yes**.
 
-- For **How many stages** leave this as **1**.
+    - For **How many stages** leave this as **1**.
 
-      ![computer Description automatically
+    ![computer Description automatically
   generated](./media/image32.png)
 
-- For **First Approver** scenario select **Choose specific approvers**.
+    - For **First Approver** scenario select **Choose specific approvers**.
 
-- Select **Add Approvers**.
+    - Select **Add Approvers**.
 
      ![computer Description automatically
  generated](./media/image33.png)
@@ -344,18 +341,18 @@ procedure to add it.
 
     ![computer ](./media/image34.png)
 
-- For **Decision must be made in how many days?** leave this as **14**.
+    - For **Decision must be made in how many days?** leave this as **14**.
 
-- For **Require approver justification** leave this as **Yes**.
+    - For **Require approver justification** leave this as **Yes**.
 
-- Set **Enable new requests** to **Yes** to enable this access package
-  to be requested as soon as it's created.
+    - Set **Enable new requests** to **Yes** to enable this access package
+    to be requested as soon as it's created.
 
-25. Select **Next: Requestor information** tab.
+7. Select **Next: Requestor information** tab.
 
     ![computer ](./media/image35.png)
 
-26. Select **Next: Lifecycle \** tab.
+8. Select **Next: Lifecycle** tab.
 
     ![computer ](./media/image36.png)
 
@@ -367,19 +364,20 @@ procedure to add it.
 
 - Set **Require access review** to **No**.
 
-- Select **Next: Rules \**.
+- Select **Next: Rules**.
 
     ![computer ](./media/image37.png)
 
-27. Select **Next: Review + Create \**.
+9. Select **Next: Review + Create \**.
 
     ![computer ](./media/image38.png)
 
-28. Select **Create**.
+10. Select **Create**.
 
     ![computer ](./media/image39.png)
+    ![alt text](image.png)
 
-29. Stay on the same page and move on to the next task.
+11. Stay on the same page and move on to the next task.
 
 ### Task 2 – Create Access reviews for guest users
 
