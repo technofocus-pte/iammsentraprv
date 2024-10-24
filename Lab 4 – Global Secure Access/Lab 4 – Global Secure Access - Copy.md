@@ -11,10 +11,6 @@ when we log in as a user. Please make sure you have gone through
 Exercise 4 in lab 1 to be able to use the authenticator app on your
 phone.
 
-# Big code with problem in next line 2 tabs then code
-        Big code
-        Big code
-
 ## Exercise 1 – Prerequisites
 
 ### Task 1 – Register your VM with Microsoft Entra ID 
