@@ -258,7 +258,7 @@ procedure to add it.
 
     <font color=red>
 
-    > **Note** - if the password does not work, then navigate to `https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId` choose the User **Joni Sherman** and then **reset the password**.
+    > **Note** - if the password does not work, then switch back to the tab with the Office 365 Tenant Admin login and navigate to `https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId` choose the User **Joni Sherman** and then **reset the password**. The new password need to be changed, you can use `Pa55w.rd98` as the new password. 
 
     </font>
 
@@ -368,16 +368,17 @@ procedure to add it.
 
     ![computer ](./media/image37.png)
 
-9. Select **Next: Review + Create \**.
+9. Select **Next: Review + Create**.
 
     ![computer ](./media/image38.png)
 
 10. Select **Create**.
 
     ![computer ](./media/image39.png)
-    ![alt text](image.png)
 
 11. Stay on the same page and move on to the next task.
+
+    ![computer ](./media/image39a.png)
 
 ### Task 2 – Create Access reviews for guest users
 
@@ -391,34 +392,36 @@ reviews.
 
     ![computer ](./media/image40.png)
 
-30. Fill in the following information and select **Next: Reviews**.
+2. Fill in the following information and select **Next: Reviews**.
 
-    - Select **Teams + Groups** for **Select what to review**.
+    - Select what to review - Choose **Teams + Groups**
 
-    - Under **Select review scope**, select **All Microsoft 365 groups
-      with guest users**
+    - Review scope - Select **All Microsoft 365 groups with guest users**
 
-    - Under **Select user scope**, select **Guest users only**.
+    - Select user scope - **Guest users only**.
 
     ![computer ](./media/image41.png)
 
-31. Fill in the following information and select the tab **Review +
+3. Fill in the following information and select the tab **Review +
     Create.**
 
-- Under **Select reviewers**, select **Group owners** as these reviewers
+    - Select reviewers - Choose **Group owners** 
 
-  -> **Note**: Guest users should not be allowed to review their own
+    > **Note**: Guest users should not be allowed to review their own
     access as a good identity governance practice.
 
-- Enter a **Duration (in days)**, default is **3**, choose **Weekly**
-  as **Review recurrence** and **today’s date** as a **Start date** for
-  the review.
+    - Enter a **Duration (in days)**, default is **3**, choose **Weekly**
+    as **Review recurrence** and **today’s date** as a **Start date** for
+    the review.
 
     ![computer ](./media/image42.png)
 
-32. Select **Create** to create the new **Access review**.
+4. Select **Create** to create the new **Access review**.
 
     ![computer ](./media/image43.png)
+
+5. The Access review should now appear in the list.
+    ![computer ](./media/image42a.png)
 
 ## Exercise 4 – Manage the lifecycle of external users in Microsoft Entra Identity Governance settings
 
@@ -440,7 +443,7 @@ your directory.
 
     ![computer ](./media/image44.png)
 
-33. In the **Manage the lifecycle of external users** section, review
+3. In the **Manage the lifecycle of external users** section, review
     the different settings for external users.
 
     - Set the **Block external user from signing in to this
@@ -451,14 +454,14 @@ your directory.
     - Set **Number of days before removing external user from this
       directory** to **0**.
 
-      **Note –** If the save button is not enabled, then switch the
+    > **Note –** If the save button is not enabled, then switch the
       toggle to No and then Yes, then the Save button will be enabled.
 
     - If you’ve made any changes, select **Save**.
 
     ![computer ](./media/image45.png)
 
-34. Stay on the same page and continue to the next exercise.
+4. Stay on the same page and continue to the next exercise.
 
 ## Exercise 5 – Microsoft Entra roles using PIM
 
@@ -485,18 +488,16 @@ Follow these steps to open the settings for an Microsoft Entra role.
 
     ![computer ](./media/image46.png)
 
-35. On the **Quick start** page, in the left navigation,
+3. On the **Quick start** page, in the left navigation,
     select **Settings.** Review the list of roles and then,
     select **Compliance Administrator**.
 
     ![computer ](./media/image47.png)
 
-36. In the results, select **Compliance Administrator**.
-
-37. Review the role setting details information. Stay on the same page
+4. Review the role setting details information. Stay on the same page
     and continue to the next step.
 
-        ![computer Description automatically
+    ![computer Description automatically
     generated](./media/image48.png)
 
 #### Step 2 – Require approval to activate.
@@ -593,30 +594,30 @@ role.
 2.  In the sign in prompt, sign in using the following credentials and
     complete the authentication.
 
-Username – `Abbi@`paste the **Tenant name** from the
-**Resources** tab.
+    Username – `Abbi@`paste the **Tenant name** from the
+    **Resources** tab.
 
-- Password – `Pa55w.rd`
+    - Password – `Pa55w.rd`
 
- > **Note** – You may be requested to do MFA registration, if so, proceed
-  ahead and complete the MFA registration process
+    > **Note** – You may be requested to do MFA registration, if so, proceed
+    ahead and complete the MFA registration process
 
-49. From the **Identity** menu, open **Users** and then select **All
+3. From the **Identity** menu, open **Users** and then select **All
     users**. Select **Abbi** in the list of users.
 
     ![computer ](./media/image60.png)
 
-50. From the navigation, look for the **Assigned roles**.
+4. From the navigation, look for the **Assigned roles**.
     Select **Eligible assignments tab**.
 
     ![computer ](./media/image61.png)
 
-51. Notice that the **Compliance Administrator** role is now available
+5. Notice that the **Compliance Administrator** role is now available
     to Abbi.
 
     ![computer ](./media/image62.png)
 
-52. Stay on the same page and continue to the next step.
+6. Stay on the same page and continue to the next step.
 
 #### Step 3 – Activate your Microsoft Entra roles.
 
@@ -644,42 +645,41 @@ activation by opening **My roles** in Privileged Identity Management.
 
     ![computer ](./media/image65.png)
 
-**Important Note** - the principle of least privilege, you should only
-activate the account for the amount of time you need it. If the work
-needed to be done, only takes 1.5 hours, then set the duration to two
-hours. Similarly, if you know that you won’t be able to do the work
-until after 3pm, choose a Custom activation time.
+    > **Important Note** - the principle of least privilege, you should only
+    activate the account for the amount of time you need it. If the work
+    needed to be done, only takes 1.5 hours, then set the duration to two
+    hours. Similarly, if you know that you won’t be able to do the work
+    until after 3pm, choose a Custom activation time.
 
-55. You will see the notification that your request is pending for
+5. You will see the notification that your request is pending for
     approval.
 
     ![computer ](./media/image66.png)
 
 #### Step 4 – Approve the role request
 
-1.  Sign in to `https://entra.microsoft.com` using your **Office 365
+1.  Switch back to the tab logged in with **Office 365
+    tenant credentials**. or open a New edge browser in a normal mode and navigate to `https://entra.microsoft.com` sign in using your **Office 365
     tenant credentials**.
 
-&nbsp;
-
-3.  In the left menu, expand **Identity Governance** and
+2.  In the left menu, expand **Identity Governance** and
     select **Privileged Identity management**. From the sub menu,
     select **Microsoft Entra roles.**
 
     ![computer ](./media/image46.png)
 
-4.  Select **Approve Request**. You will be able to see the request from
+3.  Select **Approve Request**. You will be able to see the request from
     **Abbi Skinner** under **Requests for role activations**. Select the
     request. Then select **Approve**.
 
     ![computer ](./media/image67.png)
 
-5.  In the **Justification** box, enter the `This is my
+4.  In the **Justification** box, enter the `This is my
     justification for activating this role`. Select **Confirm**.
 
     ![computer ](./media/image68.png)
 
-6.  he role of Compliance Administrator has now been assigned to Abbi
+5.  The role of Compliance Administrator has now been assigned to Abbi
     Skinner for next 8 hours.
 
 #### Step 5 – Assign a role with restricted scope.
@@ -691,52 +691,48 @@ an administrative unit.
 
 1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
-
-&nbsp;
-
-7.  In the left menu, expand **Identity Governance** and
+     
+2.  In the left menu, expand **Identity Governance** and
     select **Privileged Identity management**. From the sub menu,
     select **Microsoft Entra roles.**
 
     ![computer ](./media/image46.png)
 
-56. Select **Roles**. In the Roles page, on the top menu, select **+ Add
+3. Select **Roles**. In the Roles page, on the top menu, select **+ Add
     assignments.**
 
     ![computer ](./media/image69.png)
 
-57. In the Add assignments page, select the **Select role** menu and
+4. In the Add assignments page, select the **Select role** menu and
     then select **User administrator.** Select the **Scope type** menu
     and review the available options. For now, you will use
     the **Directory** scope type.
 
     ![computer ](./media/image70.png)
 
-58. As you did when assigning a role without a restricted scope, you
+5. As you did when assigning a role without a restricted scope, you
     would add members and complete the settings options. For now,
     select **Cancel**.
 
     ![computer ](./media/image71.png)
 
-59. Stay on the same page and continue to the next step.
+6. Stay on the same page and continue to the next step.
 
-#### Step 6 – Update or remove an existing role assignment.
+### Step 6 – Update or remove an existing role assignment.
 
 Follow these steps to update or remove an existing role assignment.
 
 1.  In the left sub-navigation, select **Assignments**.
 
-&nbsp;
-
-60. In **Assignments** list, for **Compliance Administrator**, review
+2. In **Assignments** list, for **Compliance Administrator**, review
     the options in the **Action** column.
 
     ![computer ](./media/image72.png)
 
-- Select **Update** and review the options available in the Membership
-  settings pane. When complete, close the pane.
+    - Select **Update** and review the options available in the Membership
+    settings pane. When complete, close the pane.
 
-- Select **Remove** to remove the assignment.
+    - Select **Remove** to remove the assignment.
 
 ## Summary:
 

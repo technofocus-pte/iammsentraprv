@@ -714,6 +714,12 @@ without any additional information required prompt
 
      - Password – `Pa55w.rd`
 
+         <font color=red>
+
+    > **Note** - if the password does not work, then switch back to the tab with the Office 365 Tenant Admin login and navigate to `https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId` choose the User **Logan Boyle** and then **reset the password**. The new password need to be changed, you can use `Pa55w.rd98` as the new password.
+
+    </font>
+
 1. Click on Forms to access **Microsoft Forms**.
 
     ![](./media/image97.png)

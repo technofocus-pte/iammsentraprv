@@ -114,7 +114,7 @@ applications. You must deploy a Conditional access policy.
 
     <font color=red>
 
-    > **Note** - if the password does not work, then navigate to `https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId` choose the User **Allan Deyoung** and then **reset the password**.
+    > **Note** - if the password does not work, then switch back to the tab with the Office 365 Tenant Admin login and navigate to `https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId` choose the User **Allan Deyoung** and then **reset the password**. The new password need to be changed, you can use `Pa55w.rd98` as the new password. 
 
     </font>
 
