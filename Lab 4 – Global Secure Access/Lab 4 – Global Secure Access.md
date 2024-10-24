@@ -2,7 +2,7 @@
 
 ## Objective:
 
-I this lab we will configure Microsoft Entra Private Access and
+In this lab we will configure Microsoft Entra Private Access and
 Microsoft Entra Internet Access. We will then create conditional
 policies using them and test them using the credentials of Joni Sherman.
 
@@ -18,7 +18,7 @@ phone.
 For GSA we need to install the clients on our VM. For that we will have
 to register our Lab VM to the Contoso’s Entra ID.
 
-1.  Open windows **Setting** on your VM.
+1.  From the **Home/Resource** tab, esnure that you have selected **LON-CL1** VM, then Open windows **Setting** on **LON-CL1** VM.
 
     ![ ](./media/image1.png)
 
@@ -28,7 +28,7 @@ to register our Lab VM to the Contoso’s Entra ID.
 
     ![](./media/image2.png)
 
-3.  On the prompt, click on Yes button.
+3.  On the prompt, click on **Yes** button.
 
     ![](./media/image3.png)
 
@@ -50,7 +50,7 @@ to register our Lab VM to the Contoso’s Entra ID.
 
     ![](./media/image6.png)
 
-7.  Once the LON-CL1 is restarted login to the VM using the below
+7.  Once the **LON-CL1** is restarted login to the VM using the below
     credentials.
 
     * Username – `.\Admin`
@@ -129,7 +129,7 @@ to register our Lab VM to the Contoso’s Entra ID.
 
 21. You may be prompted to do MFA registration, complete the MFA
     registration followed by Setting the **PIN**. Set the PIN as
-    123654.
+    `123654`
 
 22. The next exercises i.e. Exercise 2 and 3, should be performed under
     this user only.
