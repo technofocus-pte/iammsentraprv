@@ -1,4 +1,4 @@
-# Day 4 – Lab 6 – Workload Identities
+# Lab 6 – Workload Identities
 
 ## Objective:
 

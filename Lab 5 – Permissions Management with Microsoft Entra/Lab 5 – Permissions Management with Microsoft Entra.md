@@ -1,4 +1,4 @@
-# Day 4 – Lab 5 – Permissions Management with Microsoft Entra
+# Lab 5 – Permissions Management with Microsoft Entra
 
 ## Exercise 1 – Assigning permissions on Subscription for Testing
 

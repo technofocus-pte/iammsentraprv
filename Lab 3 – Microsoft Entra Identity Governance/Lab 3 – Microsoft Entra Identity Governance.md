@@ -1,4 +1,4 @@
-# Day 3 – Lab 3 – Microsoft Entra Identity Governance
+# Lab 3 – Microsoft Entra Identity Governance
 
 ## Objective:
 

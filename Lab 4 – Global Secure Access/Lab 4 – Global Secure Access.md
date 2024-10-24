@@ -1,4 +1,4 @@
-# Day 3 – Lab 4 – Global Secure Access​
+# Lab 4 – Global Secure Access​
 
 ## Objective:
 
