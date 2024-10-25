@@ -11,10 +11,6 @@ when we log in as a user. Please make sure you have gone through
 Exercise 4 in lab 1 to be able to use the authenticator app on your
 phone.
 
-# Big code with problem in next line 2 tabs then code
-        Big code
-        Big code
-
 ## Exercise 1 – Prerequisites
 
 ### Task 1 – Register your VM with Microsoft Entra ID 
@@ -22,49 +18,18 @@ phone.
 For GSA we need to install the clients on our VM. For that we will have
 to register our Lab VM to the Contoso’s Entra ID.
 
-1.  From the **Home/Resource** tab, esnure that you have selected **LON-CL1** VM, then Open windows **Setting** on **LON-CL1** VM.
+1.  From the **Home/Resource** tab, ensure that you have selected **LON-CL1** VM, 
 
-    ![ ](./media/image1.png)
-
-2.  Go to **Accounts** \ **Access work or school**. Click on
-    **Connected to ADATUM AD domain** to expand it and the click on the
-    **Disconnect** button.
-
-    ![](./media/image2.png)
-
-3.  On the prompt, click on **Yes** button.
-
-    ![](./media/image3.png)
-
-4.  On the Disconnect from the Organization window click on
-    **Disconnect** button.
-
-    ![](./media/image4.png)
-
-5.  On the Enter alternate account info, provide the below details and
-    click on the OK button.
-
-    * Username – `.\Admin`
-
-    * Password - `Pa55w.rd`
-
-    ![](./media/image5.png)
-
-6.  Click on the **Restart now** button when prompted to Restart your PC
-
-    ![](./media/image6.png)
-
-7.  Once the **LON-CL1** is restarted login to the VM using the below
+2. login to the VM using the below
     credentials.
 
     * Username – `.\Admin`
 
     * Password - `Pa55w.rd`
 
-8.  Waif for the profile to be created. Right-click on the Start Menu
-    and click on **Settings**
+3. Open windows **Setting** on **LON-CL1** VM.
 
-    ![](./media/image7.png)
+    ![ ](./media/image1.png)
 
 9.  Click on Accounts then select **Access work or school account**,
     click on **+ Connect**.
@@ -78,7 +43,7 @@ to register our Lab VM to the Contoso’s Entra ID.
 
 11. In the sign in prompt, sign in using the following credentials.
 
-    *   Username – jonis@`paste the Tenant name from the
+    *   Username – `jonis@`paste the Tenant name from the
         **Home/Resources** tab.
 
     *   Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3]
@@ -115,6 +80,7 @@ to register our Lab VM to the Contoso’s Entra ID.
 
     ![](./media/image14.png)
 
+
 18. Restart the VM. Make sure you do not shut it down.
 
 19. Select the **LON-CL1** VM and on the user screen select **Other
@@ -147,24 +113,33 @@ to register our Lab VM to the Contoso’s Entra ID.
 
     ![](./media/image16.png)
 
-1.  On the lefthand menu, under **Global Security Access select Get
-    Started**. Then select **Activate** under step 3.
+1.  On the lefthand menu, under **Global Security Access** expand Connect and then select
+**Traffic forwarding**
 
     ![ ](./media/image17.png)
 
-2.  Once done, select **Get Started** under step 3.
+2.  Under the **2. Activate Global Secure Access in your tenant** click on the **Activate** button.
+
+    ![ ](./media/image17a.png)
+
+2.  You should receive a notification as show in below image. 
 
     ![](./media/image18.png)
 
+3. Once done, select **Get Started** under **3. Get started with Global Secure Access**
+    ![](./media/image18a.png)
+
+
 3.  From the left navigation, expand Global Secure Access and from the
     connect dropdown, select **Traffic Forwarding**. Select the check
-    box near **Microsoft 365 access profile.**
+    box near **Microsoft traffic profile.**
 
     ![ ](./media/image19.png)
 
 4.  Select **OK** on the prompt.
 
     ![ ](./media/image20.png)
+
 
 6.  Do the same for **Private access profile** and **Internet access
     profile**.
@@ -173,6 +148,25 @@ to register our Lab VM to the Contoso’s Entra ID.
 
     ![](./media/image22.png)
 
+9. We need to assign users to the Profile, click on the **View** link under **Microsoft traffic profile**.
+    ![](./media/image22a.png)
+
+10. Enable the toggle **Assign to all users**
+
+    ![](./media/image22b.png)
+
+11. Click on the **OK** button to confirm
+    ![](./media/image22c.png)
+
+12. Perform the same steps for below profiles.
+    
+    * **Private access profile**
+    * **Internet access profile**
+
+    ![](./media/image22d.png)
+    ![](./media/image22e.png)
+
+
 ## Exercise 2 – Configuring Microsoft Entra Internet Access
 
 ### Task 1 – Download and install the client to your VMs
@@ -180,8 +174,7 @@ to register our Lab VM to the Contoso’s Entra ID.
 The most current version of the Global Secure Access Client can be
 downloaded from the Microsoft Entra admin center.
 
-1.  From the navigation bar, select **Global Secure Access
-    (Preview)** \ **Connect** \ **Client Download**. Select **Download
+1.  From the navigation bar, select **Global Secure Access** \ **Connect** \ **Client Download**. Select **Download
     Client**.
 
     ![ ](./media/image23.png)
@@ -203,20 +196,11 @@ downloaded from the Microsoft Entra admin center.
 
     ![ ](./media/image27.png)
 
-9.  You will be asked to sign into the client. Use the following
-    credentials to log in to the client.
-
-    - Username – jonis@`paste the Tenant name from the Resources
-      tab.**
-
-    - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
-      click on **Sign in**
-
-    ![ ](./media/image28.png)
+    > **Note** - If prompted to restart, then restart the LON-CL1 VM and login again with Joni Sherman credentials.
 
 10. Once done, select the arrow on the bottom right corner and then
     hover on the small globe sign. You will see that the client is now
-    connected.
+    **connected**.
 
     ![ ](./media/image29.png)
 
@@ -253,12 +237,14 @@ downloaded from the Microsoft Entra admin center.
 1.  Browse to `https://entra.microsoft.com/` and sign in using
     the **Office 365 tenant credentials**.
 
-2.  Browse to **Global Secure Access (preview)** \ **Global settings**
-    \ **Session management**. Under **Adaptive Access**, toggle the
-    **Enable Global Secure Access signaling in Conditional Access**,
-    button to **ON**. Then select **Save**.
+2.  Browse to **Global Secure Access** \ **Settings**
+    \ **Session management**. Under **Adaptive Access** tab, set the
+    **Enable CA Signaling for Entra ID (covering all cloud apps)**,
+    toggle to **ON**. 
+    
+      ![](./media/image36.png)
 
-    ![](./media/image36.png)
+    ![](./media/image36a.png)
 
 ## Exercise 3 – Configuring Microsoft Entra Private Access
 
@@ -318,7 +304,7 @@ downloaded from the Microsoft Entra admin center.
 
 19. Open the browser and download and install **Microsoft Edge** from
     the Link 
-    https://go.microsoft.com/fwlink/?linkid=2109047&Channel=Stable&language=en&brand=M100`.**
+    `https://go.microsoft.com/fwlink/?linkid=2109047&Channel=Stable&language=en&brand=M100`
 
     ![](./media/image46.png)
 
@@ -336,7 +322,7 @@ downloaded from the Microsoft Entra admin center.
     https://entra.microsoft.com/ and sign in using the
     **Office 365 tenant credentials.**
 
-23. Browse to **Global Secure Access (preview)** \ **Connect** \
+23. Browse to **Global Secure Access** \ **Connect** \
     **Connectors**. Select **Download connector service**.
 
     ![ ](./media/image49.png)
@@ -375,8 +361,7 @@ downloaded from the Microsoft Entra admin center.
     ![](./media/image55.png)
 
 31. Return to the Microsoft Entra admin center in your browser and
-    browse to **Global Secure Access
-    (preview)** \ **Connect** \ **Connectors**
+    browse to **Global Secure Access** \ **Connect** \ **Connectors**
 
 32. View a connector to verify its details.
 
@@ -405,7 +390,7 @@ To create as many connector groups as you want:
 
 ### Task 3 – Create an Enterprise Application and configure quick access
 
-1.  Browse to **Global Secure Access (preview)** \ **Applications** \
+1.  Browse to **Global Secure Access** \ **Applications** \
     **Enterprise applications**. Select **New application**.
 
     ![ ](./media/image60.png)
@@ -463,7 +448,7 @@ To create as many connector groups as you want:
     the **Office 365 tenant credentials**.
 
 44. On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access**. On the **Overview (Preview)**,
+    select **Conditional access**. On the **Overview**,
     click **+ Create new policy**.
 
     ![](./media/image68.png)
@@ -487,7 +472,7 @@ To create as many connector groups as you want:
 
 - Under **Target Resources**, select **No target resources selected**.
   Then under **Select what this policy applies to**, choose **Global
-  Secure Access (Preview)**. Under Select the traffic profiles this
+  Secure Access**. Under Select the traffic profiles this
   policy applies to, choose **Microsoft 365 traffic**.
 
     ![ ](./media/image71.png)
@@ -510,8 +495,8 @@ To create as many connector groups as you want:
 1.  Make sure you are logged into the **LON-CL1** VM using the following
     credentials.
 
-    - Username – jonis@`paste the Tenant name from the Resources
-      tab.**
+    - Username – `jonis@`paste the Tenant name from the Resources
+      tab.
 
     - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
       click on **Sign in**.
@@ -528,8 +513,8 @@ To create as many connector groups as you want:
 
 47. When prompted, log in as **Joni Sherman**:
 
-    - Username – jonis@`paste the Tenant name from the Resources
-      tab.**
+    - Username – `jonis@`paste the Tenant name from the Resources
+      tab.
 
     - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
       click on **Sign in**.
@@ -552,7 +537,7 @@ To create as many connector groups as you want:
     in.
 
 48. On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access**. On the **Overview (Preview)**,
+    select **Conditional access**. On the **Overview**,
     click **+ Create new policy**.
 
     ![ ](./media/image68.png)
@@ -613,8 +598,8 @@ To create as many connector groups as you want:
 1.  While still logged into the **LON-CL1** VM using the following
     credentials.
 
-    - Username – jonis@`paste the Tenant name from the Resources
-      tab.**
+    - Username – `jonis@`paste the Tenant name from the Resources
+      tab.
 
     - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
       click on **Sign in**.
@@ -633,8 +618,8 @@ To create as many connector groups as you want:
 
 51. When prompted, log in as **Joni Sherman**:
 
-    - Username – jonis@`paste the Tenant name from the Resources
-      tab.**
+    - Username – `jonis@`paste the Tenant name from the Resources
+      tab.
 
     - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
       click on **Sign in**.
@@ -670,8 +655,8 @@ Secure Access.
 1.  While still logged into the **LON-CL1** VM using the following
     credentials.
 
-    - Username – jonis@`paste the Tenant name from the Resources
-      tab.**
+    - Username – `jonis@`paste the Tenant name from the Resources
+      tab.
 
     - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
       click on **Sign in**.
@@ -683,16 +668,16 @@ Secure Access.
 
     ![](./media/image92.png)
 
-10. In the **Computer** field, type 10.0.0.4` Private IPv4
-    Address** of the **Windows Server 2019** VM created in **Exercise
+10. In the **Computer** field, type `10.0.0.4` Private IPv4
+    Address of the **Windows Server 2019** VM created in **Exercise
     3** and select **Connect**.
 
     ![](./media/image93.png)
 
 54. When prompted, log in as **Joni Sherman**:
 
-    - Username – jonis@`paste the Tenant name from the Resources
-      tab.**
+    - Username – `jonis@`paste the Tenant name from the Resources
+      tab.
 
     - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
       click on **Sign in**.
@@ -707,7 +692,7 @@ Secure Access.
     the **Office 365 tenant credentials**.
 
 55. On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access**. On the **Overview (Preview)**,
+    select **Conditional access**. On the **Overview**,
     click **+ Create new policy**.
 
     ![ ](./media/image95.png)
@@ -753,8 +738,8 @@ Secure Access.
 1.  While still logged into the **LON-CL1** VM using the following
     credentials.
 
-    - Username – jonis@`paste the Tenant name from the Resources
-      tab.**
+    - Username – `jonis@`paste the Tenant name from the Resources
+      tab.
 
     - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
       click on **Sign in**.
@@ -766,17 +751,17 @@ Secure Access.
 
     ![](./media/image92.png)
 
-13. In the **Computer** field, type 10.0.0.4` Private IPv4
-    Address** of the **Windows Server 2019** VM created in **Exercise
+13. In the **Computer** field, type `10.0.0.4` Private IPv4
+    Address of the **Windows Server 2019** VM created in **Exercise
     3** and select **Connect**.
 
     ![](./media/image93.png)
 
 57. When prompted, log with below credentials:
 
-    - Username – Admin01
+    - Username – `Admin01`
 
-    - Password – Pa55w.rd@123
+    - Password – `Pa55w.rd@123`
 
       ![](./media/image101.png)
 
