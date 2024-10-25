@@ -94,7 +94,6 @@ to register our Lab VM to the Contoso’s Entra ID.
     *   Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3]
         and click on **Sign in**
 
-
     ![](./media/image15.png)
 
 21. You may be prompted to do MFA registration, complete the MFA
@@ -127,8 +126,8 @@ to register our Lab VM to the Contoso’s Entra ID.
     ![](./media/image18.png)
 
 3. Once done, select **Get Started** under **3. Get started with Global Secure Access**
-    ![](./media/image18a.png)
 
+    ![](./media/image18a.png)
 
 3.  From the left navigation, expand Global Secure Access and from the
     connect dropdown, select **Traffic Forwarding**. Select the check
@@ -157,6 +156,7 @@ to register our Lab VM to the Contoso’s Entra ID.
     ![](./media/image22b.png)
 
 11. Click on the **OK** button to confirm
+
     ![](./media/image22c.png)
 
 12. Perform the same steps for below profiles.
@@ -265,10 +265,29 @@ downloaded from the Microsoft Entra admin center.
      ![computer Description automatically
  generated](./media/image38.png)
 
-4.  Enter these values for the virtual machine:
+4. On the **Create a Virtual machine** page, provide the below details
 
+    * Resource group - Create new - `ContosoDevices` 
+
+    * Virtual machine name - `MyDevice`
+
+    * Region - **West US**
+
+    * Availability options - **No infrastructure redundancy required**
+
+    * Security type - **Standard**
+
+    * Image - **Windows Server 2019 Datacenter - x64 Gen2**
 
     ![](./media/image39.png)
+
+    * Size  - **Standard_D2s_v3**
+
+    * Username – `Admin01`
+
+    * Password – `Pa55w.rd@123`
+    
+    * Confirm Password – `Pa55w.rd@123`
 
     ![](./media/image40.png)
 
@@ -297,19 +316,17 @@ downloaded from the Microsoft Entra admin center.
 1.  Using the RDP file downloaded in **Task 0** log into the **Windows
     Server 2019** VM, using the following credentials.
 
+    * Username – `Admin01`
+
+    * Password – `Pa55w.rd@123`
+
 18. Open the Server Manager and Select Local Server, then click on
     **On** link for **IE Enhanced Security Configuration**, the set the
     **Administrator** and **Users** switch to **Off**
 
     ![](./media/image45.png)
 
-19. Open the browser and download and install **Microsoft Edge** from
-    the Link 
-    `https://go.microsoft.com/fwlink/?linkid=2109047&Channel=Stable&language=en&brand=M100`
-
-    ![](./media/image46.png)
-
-20. Click on the **Start menu** and type Default and select
+20. Click on the **Start menu** and type `Default apps` and select
     **Default apps**
 
     ![](./media/image47.png)
@@ -320,7 +337,7 @@ downloaded from the Microsoft Entra admin center.
     ![](./media/image48.png)
 
 22. Open the **Edge Browser** and navigate to
-    https://entra.microsoft.com/ and sign in using the
+    `https://entra.microsoft.com/` and sign in using the
     **Office 365 tenant credentials.**
 
 23. Browse to **Global Secure Access** \ **Connect** \
@@ -342,7 +359,7 @@ downloaded from the Microsoft Entra admin center.
     conditions** and then click on the **Install** button.
 
     ![](./media/image52.png)
-
+ 
 27. Follow the instructions in the wizard to install the service.
 
 28. When you're prompted to register the connector with the Application
@@ -352,17 +369,17 @@ downloaded from the Microsoft Entra admin center.
     ![](./media/image53.png)
 
 29. To check that the connector is installed successfully, click on the
-    Start menu. Search for and select **Services**.
+    Start menu. Search for and select `Services`.
 
     ![ ](./media/image54.png)
 
-30. You will be able to see the **Microsoft AAD Application Proxy
-    Connector** service running in the **Standard** services tab.
+30. You will be able to see the **Microsoft Entra private network connector** service running in the **Standard** services tab.
 
     ![](./media/image55.png)
+    ![alt text](image.png)
 
 31. Return to the Microsoft Entra admin center in your browser and
-    browse to **Global Secure Access** \ **Connect** \ **Connectors**
+    browse to **Global Secure Access** \ **Connect** \ **Connectors** refresh the page
 
 32. View a connector to verify its details.
 
@@ -376,7 +393,7 @@ To create as many connector groups as you want:
 
 1.  From the top bar, select **New connector group**.
 
-34. Provide Test Connector Group as the name, then use the
+34. Provide `Test Connector Group` as the name, then use the
     dropdown menu to select the available connector. Select **Create**.
 
     ![](./media/image57.png)
@@ -396,10 +413,12 @@ To create as many connector groups as you want:
 
     ![ ](./media/image60.png)
 
-37. Provide RDP to DC as the name. Select **Test Connector
+
+37. Click on + Create your own application and provide `RDP to DC` as the name. Select **Test Connector
     Group** in the **Connector Group** dropdown. Then select **Save**.
 
     ![ ](./media/image61.png)
+
 
 38. Once you get the notification that the Network access settings
     updated successfully, navigate to **Applications** \ **Enterprise
@@ -422,6 +441,8 @@ To create as many connector groups as you want:
     - Network mask – **/25**
 
     - Ports – `3389,80,445`
+    
+    - Protocol - **TCP, UDP**
 
     ![](./media/image64.png)
 
@@ -448,16 +469,14 @@ To create as many connector groups as you want:
 1.  Browse to `https://entra.microsoft.com/` and sign in using
     the **Office 365 tenant credentials**.
 
-44. On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access**. On the **Overview**,
-    click **+ Create new policy**.
+44. On the lefthand menu, under **Protection**  select **Conditional access**. On the **Overview** page, click **+ Create new policy**.
 
     ![](./media/image68.png)
 
 45. On the **New Conditional Access Policy** page, provide the below
     details
 
-    - Name – Allow Microsoft 365 Traffic from GSA Client
+    - Name – `Allow Microsoft 365 Traffic from GSA Client`
 
     - Under **Users**, select **0 users and groups selected/Specific
       users included**. Then under **Include**, choose **Select users
@@ -505,7 +524,7 @@ To create as many connector groups as you want:
     ![](./media/image75.png)
 
 2.  Right click on the **GSA Client** icon at the bottom right corner of
-    the screen. And select **Pause**.
+    the screen. And select **Disable**.
 
     ![ ](./media/image76.png)
 
@@ -522,7 +541,7 @@ To create as many connector groups as you want:
 
 3.  Click on **Explore apps**
 
-        ![computer Description automatically
+    ![computer Description automatically
     generated](./media/image77.png)
 
 4.  You will be able to log in to the **Office 365** portal. Select on
@@ -546,7 +565,7 @@ To create as many connector groups as you want:
 49. On the **New Conditional Access Policy** page, provide the below
     details
 
-    - Name – Block Viva Engage access over Internet
+    - Name – `Block Viva Engage access over Internet`
 
     - Under **Users**, select **0 users and groups selected/Specific
       users included**. Then under **Include**, choose **Select users
@@ -605,9 +624,7 @@ To create as many connector groups as you want:
     - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
       click on **Sign in**.
 
- .
-
-    ![ ](./media/image75.png)
+     ![ ](./media/image75.png)
 
 5.  Right click on the **GSA Client** icon at the bottom right corner of
     the screen. And select **Pause** if not already paused.
@@ -653,7 +670,7 @@ Secure Access.
 
 #### Step 1 – Test access to the server through the application ‘RDP to DC’ as Joni Sherman
 
-1.  While still logged into the **LON-CL1** VM using the following
+1. Restart the **LON-CL1** and then login using the following
     credentials.
 
     - Username – `jonis@`paste the Tenant name from the Resources
@@ -664,7 +681,15 @@ Secure Access.
 
     ![ ](./media/image75.png)
 
-9.  Click on the Start menu and then search for **RDP** and select
+2. If prompted to sign in to the **GSA Client** then click on the **Sign in** button
+
+   ![](./media/image91a.png)
+
+    > **Note** - you may be required to complete MFA.
+
+   ![](./media/image91b.png)
+
+9.  Click on the Start menu and then search for `RDP` and select
     **Remote Desktop Connection.**
 
     ![](./media/image92.png)
@@ -687,6 +712,8 @@ Secure Access.
 
     ![ ](./media/image94.png)
 
+
+
 #### Step 2 – Create Conditional Access Policy to grant the access to Joni Sherman
 
 1.  Browse to `https://entra.microsoft.com/` and sign in using
@@ -701,7 +728,7 @@ Secure Access.
 56. On the **New Conditional Access Policy** page, provide the below
     details
 
-    - Name – Microsoft Entra Private Access Policy
+    - Name – `Microsoft Entra Private Access Policy`
 
     - Under **Users**, select **0 users and groups selected/Specific
       users included**. Then under **Include**, choose **Select users
@@ -710,25 +737,25 @@ Secure Access.
 
     ![ ](./media/image96.png)
 
-- Scroll down on the **Select users and groups** page, select **Joni
-  Sherman**. Choose **Select**.
+    - Scroll down on the **Select users and groups** page, select **Joni
+    Sherman**. Choose **Select**.
 
     ![ ](./media/image81.png)
 
-- Under **Target Resources**, select **No target resources selected**.
-  Then under **Include**, choose **Select apps**. Under select, choose
-  **None**. In the side pane, search for and select **RDP to DC** by
-  selecting the check box near the app. Then choose **Select**.
+    - Under **Target Resources**, select **No target resources selected**.
+    Then under **Include**, choose **Select apps**. Under select, choose
+    **None**. In the side pane, search for and select **RDP to DC** by
+    selecting the check box near the app. Then choose **Select**.
 
     ![ ](./media/image97.png)
 
-- Under **Access controls**, within the **Grant** section, select **0
-  controls selected**. In the Grant pane, select **Grant access \
-  Require multifactor authentication** and then choose **Select**.
+    - Under **Access controls**, within the **Grant** section, select **0
+    controls selected**. In the Grant pane, select **Grant access \
+    Require multifactor authentication** and then choose **Select**.
 
     ![ ](./media/image98.png)
 
-- Enable policy – **On**. Click on **Create**.
+    - Enable policy – **On**. Click on **Create**.
 
     ![ ](./media/image99.png)
 
