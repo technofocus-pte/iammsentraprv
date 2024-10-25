@@ -149,6 +149,7 @@ to register our Lab VM to the Contoso’s Entra ID.
     ![](./media/image22.png)
 
 9. We need to assign users to the Profile, click on the **View** link under **Microsoft traffic profile**.
+
     ![](./media/image22a.png)
 
 10. Enable the toggle **Assign to all users**
@@ -161,9 +162,9 @@ to register our Lab VM to the Contoso’s Entra ID.
 12. Perform the same steps for below profiles.
     
     * **Private access profile**
-    * **Internet access profile**
-
     ![](./media/image22d.png)
+
+    * **Internet access profile**
     ![](./media/image22e.png)
 
 
@@ -251,7 +252,7 @@ downloaded from the Microsoft Entra admin center.
 ### **Task 0 – Create a Windows Server 2019**
 
 1.  While still on LON-CL1, in a new tab navigate to the Azure portal
-    <https://portal.azure.com login using the **Office 365
+    `https://portal.azure.com` login using the **Office 365
     Tenant credential**.
 
 2.  From the Portal menu or from the **Home** page, select **Create a
