@@ -472,6 +472,14 @@ Access required. Contact your global administrator.** then log out from all tabs
 
     ![](./media/image65.png)
 
+    <font color=red>
+
+    > **Note** - It is is taking longer than 10-15 minutes, then click on the 3 dots and choose the **Rediscover** option. Then click on the **Reload** button after few minutes.
+
+    ![](./media/image65a.png)
+
+    </font>
+
 22. Keep the tab open and continue to the next exercise.
 
 ## Exercise 4 – Start collecting data from an authorization system.
