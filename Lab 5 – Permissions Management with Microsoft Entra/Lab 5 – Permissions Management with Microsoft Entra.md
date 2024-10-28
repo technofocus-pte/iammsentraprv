@@ -98,12 +98,12 @@
 
 ### Task 2 – Create and register a Web App
 
-1.  In the Azure Portal search box type **webapp** and then click
+1.  In the Azure Portal search box type `webapp` and then click
     on **App Services**.
 
     ![](./media/image13.png)
 
-2.  Click on **+ Create \Web App** to create app service.
+2.  Click on **+ Create Web App** to create app service.
 
     ![](./media/image14.png)
 
@@ -118,7 +118,7 @@
 
     - Publish – **Code**
 
-    - Runtime stack – **.Net 7 (STS)**
+    - Runtime stack – **.Net 8 (LTS)**
 
     - Operating System – **Windows**
 
@@ -145,7 +145,7 @@
 7.  Click on the **Azure Portal** menu and then select **Microsoft Entra
     ID**.
 
-    ![](./media/image19.png)
+    ![](./media/image6.png)
 
 8.  Click on **App registrations** under Manage, the click on **New
     registration**.
@@ -160,7 +160,7 @@
       directory only (Contoso only - Single tenant)**
 
     - Redirect URI (optional) – **Web** – **domain of the Web App
-      created** (add **https://** at the starting of the domain)
+      created** (`https://` apped the **Default domain** name noted in the previous step)
 
     - Click on **Register**
 
@@ -173,7 +173,7 @@
 
 ### Task 3 – Configure Permissions on the Subscription
 
-1.  In the **Azure Portal**, search box type **sub** and then click
+1.  In the **Azure Portal**, search box type `subscriptions` and then click
     on **Subscriptions**.
 
     ![](./media/image23.png)
@@ -196,7 +196,7 @@
     ![](./media/image26.png)
 
 5.  On the **Members** tab, click on **+ Select members**, then
-    choose **Beatrise** and **Lara** and then click on
+    choose `Beatrise` and `Lara` and then click on
     the **Select** button.
 
     ![](./media/image27.png)
@@ -222,21 +222,21 @@
 10. Now repeat the above steps to assign the below roles to the
     listed **Users**.
 
-    - Automation Contributor - **Augusta Moore** and **Bing** (Service
+    - Automation Contributor - `Augusta Moore` and `Bing` (Service
       Principal)
 
-    - Data Box Reader – **Anastasia Rojas**
+    - Data Box Reader – `Anastasia Rojas`
 
-    - Key Vault Contributor – **Kasey Shepard**
+    - Key Vault Contributor – `Kasey Shepard`
 
-    - Owner – **Maj Hojski**
+    - Owner – `Maj Hojski` - On the **Conditions** tab select the **Allow user to assign all roles (highly privileged)** option.
 
-    - Security Admin – **SGLevel1** and **Viva Engage** (Service
+    - Security Admin – `SGLevel1` and `Viva Engage` (Service
       Principal)
 
-    - Reader – **SGLevel2**
+    - Reader – `SGLevel2`
 
-    - Contributor – **TestApp1** ( Web App created in Task 2)
+    - Contributor – `TestApp1` ( Web App created in Task 2)
 
 11. On the **Azure Pass – Sponsorship** page click on **Access control
     (IAM)**, then click on **+ Add** drop-down and select **Add role
