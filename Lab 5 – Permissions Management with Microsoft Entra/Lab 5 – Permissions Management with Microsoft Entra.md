@@ -24,22 +24,22 @@
 5.  On the **Create User Assigned Managed Identity** page, provide the
     below details
 
-- Subscription – **Azure Pass – Sponsorship**
+    - Subscription – **Azure Pass – Sponsorship**
 
-- Resource group – click on **Create new** then provide the name
-  – `RG4PMtest` and click **OK**.
+    - Resource group – click on **Create new** then provide the name
+    – `RG4PMtest` and click **OK**.
 
-- Region – **WestUS**
+    - Region – **WestUS**
 
-- Name – `MI4pmtesting`
+    - Name – `MI4pmtesting`
 
-- Click on **Review + create**.
+    - Click on **Review + create**.
 
     ![](./media/image3.png)
 
 6.  Once the **Validation is passed**, click on **Create**.
 
- ![](./media/image4.png)
+    ![](./media/image4.png)
 
 7.  The **Deployment** will finish in few seconds.
 
@@ -48,15 +48,15 @@
 8.  Click on the **Azure Portal** menu and then select **Microsoft Entra
     ID**.
 
- ![](./media/image6.png)
+    ![](./media/image6.png)
 
 9.  On the **Microsoft Entra ID** page click on **Groups**.
 
- ![](./media/image7.png)
+    ![](./media/image7.png)
 
 10. Click on **New group**.
 
- ![](./media/image8.png)
+    ![](./media/image8.png)
 
 11. On the **New Group** page, provide the below details.
 
@@ -71,23 +71,23 @@
     - Members – click on **No members selected** – choose members
       – `Dante` and `Federico` and click on **Select**.
 
- ![](./media/image9.png)
+    ![](./media/image9.png)
 
 12. Click on **Create** button.
 
- ![](./media/image10.png)
+    ![](./media/image10.png)
 
 13. Repeat the above steps to create another Group with below details
 
-- Group type – **Security**
+    - Group type – **Security**
 
-- Group name – `SGLevel2`
+    - Group name – `SGLevel2`
 
-- Group description – `Security Group 2 for Level 2 Users`
+    - Group description – `Security Group 2 for Level 2 Users`
 
-- Membership type – **Assigned**
+    - Membership type – **Assigned**
 
-- Members – `Huong` and `Logan`
+    - Members – `Huong` and `Logan`
 
     ![](./media/image11.png)
 
@@ -398,7 +398,7 @@ Tenant
 
 11. Launch the **Azure Cloud Shell** as shown in the image below
 
- ![](./media/image55.png)
+    ![](./media/image55.png)
 
 12. Choose **PowerShell** on the **Welcome to Azure Cloud Shell
     screen**.
@@ -426,7 +426,7 @@ Tenant
     b46c3ac5-9da6-418f-a849-0a07a10b3c6c --role "User Access
     Administrator" --scope /subscriptions/\<subscriptionID\`
 
- ![](./media/image59.png)
+    ![](./media/image59.png)
 
 16. Run the below Commands.
 
@@ -434,14 +434,14 @@ Tenant
     b46c3ac5-9da6-418f-a849-0a07a10b3c6c --role "Reader" --scope
     "/providers/Microsoft.Management/managementGroups/MgmtGrp4Entra1"`
 
- ![](./media/image60.png)
+    ![](./media/image60.png)
 
     `az role assignment create --assignee
     b46c3ac5-9da6-418f-a849-0a07a10b3c6c --role "User Access
     Administrator" --scope
     "/providers/Microsoft.Management/managementGroups/MgmtGrp4Entra1"`
 
- ![](./media/image61.png)
+    ![](./media/image61.png)
 
 17. Once all the commands have been run successfully as shown in the
     images, switch back to the tab with the **Permissions
@@ -454,12 +454,12 @@ Tenant
 19. Monitor the **Status** of the **Data Collector – Azure**, it would
     be showing as **Discovering** as shown in below image.
 
- ![](./media/image63.png)
+    ![](./media/image63.png)
 
 20. Click on **Reload** to refresh the status, the **Status** should now
     be updated to **Consented**.
 
- ![](./media/image64.png)
+    ![](./media/image64.png)
 
 21. Click on **Reload** after few minutes, then the status should be
     updated to **Onboarded** and **Authorization Systems
@@ -594,7 +594,7 @@ with access to high-risk permissions.
 
     ![](./media/image84.png)
 
- ![](./media/image85.png)
+    ![](./media/image85.png)
 
 4.  Select **Maj Hojski** User identity to gather more information about
     the Permission.
@@ -688,7 +688,7 @@ permissions, and requests for permissions you have made.
 1.  While still in the Permissions Management portal click
     on **REMEDIATION** tab.
 
- ![](./media/image96.png)
+    ![](./media/image96.png)
 
 2.  Ensure that the **Roles/Policies** sub-tab is selected, then to
     query the Roles create the query with the below details.
@@ -889,7 +889,7 @@ System*.
     the security group we had created earlier. Click on **Create
     Permission**.
 
- ![](./media/image122.png)
+    ![](./media/image122.png)
 
 3.  On the **Set Group Permission** window provide the below details.
 
