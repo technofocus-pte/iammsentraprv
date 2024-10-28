@@ -466,7 +466,7 @@ Access required. Contact your global administrator.** then log out from all tabs
 
     ![](./media/image64.png)
 
-21. Click on **Reload** after few minutes, then the status should be
+21. Click on **Reload** after 10-15 minutes, then the status should be
     updated to **Onboarded** and **Authorization Systems
     Status** – **ONLINE – 1** as shown in below image
 
