@@ -49,7 +49,7 @@
     ID**.
 
     ![](./media/image6.png)
-
+    
 9.  On the **Microsoft Entra ID** page click on **Groups**.
 
     ![](./media/image7.png)
