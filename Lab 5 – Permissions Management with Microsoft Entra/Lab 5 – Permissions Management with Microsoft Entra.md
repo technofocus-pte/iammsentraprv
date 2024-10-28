@@ -285,6 +285,7 @@ Tenant
 
     ![](./media/image36.png)
 
+
 3.  The **Permissions Management** will be launched in a new tab. If
     asked, use the **Office 365 tenant credentials** to sign into the
     portal.
@@ -298,14 +299,9 @@ Tenant
 
     ![](./media/image38.png)
 
-6.  On the **Microsoft Entra Permissions Management Trial** page enter
-    the **Office 365 Tenant** and select **Next**.
+6.  On the **Microsoft Entra Permissions Management Trial** page click on the **Continue** button.
 
     ![](./media/image39.png)
-
-7.  On the **Let’s get you started** tab click on **Sign In.**
-
-    ![](./media/image40.png)
 
 8.  On the **Checkout – confirm your order** page click on **Try
     now** button
@@ -338,6 +334,9 @@ Tenant
 
 14. Keep the tab open and continue to the next exercise.
 
+> **Note** - If you receive error **permissions management No access
+Access required. Contact your global administrator.** then log out from all tabs and login again to the **Microsoft Entra Portal** `https://entra.microsoft.com` then open the **Permissions Management** portal. 
+
 ## Exercise 3 – Configure settings for data collection.
 
 1.  Once in the **Permissions Management** portal, click on the **Data
@@ -367,8 +366,7 @@ Tenant
 
     ![](./media/image49.png)
 
-6.  On the **Overview** page of Management Groups, click on **Start
-    using management groups**.
+6.  On the **Overview** page of Management Groups, click on **+ Create**.
 
     ![](./media/image50.png)
 
@@ -405,17 +403,22 @@ Tenant
 
     ![](./media/image56.png)
 
-13. You will get the warning “**You have no storage mounted**” click
-    on **Create Storage**
+13. On the **Getting started** screen choose **Mount storage account** and choose the Storage account subscription as - Azure Pass - Sponsorship then click
+    on **Apply** button.
 
     ![](./media/image57.png)
+
+13. On the **Mount storage account** screen choose **We will mount a storage account for you** then click on **Next** button.
+
+    ![](./media/image57a.png)
+
 
 14. Now run the below commands from the Notepad in Azure CLI ensure that
     you have substituted your **Subscription ID**.
 
     `az role assignment create --assignee
     b46c3ac5-9da6-418f-a849-0a07a10b3c6c --role "Reader" --scope
-    /subscriptions/\<subscriptionID\`
+    /subscriptions/<subscriptionID>`
 
     ![](./media/image58.png)
 
@@ -424,7 +427,7 @@ Tenant
 
     `az role assignment create --assignee
     b46c3ac5-9da6-418f-a849-0a07a10b3c6c --role "User Access
-    Administrator" --scope /subscriptions/\<subscriptionID\`
+    Administrator" --scope /subscriptions/<subscriptionID>`
 
     ![](./media/image59.png)
 
@@ -435,7 +438,7 @@ Tenant
     "/providers/Microsoft.Management/managementGroups/MgmtGrp4Entra1"`
 
     ![](./media/image60.png)
-
+    
     `az role assignment create --assignee
     b46c3ac5-9da6-418f-a849-0a07a10b3c6c --role "User Access
     Administrator" --scope
@@ -450,6 +453,8 @@ Tenant
 18. Click on **Verify Now & Save**.
 
     ![](./media/image62.png)
+
+    ![](./media/image62a.png)
 
 19. Monitor the **Status** of the **Data Collector – Azure**, it would
     be showing as **Discovering** as shown in below image.
