@@ -935,10 +935,8 @@ System*.
     - Username – `Dante@` paste the Tenant name from the
       Resources tab
 
-    - Password – `Pa55w.rd`
-
+    - Password – Paste the password from the **Home/Resources** tab 
     
-
 9.  You should be able to login successfully and have
     only **Viewer** access to the **Portal**.
 
@@ -986,7 +984,7 @@ System*.
     - Username – `Logan@` paste the Tenant name from the
       Resources tab
 
-    - Password – `Pa55w.rd`
+    - Password – Paste the password from the **Home/Resources** tab 
 
 17. You should be able to login successfully and have the assigned
     access to the Portal.
@@ -1031,7 +1029,7 @@ of information about Autopilot rules for administrators.
 
     ![](./media/image139.png)
 
-2.  On the New Rule windows provide the name as **Rule1** select the
+2.  On the New Rule windows provide the name as `Rule1` select the
     Rule – **Remove Permissions for Unused Applications/Managed
     Identities** and then select **Next**.
 
@@ -1068,19 +1066,10 @@ of information about Autopilot rules for administrators.
 
     ![](./media/image146.png)
 
-8.  An email will be received as shown in below image, click on **View
-    Recommendations**.
-
-    ![](./media/image147.png)
-
-9.  Upon clicking it would open the **Permissions Management** portal
-    with the **Recommendation for Applications** and **Managed
-    Identities** which are good candidates to remove the permissions.
-
-    ![](./media/image148.png)
-
 10. As this is a test environment, we have no accounts that have been
     idle for over 60 days, but in actual environment this would be very
     helpful to remove unused permissions.
+
+    ![](./media/image150.png)
 
 **You have completed all the Tasks in this lab.**
