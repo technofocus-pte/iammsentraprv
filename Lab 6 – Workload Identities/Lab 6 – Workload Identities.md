@@ -13,42 +13,37 @@ service principle.
 ## Exercise 1 – Sign up for Workload Identities trial.
 
 1.  Open the Edge browser and go to
-    `https://admin.microsoft.com/#/catalog`.
+    `https://admin.microsoft.com/#/catalog` and select the **All products** tab.
 
 2.  Search for `Workload` and select **Details** under
     **Microsoft Entra Workload ID**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image1.png)
+    ![computer ](./media/image1.png)
 
 3.  On the details page select **Start free trial**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image2.png)
+    ![computer ](./media/image2.png)
 
-4.  Select Try now.
+4.  Select **Try now**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image3.png)
+    ![computer ](./media/image3.png)
 
-5.  Then select **Continue**.
+5.  Then click on **Go to Admin Home**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image4.png)
+    ![computer ](./media/image4.png)
 
 6.  From the left navigation, select **Active us**ers under **Users**.
     Select the admin user **MOD Administrator** from the list, expand
     the three dots **(…)** in the top bar and select **Manage product
     Licenses**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image5.png)
+    ![computer ](./media/image5.png)
 
 7.  Select **Microsoft Entra Workload ID** and then select **Save
     changes**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image6.png)
+    ![computer ](./media/image6.png)
+
 
 ## Exercise 2 – Creating a Conditional Access policy for Workload Identities
 
@@ -56,7 +51,7 @@ generated](./media/image6.png)
     the **Office 365 tenant credentials**.
 
 2.  On the lefthand menu, under **Identity**, expand **Protection**, and
-    then select **Conditional access**. On the **Overview (Preview)**,
+    then select **Conditional access**. On the **Overview**,
     click **+ Create new policy**.
 
     ![](./media/image7.png)
@@ -70,43 +65,37 @@ generated](./media/image6.png)
       selected**. Under **What does this policy apply to?**, select
       **Workload identities**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image8.png)
+    ![computer ](./media/image8.png)
 
     - Under **Include**, choose **Select service principals**, and select
     **Box**. Then choose **Select**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image9.png)
+    ![computer ](./media/image9.png)
 
-- Under **Target resources** \> **Cloud apps** \> **Include**, select
-  **All cloud apps**. The policy applies only when a service principal
-  requests a token.
+    - Under **Target resources** > **Resources (formerly cloud apps)** > **Include**, select
+    **All resources (formerly 'All cloud apps')**. The policy applies only when a service principal
+    requests a token.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image10.png)
+    ![computer ](./media/image10.png)
 
-- Under **Conditions** \> **Service principal risk**, set the
-  **Configure** toggle to **Yes**. Select **High** as the levels of
-  risk. Select **Done**.
+    - Under **Conditions** \> **Service principal risk**, set the
+    **Configure** toggle to **Yes**. Select **High** as the levels of
+    risk. Select **Done**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image11.png)
+    ![computer ](./media/image11.png)
 
-- Under **Grant**, **Block access** is the only available option. Access
-  is blocked when the specified risk levels are seen. Select the option
-  and then choose **Select**.
+    - Under **Grant**, **Block access** is the only available option. Access
+    is blocked when the specified risk levels are seen. Select the option
+    and then choose **Select**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image12.png)
+    ![computer ](./media/image12.png)
 
-- Enable policy – **On**. Click on **Create**.
+    - Enable policy – **On**. Click on **Create**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image13.png)
+    ![computer ](./media/image13.png)
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image14.png)
+    ![computer ](./media/image14.png)
+
 
 ## Exercise 3 – View the Sign-in logs for Conditional Access policy for Workload Identities
 
@@ -133,6 +122,9 @@ generated](./media/image14.png)
 
     ![](./media/image18.png)
 
+    > **Note** - As this is a Demo environment, so you may not be able to see any Service principal sign-ins
+
+
 6.  Click on the **User sign-ins (interactive)** tab, then click on
     **Add** **filters** and choose **Conditional Access** then click on
     **Apply**.
@@ -148,5 +140,8 @@ generated](./media/image14.png)
     logs.
 
     ![](./media/image21.png)
-
+    
+    ![](./media/image22.png)
+    
+ 
 **You have completed Lab 6 !!!!!!!**
