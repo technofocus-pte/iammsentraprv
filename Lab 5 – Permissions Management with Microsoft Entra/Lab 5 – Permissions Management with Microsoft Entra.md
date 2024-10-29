@@ -535,9 +535,10 @@ about your authorization system regularly.
 
     ![](./media/image72.png)
 
-2.  It will be emailed as **All Files.zip**.
+2.  You can open another tab and login to `https://outlook.office365.com` with the Office 365 Tenant account credentials that was used for **Permissions Management** portal. It will be emailed as **All Files.zip**.
 
     ![](./media/image73.png)
+
 
 3.  You can extract and view the Excel file as shown in the below image.
 
@@ -559,11 +560,11 @@ about your authorization system regularly.
 
     ![](./media/image78.png)
 
-7.  **Resources** will show a summary of the **Findings**.
+7.  Back on the Dashboard page, the **Resources** will show a summary of the **Findings**.
     Select **Microsoft managed keys**.
 
     ![](./media/image79.png)
-
+   
 8.  Select the listed **1 Azure Pass – Sponsorship**.
 
     ![](./media/image80.png)
@@ -572,7 +573,11 @@ about your authorization system regularly.
 
     ![](./media/image81.png)
 
-10. Keep the tab open and continue to the next exercise.
+10. You can check the same details for the **Open Network Security Groups** listed under **Findings**
+
+    ![](./media/image81a.png)
+
+11. Keep the tab open and continue to the next exercise.
 
 ### Task 2 – The PCI heat map
 
@@ -654,6 +659,8 @@ Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).
 
     - Task Type – **High Risk Tasks**
 
+    - Task Sub Type - **All**
+
     - Click on **Apply**
 
     ![](./media/image90.png)
@@ -665,8 +672,7 @@ Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).
 5.  From the drop-down list at the top of the screen select **Active
     Tasks**.
 
- ![ Description automatically generated with
- medium confidence](./media/image92.png)
+    ![](./media/image92.png)
 
 6.  To form the query, provide the below details
 
@@ -767,14 +773,12 @@ permissions, and requests for permissions you have made.
 
     - Task Usage – **Any**
 
-    - Search username – click and then select `Beatrise
-      Jaunzema` account
-
     - Click on **Apply**
 
     ![](./media/image104.png)
 
-3.  From the results pane, select the displayed user.
+
+3.  From the results pane, select **Beatrise Jaunzema** user.
 
     ![](./media/image105.png)
 
@@ -786,7 +790,7 @@ permissions, and requests for permissions you have made.
     ![](./media/image106.png)
 
 5.  You have additional button to make changes to the **Role** for the
-    user, select the user **Beatrise Jaunzema** and then click
+    user, make sure the user **Beatrise Jaunzema** is selected and then click
     on **Remove Role**.
 
     ![](./media/image107.png)
@@ -805,21 +809,12 @@ permissions, and requests for permissions you have made.
 
     ![](./media/image110.png)
 
-9.  You should get the notification as shown in below image.
+9.  You should get the notification as shown in below image. A request to remove the Role has been initiated.
 
     ![](./media/image111.png)
 
 10. Keep the tab open for the next exercise.
 
-11. Switch back to the browser tab with the Azure Portal page open,
-    ensure that the **Azure Pass – Sponsorship** subscription page is
-    selected.
-
-12. Click on **Access Control (IAM)**, then select **Role assignments**,
-    you will notice that **Beatrise Jaunzema** account is no longer
-    listed under **Contributor** as it has been removed.
-
-    ![](./media/image112.png)
 
 ### Task 3 – Setting selections for requests
 
@@ -842,13 +837,13 @@ Role/Policy Filters**, **Request Settings**.
 
 4.  On the **Create Filter** window, provide the below details.
 
-    - Filter Name – **Reader role**
+    - Filter Name – `Reader role`
 
     - Authorization System Type – **Azure**
 
     - Authorization System – **Azure Pass - Sponsorship**
 
-    - Select a type – **Role Name** – Contains – **Reader** click on
+    - Select a type – **Role Name** – Contains – `Reader` click on
       the **+** sign
 
     - Click on **Save**
@@ -879,11 +874,11 @@ Role/Policy Filters**, **Request Settings**.
 
     ![](./media/image119.png)
 
-123. You should get the notification as shown in below image.
+7. You should get the notification as shown in below image.
 
     ![](./media/image120.png)
 
-124. Keep the tab open and continue to the next exercise.
+8. Keep the tab open and continue to the next exercise.
 
 ## Exercise 8 – Manage users and groups with the User management dashboard
 
@@ -933,7 +928,7 @@ System*.
 
 7.  Open the new tab in Edge browser using **InPrivate** mode and login
     to **Permission Management Portal** using the link
-    – **https://pm.cloudknox.io/portal**
+    – `https://pm.cloudknox.io/portal`
 
 8.  When prompted for credential enter the below
 
@@ -941,6 +936,8 @@ System*.
       Resources tab
 
     - Password – `Pa55w.rd`
+
+    
 
 9.  You should be able to login successfully and have
     only **Viewer** access to the **Portal**.
