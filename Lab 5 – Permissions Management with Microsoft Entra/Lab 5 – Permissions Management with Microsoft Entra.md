@@ -1067,9 +1067,9 @@ of information about Autopilot rules for administrators.
     ![](./media/image146.png)
 
 10. As this is a test environment, we have no accounts that have been
-    idle for over 60 days, but in actual environment this would be very
+    idle for over **60 days**, but in actual environment this would be very
     helpful to remove unused permissions.
 
-    ![](./media/image150.png)
+![](./media/image150.png)
 
 **You have completed all the Tasks in this lab.**
