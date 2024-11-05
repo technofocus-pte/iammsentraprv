@@ -30,7 +30,13 @@ conditional access policy.
 
     <font color=red>
 
-    > **Note**: Do not use your **Company/Work Account** to login to redeem the Azure Pass, only redeem the Azure Pass using the **Office 365 Tenant provided** on the **Home/Resources** tab of the Lab interface, another Azure Pass will not be issued.
+    > **Note**: Do not use your **Personal/Company/Work Account** to login to redeem the Azure Pass, only redeem the Azure Pass using the **Office 365 Tenant provided** on the **Home/Resources** tab of the Lab interface.
+    
+    </font>
+    
+    <font color=darkred>
+    
+    > **Another Azure Pass will not be issued, if you have redeemed the Azure Pass on Personal/Company/Work Account**.
 
     </font>
 
