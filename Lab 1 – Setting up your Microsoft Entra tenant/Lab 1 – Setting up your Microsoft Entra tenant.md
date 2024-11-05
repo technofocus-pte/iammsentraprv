@@ -133,7 +133,7 @@ can:
 
     ![](./media/image11c.png)
 
-    <font color=darkred> 
+    <font color=darkblue> 
 
     > **Note** - If the **EnableTLS.ps1** is missing in the **C:\Labfiles** folder, open a new tab in the Edge browser, navigate to `https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/reference-connect-tls-enforcement#powershell-script-to-enable-tls-12`. Then copy the code and paste it in a notepad file and save the notepad file as `EnableTLS.ps1` in the folder `C:\Labfiles`, the code can also be run directly in the **Windows PowerShell (Admin)** to enable the **TLS 1.2**
     </font>
