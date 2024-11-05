@@ -133,18 +133,15 @@ can:
 
     ![](./media/image11b.png)
 
-3. Run the below script on the LON-DC1 to enable TLS ver. 1.2
+3. Open a new tab in the Edge browser, navigate to `https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/reference-connect-tls-enforcement#powershell-script-to-enable-tls-12`. Then copy the code and paste it in a notepad file and save the notepad file as `EnableTLS.ps1` in the folder `C:\Labfiles`, the code can also be run directly in the **Windows PowerShell (Admin)** to enable the **TLS 1.2**. 
+
+    ![](./media/image11d.png)
+
+    Run the below script in **Windows PowerShell** on the **LON-DC1** to enable TLS ver. 1.2
 
     `C:\Labfiles\EnableTLS.ps1`
 
     ![](./media/image11c.png)
-
-    <font color=darkblue> 
-
-    > **Note** - If the **EnableTLS.ps1** is missing in the **C:\Labfiles** folder, open a new tab in the Edge browser, navigate to `https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/reference-connect-tls-enforcement#powershell-script-to-enable-tls-12`. Then copy the code and paste it in a notepad file and save the notepad file as `EnableTLS.ps1` in the folder `C:\Labfiles`, the code can also be run directly in the **Windows PowerShell (Admin)** to enable the **TLS 1.2**
-    </font>
-
-    ![](./media/image11d.png)
 
 
 4. Restart the **LON-DC1** and login again
@@ -251,7 +248,7 @@ generated](./media/image23.png)
 
     ![](./media/image24.png)
 
-4.  Provide the **Office 365 Tenant credentials** and then click on the **Next** button.
+4.  Provide the credential of the credentials of **meconnect** user with the new password - `Pa$$.w0rd@123` or the **Office 365 Tenant credentials** and then click on the **Next** button.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image27.png)
