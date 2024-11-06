@@ -63,6 +63,9 @@ conditional access policy.
     agree to the subscription agreement, offer details.**, and then
     select **Sign up**.
 
+    > **Note** - Choose any other Last name instead of **Administrator** to avoid error.
+
+
      ![A screenshot of a computer Description automatically
  generated](./media/image4.png)
 
