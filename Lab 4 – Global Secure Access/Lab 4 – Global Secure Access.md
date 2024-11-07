@@ -667,16 +667,11 @@ To create as many connector groups as you want:
     ![](./media/image89.png)
 
 7.  Right click on the **GSA Client** icon at the bottom right corner of
-    the screen. And select **Resume**.
+    the screen. And select **Enable**.
 
     ![](./media/image90.png)
 
-8.  Once connected, reload the **Viva Engage** page.
 
-    ![](./media/image91.png)
-
-Hence, we tested the Microsoft Entra Internet Access available in Global
-Secure Access.
 
 ### Task 2 – Creating and testing Conditional Access policies for Microsoft Entra Private Access
 
