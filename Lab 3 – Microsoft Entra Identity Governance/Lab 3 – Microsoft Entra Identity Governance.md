@@ -202,8 +202,7 @@ procedure to add it.
     - Under **Conditional Access**, select Custom policy and then click on
     the Create button.
 
-     ![computer Description automatically
- generated](./media/image16.png)
+     ![computer](./media/image16.png)
 
 14. When the terms of use is created, you will automatically be
     redirected to the Conditional access policy page.
@@ -264,8 +263,7 @@ procedure to add it.
 
 4. Expand to View the **Terms of Use**.
 
-     ![computer Description automatically
- generated](./media/image23.png)
+     ![computer](./media/image23.png)
 
 5. Scroll down and click on the **Accept** button to complete the
     login.
@@ -290,8 +288,7 @@ procedure to add it.
     select **Entitlement management**. Then from the sub menu, scroll
     down and select **Access packages**. Select **New access package**.
 
-     ![computer Description automatically
- generated](./media/image26.png)
+    ![computer](./media/image26.png)
 
 3. Enter the following details and then select **Next: Resource roles**.
 
@@ -334,8 +331,7 @@ procedure to add it.
 
     - Select **Add Approvers**.
 
-     ![computer Description automatically
- generated](./media/image33.png)
+    ![computer](./media/image33.png)
 
     - Choose Select **MOD Admin** user and then choose **Select**.
 
