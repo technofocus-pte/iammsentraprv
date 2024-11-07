@@ -223,7 +223,7 @@ procedure to add it.
     ![computer ](./media/image18.png)
 
     - Under **Target Resources**, select **No target resources selected**.
-    Then under **Include**, choose **Select apps**. Under select, choose
+    Then under **Include**, choose **Select resources**. Under select, choose
     **None**. In the side pane, search for and select **Office 365** by
     selecting the check box near the app. Then choose **Select**.
 
