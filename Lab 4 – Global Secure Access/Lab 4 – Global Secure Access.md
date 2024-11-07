@@ -497,9 +497,7 @@ To create as many connector groups as you want:
     ![ ](./media/image70.png)
 
 - Under **Target Resources**, select **No target resources selected**.
-  Then under **Select what this policy applies to**, choose **Global
-  Secure Access**. Under Select the traffic profiles this
-  policy applies to, choose **Microsoft 365 traffic**.
+  Then under **Select what this policy applies to**, choose **Resources (formerly cloud apps)**. Under include choose **All internet resources with Global Secure Access**.
 
     ![ ](./media/image71.png)
 
