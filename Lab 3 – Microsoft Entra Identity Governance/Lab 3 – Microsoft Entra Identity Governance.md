@@ -148,7 +148,7 @@ You must create and enforce a ToU policy for your organization.
 Once you have finalized your terms of use document, use the following
 procedure to add it.
 
-1.  Sign in to `https://entra.microsoft.com` using a your **Office
+1.  Switch to the VM - **LON-SVR1** and open the Edge browser and Sign in to `https://entra.microsoft.com` using a your **Office
     365 tenant credentials**.
 
 12. In the left menu, expand **Identity Governance** and
