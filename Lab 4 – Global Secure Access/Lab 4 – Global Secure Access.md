@@ -346,7 +346,7 @@ downloaded from the Microsoft Entra admin center.
     `https://entra.microsoft.com/` and sign in using the
     **Office 365 tenant credentials.**
 
-23. Browse to **Global Secure Access** \ **Connect** \
+23. Browse to **Global Secure Access** > **Connect** >
     **Connectors**. Select **Download connector service**.
 
     ![ ](./media/image49.png)
