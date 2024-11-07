@@ -588,7 +588,7 @@ To create as many connector groups as you want:
     ![](./media/image81.png)
 
 - Under **Target Resources**, select **No target resources selected**.
-  Then under **Include**, choose **Select apps**. Under select, choose
+  Then under **Include**, choose **Resources**. Under select, choose
   **None**. In the side pane, search for and select **Viva Engage** by
   selecting the check box near the app. Then choose **Select**.
 
