@@ -721,8 +721,6 @@ To create as many connector groups as you want:
 
 11. You will NOT be able to log in to the server through the app proxy.
 
-    ![ ](./media/image94.png)
-
 
 
 #### Step 2 – Create Conditional Access Policy to grant the access to Joni Sherman
