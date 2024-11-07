@@ -49,7 +49,7 @@ conditional access policy.
      ![A screenshot of a computer Description automatically
  generated](./media/image2.png)
 
-6. Paste the promo code given on the **Resources** page of your lab
+6. Paste the promo code given on the **Home/Resources** page of your lab
     environment in the **Enter Promo code box,** enter the captcha and
     select **Submit** button.
 
