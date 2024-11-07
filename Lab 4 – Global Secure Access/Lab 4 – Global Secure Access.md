@@ -43,11 +43,13 @@ to register our Lab VM to the Contoso’s Entra ID.
 
 11. In the sign in prompt, sign in using the following credentials.
 
-    *   Username – `jonis@`paste the Tenant name from the
-        **Home/Resources** tab.
+    *   Username – `jonis@`
 
-    *   Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3]
-        and click on **Sign in**
+        Paste the Tenant name from the **Home/Resources** tab.
+
+    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
+    
+        [This Password was set in Lab 3] and click on **Sign in**
 
     ![](./media/image10.png)
 
@@ -65,11 +67,13 @@ to register our Lab VM to the Contoso’s Entra ID.
 
 15. In the sign in prompt, sign in using the following credentials.
 
-    *   Username – `jonis@` paste the Tenant name from the
-        **Home/Resources** tab.
+    *   Username – `jonis@`
 
-    *   Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3]
-        and click on **Sign in**
+        Paste the Tenant name from the **Home/Resources** tab.
+
+    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
+    
+        [This Password was set in Lab 3] and click on **Sign in**
 
 16. It will take a couple of seconds to sign in, click on the **Got it**
     button.
@@ -88,11 +92,13 @@ to register our Lab VM to the Contoso’s Entra ID.
 
 20. Enter your following credentials and log in to the VM.
 
-    *   Username – `jonis@`paste the Tenant name from the
-        **Home/Resources** tab.
+    *   Username – `jonis@`
 
-    *   Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3]
-        and click on **Sign in**
+        Paste the Tenant name from the **Home/Resources** tab.
+
+    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
+    
+        [This Password was set in Lab 3] and click on **Sign in**
 
     ![](./media/image15.png)
 
@@ -515,11 +521,13 @@ To create as many connector groups as you want:
 1.  Make sure you are logged into the **LON-CL1** VM using the following
     credentials.
 
-    - Username – `jonis@`paste the Tenant name from the Resources
-      tab.
+    *   Username – `jonis@`
 
-    - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
-      click on **Sign in**.
+        Paste the Tenant name from the **Home/Resources** tab.
+
+    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
+    
+        [This Password was set in Lab 3] and click on **Sign in**
 
     ![](./media/image75.png)
 
@@ -533,11 +541,13 @@ To create as many connector groups as you want:
 
 47. When prompted, log in as **Joni Sherman**:
 
-    - Username – `jonis@`paste the Tenant name from the Resources
-      tab.
+    *   Username – `jonis@`
 
-    - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
-      click on **Sign in**.
+        Paste the Tenant name from the **Home/Resources** tab.
+
+    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
+    
+        [This Password was set in Lab 3] and click on **Sign in**
 
 3.  Click on **Explore apps**
 
@@ -618,11 +628,13 @@ To create as many connector groups as you want:
 1.  While still logged into the **LON-CL1** VM using the following
     credentials.
 
-    - Username – `jonis@`paste the Tenant name from the Resources
-      tab.
+    *   Username – `jonis@`
 
-    - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
-      click on **Sign in**.
+        Paste the Tenant name from the **Home/Resources** tab.
+
+    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
+    
+        [This Password was set in Lab 3] and click on **Sign in**
 
      ![ ](./media/image75.png)
 
@@ -636,11 +648,13 @@ To create as many connector groups as you want:
 
 51. When prompted, log in as **Joni Sherman**:
 
-    - Username – `jonis@`paste the Tenant name from the Resources
-      tab.
+    *   Username – `jonis@`
 
-    - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
-      click on **Sign in**.
+        Paste the Tenant name from the **Home/Resources** tab.
+
+    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
+    
+        [This Password was set in Lab 3] and click on **Sign in**
 
 6.  Click on **Explore apps**
 
@@ -673,11 +687,13 @@ Secure Access.
 1. Restart the **LON-CL1** and then login using the following
     credentials.
 
-    - Username – `jonis@`paste the Tenant name from the Resources
-      tab.
+    *   Username – `jonis@`
 
-    - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
-      click on **Sign in**.
+        Paste the Tenant name from the **Home/Resources** tab.
+
+    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
+    
+        [This Password was set in Lab 3] and click on **Sign in**
 
     ![ ](./media/image75.png)
 
@@ -702,11 +718,13 @@ Secure Access.
 
 54. When prompted, log in as **Joni Sherman**:
 
-    - Username – `jonis@`paste the Tenant name from the Resources
-      tab.
+    *   Username – `jonis@`
 
-    - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
-      click on **Sign in**.
+        Paste the Tenant name from the **Home/Resources** tab.
+
+    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
+    
+        [This Password was set in Lab 3] and click on **Sign in**
 
 11. You will NOT be able to log in to the server through the app proxy.
 
@@ -766,11 +784,13 @@ Secure Access.
 1.  While still logged into the **LON-CL1** VM using the following
     credentials.
 
-    - Username – `jonis@`paste the Tenant name from the Resources
-      tab.
+    *   Username – `jonis@`
 
-    - Password – **paste the User Password from the Resources tab** or `Pa55w.rd98` [This Password was set in Lab 3] and
-      click on **Sign in**.
+        Paste the Tenant name from the **Home/Resources** tab.
+
+    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
+    
+        [This Password was set in Lab 3] and click on **Sign in**
 
     ![ ](./media/image75.png)
 
