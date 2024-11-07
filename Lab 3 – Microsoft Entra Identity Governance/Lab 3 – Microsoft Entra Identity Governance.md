@@ -217,29 +217,29 @@ procedure to add it.
 
     ![computer ](./media/image17.png)
 
-- Scroll down on the **Select users and groups** page, select **Joni
-  Sherman**. Choose **Select**.
+    - Scroll down on the **Select users and groups** page, select **Joni
+    Sherman**. Choose **Select**.
 
     ![computer ](./media/image18.png)
 
-- Under **Target Resources**, select **No target resources selected**.
-  Then under **Include**, choose **Select apps**. Under select, choose
-  **None**. In the side pane, search for and select **Office 365** by
-  selecting the check box near the app. Then choose **Select**.
+    - Under **Target Resources**, select **No target resources selected**.
+    Then under **Include**, choose **Select apps**. Under select, choose
+    **None**. In the side pane, search for and select **Office 365** by
+    selecting the check box near the app. Then choose **Select**.
 
     ![computer ](./media/image19.png)
 
-- Under **Access controls**, within the **Grant** section, select **0
-  controls selected**. In the **Grant** pane, select **Testing terms of
-  use** and then select **Select**.
+    - Under **Access controls**, within the **Grant** section, select **0
+    controls selected**. In the **Grant** pane, select **Testing terms of
+    use** and then select **Select**.
 
     ![computer ](./media/image20.png)
 
-- Under **Enable policy**, select **On**.
+    - Under **Enable policy**, select **On**.
 
     ![computer ](./media/image21.png)
 
-- When complete, select **Create**.
+    - When complete, select **Create**.
 
     ![computer ](./media/image22.png)
 
@@ -337,7 +337,7 @@ procedure to add it.
      ![computer Description automatically
  generated](./media/image33.png)
 
-- Choose Select **MOD Admin** user and then choose **Select**.
+    - Choose Select **MOD Admin** user and then choose **Select**.
 
     ![computer ](./media/image34.png)
 
@@ -356,15 +356,15 @@ procedure to add it.
 
     ![computer ](./media/image36.png)
 
-- In the **Expiration** section, set **Access package assignment
-  expire** to **Number of days**.
+    - In the **Expiration** section, set **Access package assignment
+    expire** to **Number of days**.
 
-- Set **Assignment expire after** to **60** days. This field determines
-  when your guest users will have to renew their access.
+    - Set **Assignment expire after** to **60** days. This field determines
+    when your guest users will have to renew their access.
 
-- Set **Require access review** to **No**.
+    - Set **Require access review** to **No**.
 
-- Select **Next: Rules**.
+    - Select **Next: Rules**.
 
     ![computer ](./media/image37.png)
 
