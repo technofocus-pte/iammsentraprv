@@ -442,11 +442,11 @@ To create as many connector groups as you want:
 
     - Destination type – **IP address range (CIDR)**
 
-    - Starting address – `10.0.0.0`
+    - Starting address – **10.0.0.0**
 
     - Network mask – **/25**
 
-    - Ports – `3389,80,445`
+    - Ports – **3389,80,445**
     
     - Protocol - **TCP, UDP**
 
