@@ -16,8 +16,8 @@ Identity Secure Score.
 1. Sign in to the `https://entra.microsoft.com` using your
     **Office 365 tenant credentials**.
 
-1. On the lefthand menu, under **Identity**, expand **Protection**, and
-    then select **Identity protection**.
+1. On the lefthand menu, expand **ID Protection**, and
+    then select **Dashboard**.
 
     ![](./media/image1.png)
 
@@ -143,14 +143,13 @@ device type, location, and role.
 1. Browse to `https://entra.microsoft.com` and sign in using
     the **Office 365 tenant credentials**.
 
-
-
-2. On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access**. On the **Overview (Preview)**,
+2. On the lefthand menu, under Entra ID, scroll down and 
+    select **Conditional access**. On the **Overview** page,
     click **+ Create new policy**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image19.png)
+
 
 3. On the **New Conditional Access Policy** page, provide the below
     details
@@ -245,8 +244,7 @@ as expected.
 1. Browse to `https://entra.microsoft.com` and sign in using
     the **Office 365 tenant credentials**.
 
-2. On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access.** In the navigation pane,
+2. On the lefthand menu, under **Entra ID**, scroll down and  then select **Conditional access.** In the navigation pane,
     select **Policies**. Select **What If**.
 
     ![A screenshot of a computer Description automatically
@@ -300,8 +298,8 @@ conditional access policy that can be used to control sign in frequency.
 
 
 
-34. On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access**. On the **Overview (Preview)**,
+34. On the lefthand menu, under **Entra ID** and then
+    select **Conditional access**. On the **Overview**,
     click **+ Create new policy**.
 
     ![A screenshot of a computer Description automatically
@@ -352,13 +350,14 @@ generated](./media/image39.png)
 
 1. Browse to `https://entra.microsoft.com` and sign in using the **Office 365 tenant credentials**.
 
-2. On the left hand menu, under **Protection,** click on **… Show more**,
-    select **Identity Secure Score.** Select **Identity Secure Score
-    from the sub-menu.** This will take you to the Identity Secure Score
+2. On the left hand menu, under **Entra ID,** scroll down and select **Identity Secure Score.** 
+
+3. If required select **Identity Secure Score** from the sub-menu. This will take you to the Identity Secure Score
     dashboard.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image40.png)
+
 
 3. You may not see many recommendations but in a production environment you can view the **Improvement actions**. Sort the recommendations
     by **User impact**.
