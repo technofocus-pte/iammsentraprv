@@ -119,23 +119,32 @@ to register our Lab VM to the Contoso’s Entra ID.
     ![](./media/image16.png)
 
 1.  On the lefthand menu, under **Global Security Access** expand Connect and then select
-**Traffic forwarding**
+**Traffic forwarding** and then click on the **Activate** button.
 
-    ![ ](./media/image17.png)
-
-2.  Under the **2. Activate Global Secure Access in your tenant** click on the **Activate** button.
-
-    ![ ](./media/image17a.png)
+    ![](./media/image17.png)
 
 2.  You should receive a notification as show in below image. 
 
     ![](./media/image18.png)
 
-3. Once done, select **Get Started** under **3. Get started with Global Secure Access**
+3. From the notificaiton - To use these capabilities the following licenses may be required: Microsoft Entra Internet Access or Microsoft Entra Private Access. Activate or Learn more. Click on the **Activate** link.
 
-    ![](./media/image18a.png)
+    ![](./media/image18b.png)
 
-3.  From the left navigation, expand Global Secure Access and from the
+3. Click on the **Activate** button.
+    ![](./media/image18c.png)
+
+3. Click on the **Continue** button.
+
+    ![](./media/image18d.png)
+
+3. Click on the **Try now** button.
+
+    ![](./media/image18e.png)
+
+3. Switch back to the Microsoft Entra Portal tab and refresh the browser.
+
+3. From the left navigation, expand Global Secure Access and from the
     connect dropdown, select **Traffic Forwarding**. Select the check
     box near **Microsoft traffic profile.**
 
@@ -173,13 +182,22 @@ to register our Lab VM to the Contoso’s Entra ID.
     * **Internet access profile**
     ![](./media/image22e.png)
 
+13. Once all the profiles are configured, it should appear as below.
+
+    ![](./media/image22f.png)
 
 ## Exercise 2 – Configuring Microsoft Entra Internet Access
 
-### Task 1 – Download and install the client to your VMs
+### Task 1 – Download and install the client to your Client VM
 
-The most current version of the Global Secure Access Client can be
-downloaded from the Microsoft Entra admin center.
+The most current version of the Global Secure Access Client can be downloaded from the Microsoft Entra admin center. Ensure that you are on the **LON-CL1**
+
+1.  Browse to `https://entra.microsoft.com/` and sign in using
+    the **Office 365 tenant credentials**. If you are automatically
+    logged in with Joni Sherman, log out and login again with the Office
+    365 Tenant Admin credentials.
+
+    ![](./media/image16.png)
 
 1.  From the navigation bar, select **Global Secure Access** \ **Connect** \ **Client Download**. Select **Download
     Client**.

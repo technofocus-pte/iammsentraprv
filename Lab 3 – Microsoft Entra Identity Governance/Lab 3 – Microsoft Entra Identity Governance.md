@@ -358,7 +358,7 @@ procedure to add it.
     - Set **Assignment expire after** to **60** days. This field determines
     when your guest users will have to renew their access.
 
-    - Set **Require access review** to **No**.
+    - Leave the checkbox unchecked for **Require access review** 
 
     - Select **Next: Rules**.
 
@@ -435,17 +435,17 @@ your directory.
 
 2.  In the left menu, expand **Identity Governance** and
     select **Entitlement management**. From the sub menu,
-    select **Settings**. Select **Edit**.
+    select **Control configuration**. Click on the **View settings** link.
 
     ![computer ](./media/image44.png)
 
 3. In the **Manage the lifecycle of external users** section, review
     the different settings for external users.
 
-    - Set the **Block external user from signing in to this
-      directory** to **Yes**.
+    - Set the checkbox for **Block external user from signing in to this
+      directory** to **Enabled**.
 
-    - Set **Remove external** user to **Yes**.
+    - Set the checkbox for **Remove external** user to **Enabled**.
 
     - Set **Number of days before removing external user from this
       directory** to **0**.
@@ -671,7 +671,7 @@ activation by opening **My roles** in Privileged Identity Management.
     ![computer ](./media/image67.png)
 
 4.  In the **Justification** box, enter the `This is my
-    justification for activating this role`. Select **Confirm**.
+    justification for approving the request`. Select **Confirm**.
 
     ![computer ](./media/image68.png)
 
