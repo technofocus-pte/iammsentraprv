@@ -266,7 +266,14 @@ The most current version of the Global Secure Access Client can be downloaded fr
     \ **Session management**. Under **Adaptive Access** tab, set the
     **Enable CA Signaling for Entra ID (covering all cloud apps)**,
     toggle to **ON**. 
+
+
+    <Font color=DarkRed>
+
+    > **Note - If the Enable CA Signaling for Entra ID (covering all cloud apps) is already turn on, turn off and turn on again, otherwise when creating Conditional Access the additional option will not appear.**
     
+    </font>
+
       ![](./media/image36.png)
 
     ![](./media/image36a.png)
@@ -460,11 +467,11 @@ To create as many connector groups as you want:
 
     - Destination type – **IP address range (CIDR)**
 
-    - Starting address – **10.0.0.0**
+    - Starting address – `10.0.0.0`
 
     - Network mask – **/25**
 
-    - Ports – **3389,80,445**
+    - Ports – `3389,80,445`
     
     - Protocol - **TCP, UDP**
 
@@ -579,7 +586,7 @@ To create as many connector groups as you want:
 
 #### Step 3 – Create Conditional Access Policy ‘Block Viva Engage access over Internet’.
 
-1.  Switch back to the Browser with **Office 365 tenant Admin** signed
+1.  Switch back to the Browser with Microsoft Entra  tba and **Office 365 tenant Admin** signed
     in.
 
 48. On the lefthand menu, under Identity, expand Protection, and then
@@ -680,7 +687,7 @@ To create as many connector groups as you want:
     ![](./media/image78.png)
 
 53. You will get the notification that **You cannot access this right
-    now**.
+    now**. Close the Inprivate browser tabs completely.
 
     ![](./media/image89.png)
 
@@ -689,14 +696,10 @@ To create as many connector groups as you want:
 
     ![](./media/image90.png)
 
+46. Open the browser in InPrivate mode and navigate
+    to `https://www.office.com`
 
-
-### Task 2 – Creating and testing Conditional Access policies for Microsoft Entra Private Access
-
-#### Step 1 – Test access to the server through the application ‘RDP to DC’ as Joni Sherman
-
-1. Restart the **LON-CL1** and then login using the following
-    credentials.
+47. When prompted, log in as **Joni Sherman**:
 
     *   Username – `jonis@`
 
@@ -706,140 +709,22 @@ To create as many connector groups as you want:
     
         [This Password was set in Lab 3] and click on **Sign in**
 
-    ![ ](./media/image75.png)
+3.  Click on **Explore apps**
 
-2. If prompted to sign in to the **GSA Client** then click on the **Sign in** button
+    ![computer Description automatically
+    generated](./media/image77.png)
 
-   ![](./media/image91a.png)
+4.  You will be able to log in to the **Office 365** portal. Select on
+    the **Engage**.
 
-    > **Note** - you may be required to complete MFA.
+    ![](./media/image78.png)
 
-   ![](./media/image91b.png)
+5. This time via the Global Secure Access the Engage application should be accessible.
 
-9.  Click on the Start menu and then search for `RDP` and select
-    **Remote Desktop Connection.**
-
-    ![](./media/image92.png)
-
-10. In the **Computer** field, type `10.0.0.4` Private IPv4
-    Address of the **Windows Server 2019** VM created in **Exercise
-    3** and select **Connect**.
-
-    ![](./media/image93.png)
-
-54. When prompted, log in as **Joni Sherman**:
-
-    *   Username – `jonis@`
-
-        Paste the Tenant name from the **Home/Resources** tab.
-
-    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
-    
-        [This Password was set in Lab 3] and click on **Sign in**
-
-11. You will NOT be able to log in to the server through the app proxy.
+    ![](./media/image79.png)
 
 
-
-#### Step 2 – Create Conditional Access Policy to grant the access to Joni Sherman
-
-1.  Browse to `https://entra.microsoft.com/` and sign in using
-    the **Office 365 tenant credentials**.
-
-55. On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access**. On the **Overview**,
-    click **+ Create new policy**.
-
-    ![ ](./media/image95.png)
-
-56. On the **New Conditional Access Policy** page, provide the below
-    details
-
-    - Name – `Microsoft Entra Private Access Policy`
-
-    - Under **Users**, select **0 users and groups selected/Specific
-      users included**. Then under **Include**, choose **Select users
-      and groups**. Select the check box near **Users and groups**. Then
-      under **Select**, choose **0 users and groups selected**.
-
-    ![ ](./media/image96.png)
-
-    - Scroll down on the **Select users and groups** page, select **Joni
-    Sherman**. Choose **Select**.
-
-    ![ ](./media/image81.png)
-
-    - Under **Target Resources**, select **No target resources selected**.
-    Then under **Include**, choose **Resources**. Under select, choose
-    **None**. In the side pane, search for and select **RDP to DC** by
-    selecting the check box near the app. Then choose **Select**.
-
-    ![ ](./media/image97.png)
-
-    - Under **Access controls**, within the **Grant** section, select **0
-    controls selected**. In the Grant pane, select **Grant access \
-    Require multifactor authentication** and then choose **Select**.
-
-    ![ ](./media/image98.png)
-
-    - Enable policy – **On**. Click on **Create**.
-
-    ![ ](./media/image99.png)
-
-    ![ ](./media/image100.png)
-
-#### Step 3 – Test access to the server through the application ‘RDP to DC’ as Joni Sherman after the policy
-
-1.  While still logged into the **LON-CL1** VM using the following
-    credentials.
-
-    *   Username – `jonis@`
-
-        Paste the Tenant name from the **Home/Resources** tab.
-
-    *   Password – **paste the User Password from the Home/Resources tab** or `Pa55w.rd98` 
-    
-        [This Password was set in Lab 3] and click on **Sign in**
-
-    ![ ](./media/image75.png)
-
-12. Click on the Start menu and then search for **RDP** and select
-    **Remote Desktop Connection.**
-
-    ![](./media/image92.png)
-
-13. In the **Computer** field, type `10.0.0.4` Private IPv4
-    Address of the **Windows Server 2019** VM created in **Exercise
-    3** and select **Connect**.
-
-    ![](./media/image93.png)
-
-57. When prompted, log with below credentials:
-
-    - Username – `Admin01`
-
-    - Password – `Pa55w.rd@123`
-
-      ![](./media/image101.png)
-
-14. You will be able to log in to the server through the app proxy using
-    the **Local IP- 10.0.0.4** of the Windows Server 2019 VM, confirming
-    that the Application is granting the required access.
-
-    ![](./media/image102.png)
-
-15. In your **Global Secure Access – Advanced diagnostics**, under
-    **Forwarding Profile** you will see the private access rules
-    applying to your client.
-
-    ![](./media/image103.png)
-
-16. Review the various tabs of the **Global Secure Access – Advanced
-    diagnostics**
-
-    ![](./media/image104.png)
 
 ## Summary:
 
-In this lab, we tested the Microsoft Entra private Access and Microsoft
-Entra Internet Access available in Global Secure Access.
+In this lab, we tested the Microsoft Entra private Access and Microsoft Entra Internet Access available in Global Secure Access.
