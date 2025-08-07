@@ -1,4 +1,4 @@
-# Lab 6 – Workload Identities
+# Lab 5 – Workload Identities
 
 ## Objective:
 
@@ -12,7 +12,9 @@ service principle.
 
 ## Exercise 1 – Sign up for Workload Identities trial.
 
-1.  Open the Edge browser and go to
+1. Log into the **LON-CL1** with the credentials provided on the Home/Resources tab.
+
+2. Open the Edge browser and go to
     `https://admin.microsoft.com/#/catalog` and select the **All products** tab.
 
 2.  Search for `Workload` and select **Details** under
@@ -47,7 +49,7 @@ service principle.
 
 ## Exercise 2 – Creating a Conditional Access policy for Workload Identities
 
-1.  Browse to `https://entra.microsoft.com/` and sign in using
+1.  Browse to `https://entra.microsoft.com/` in another tab and sign in using
     the **Office 365 tenant credentials**.
 
 2.  On the lefthand menu, under **Identity**, expand **Protection**, and
@@ -102,11 +104,7 @@ service principle.
 1.  Browse to `https://entra.microsoft.com/` and sign in using
     the **Office 365 tenant credentials**.
 
-2.  On the lefthand menu, under **Identity**, click on **…Show more.**
-
-    ![](./media/image15.png)
-
-3.  Scroll down and expand **Monitoring & Health**, and then
+2.  On the lefthand menu, under **Entra ID**, scroll down and expand **Monitoring & Health**, and then
     select **Sign-in logs.**
 
     ![](./media/image16.png)
@@ -144,4 +142,4 @@ service principle.
     ![](./media/image22.png)
     
  
-**You have completed Lab 6 !!!!!!!**
+**You have completed Lab 5 !!!!!!!**
