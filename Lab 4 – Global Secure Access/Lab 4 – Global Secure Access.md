@@ -340,9 +340,10 @@ To create as many connector groups as you want:
 1.  From the top bar, select **New connector group**.
 
 34. Provide `Test Connector Group` as the name, then use the
-    dropdown menu to select the available connector. Select **Create**.
+    dropdown menu to select the available connector. click on the **Save** button.
 
     ![](./media/image57.png)
+
 
 35. You will see the notification and the group created.
 
@@ -352,61 +353,7 @@ To create as many connector groups as you want:
 
     ![](./media/image59.png)
 
-### Task 3 – Create an Enterprise Application and configure quick access
-
-1.  Browse to **Global Secure Access** \ **Applications** \
-    **Enterprise applications**. Select **New application**.
-
-    ![ ](./media/image60.png)
-
-
-37. Click on + Create your own application and provide `RDP to DC` as the name. Select **Test Connector
-    Group** in the **Connector Group** dropdown. Then select **Save**.
-
-    ![ ](./media/image61.png)
-
-
-38. Once you get the notification that the Network access settings
-    updated successfully, navigate to **Applications** \ **Enterprise
-    applications. You will see your application in the list.**
-
-    ![](./media/image62.png)
-
-39. Select the application and then select **Network access properties**
-    from the sub-navigation pane. Then select **Add application
-    segment**.
-
-    ![ ](./media/image63.png)
-
-40. Provide the following information and select **Apply**.
-
-    - Destination type – **IP address range (CIDR)**
-
-    - Starting address – `10.0.0.0`
-
-    - Network mask – **/25**
-
-    - Ports – `3389,80,445`
-    
-    - Protocol - **TCP, UDP**
-
-    ![](./media/image64.png)
-
-41. Then select **Save**.
-
-    ![](./media/image65.png)
-
-42. While still on the **RDP to DC** application page, click on
-    **Properties** under Manage, for **Assignment required?** Setting
-    select **No**, then click on **Save** button.
-
-    ![](./media/image66.png)
-
-43. You should get the notification as shown in below image
-
-    ![](./media/image67.png)
-
-## Exercise 4 – Configure Conditional Access policies.
+## Exercise 3 – Configure Conditional Access policies.
 
 ### Task 1 – Creating and testing Conditional Access policies for Microsoft Entra Internet Access
 
@@ -415,7 +362,7 @@ To create as many connector groups as you want:
 1.  Browse to `https://entra.microsoft.com/` and sign in using
     the **Office 365 tenant credentials**.
 
-44. On the lefthand menu, under **Protection**  select **Conditional access**. On the **Overview** page, click **+ Create new policy**.
+44. On the lefthand menu, expand **Entra ID** and select **Conditional access**. On the **Overview** page, click **+ Create new policy**.
 
     ![](./media/image68.png)
 
@@ -637,8 +584,6 @@ To create as many connector groups as you want:
 5. This time via the Global Secure Access the Engage application should be accessible.
 
     ![](./media/image79.png)
-
-
 
 ## Summary:
 
