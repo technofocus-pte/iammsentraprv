@@ -30,7 +30,7 @@ catalog in your organization.
 1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
-1.  In the left menu, expand **Identity Governance** and
+1.  In the left menu, expand **ID Governance** and
     select **Entitlement management**. From the sub menu,
     select **Catalogs**. From the top menu, select **+ New Catalog**.
 
@@ -151,7 +151,7 @@ procedure to add it.
 1.  Switch to the VM - **LON-SVR1** and open the Edge browser and Sign in to `https://entra.microsoft.com` using a your **Office
     365 tenant credentials**.
 
-12. In the left menu, expand **Identity Governance** and
+12. In the left menu, expand **ID Governance** and
     select **Entitlement management**. Then from the sub menu, scroll
     down and select **Terms of use**. On the Terms of use page, on the
     top menu, select **+ New terms.**
@@ -204,10 +204,7 @@ procedure to add it.
 
      ![computer](./media/image16.png)
 
-14. When the terms of use is created, you will automatically be
-    redirected to the Conditional access policy page.
-
-    - On the page, in the **Name** box, enter `Enforce ToU`.
+14. From the **Entra ID** menu select **Conditional Access**, then click on **Create new policy**, on the page, in the **Name** box, enter `Enforce ToU`.
 
     - Under **Users**, select **0 users and groups selected/Specific
       users included**. Then under **Include**, choose **Select users
@@ -274,8 +271,7 @@ procedure to add it.
 6. Once you have accepted the Terms of Use agreement, you should be
     successfully signed in
 
-    ![computer Description automatically
-    generated](./media/image25.png)
+
 
 ## Exercise 3 – Microsoft Entra External Identities
 
@@ -284,7 +280,7 @@ procedure to add it.
 1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
-2. In the left menu, expand **Identity Governance** and
+2. In the left menu, expand **ID Governance** and
     select **Entitlement management**. Then from the sub menu, scroll
     down and select **Access packages**. Select **New access package**.
 
@@ -382,7 +378,7 @@ Access reviews can manage the access lifecycle. Microsoft Entra Identity
 Governance provides an overview dashboard showing the status of access
 reviews.
 
-1.  In the left menu, expand **Identity Governance** and
+1.  In the left menu, expand **ID Governance** and
     select **Entitlement management**. From the sub menu,
     select **Access reviews**. Select **+ New access review**.
 
@@ -433,7 +429,7 @@ your directory.
 1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
-2.  In the left menu, expand **Identity Governance** and
+2.  In the left menu, expand **ID Governance** and
     select **Entitlement management**. From the sub menu,
     select **Control configuration**. Click on the **View settings** link.
 
@@ -478,7 +474,7 @@ Follow these steps to open the settings for an Microsoft Entra role.
 1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
 
-2.  In the left menu, expand **Identity Governance** and
+2.  In the left menu, expand **ID Governance** and
     select **Privileged Identity management**. From the sub menu,
     select **Microsoft Entra roles.**
 
@@ -544,11 +540,11 @@ done.
 Follow these steps to make a user eligible for a Microsoft Entra admin
 role.
 
-1.  In the left menu, expand **Identity Governance** and
+1.  In the left menu, expand **ID Governance** and
     select **Privileged Identity Management**. Then select **Microsoft
     Entra roles.**
 
-    ![computer ](./media/image53.png)
+    ![computer ](./media/image46.png)
 
 42. On the **Quick start** page, in the left navigation,
     select **Roles**. Then select **+ Add assignments.**
@@ -623,7 +619,7 @@ activation by opening **My roles** in Privileged Identity Management.
 1.  Make sure you are signed into the **Microsoft Entra admin center**
     as **Abbi Skinner**.
 
-2.  In the left menu, expand **Identity Governance** and
+2.  In the left menu, expand **ID Governance** and
     select **Privileged Identity management**. From the sub menu,
     select **My roles.**
 
@@ -658,7 +654,7 @@ activation by opening **My roles** in Privileged Identity Management.
     tenant credentials**. or open a New edge browser in a normal mode and navigate to `https://entra.microsoft.com` sign in using your **Office 365
     tenant credentials**.
 
-2.  In the left menu, expand **Identity Governance** and
+2.  In the left menu, expand **ID Governance** and
     select **Privileged Identity management**. From the sub menu,
     select **Microsoft Entra roles.**
 
@@ -688,7 +684,7 @@ an administrative unit.
 1.  Sign in to `https://entra.microsoft.com` using your **Office 365
     tenant credentials**.
      
-2.  In the left menu, expand **Identity Governance** and
+2.  In the left menu, expand **ID Governance** and
     select **Privileged Identity management**. From the sub menu,
     select **Microsoft Entra roles.**
 
