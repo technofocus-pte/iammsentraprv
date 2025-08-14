@@ -353,7 +353,7 @@ To create as many connector groups as you want:
 
     ![](./media/image59.png)
 
-## Exercise 3 – Configure Conditional Access policies.
+## Exercise 4 – Configure Conditional Access policies.
 
 ### Task 1 – Creating and testing Conditional Access policies for Microsoft Entra Internet Access
 
