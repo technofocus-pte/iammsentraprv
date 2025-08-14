@@ -493,8 +493,7 @@ Group only when the Access **Microsoft Forms**
 1. Open the Edge browser and login to the **Microsoft Entra admin
 center** `https://entra.microsoft.com` page.
 
-2. In the **Microsoft Entra admin center**, expand **Protection** and
-select **Conditional Access**. Click on **Create new policy**.
+2. In the **Microsoft Entra admin center**, scroll down and select **Conditional Access**. Click on **Create new policy**.
 
     ![](./media/image90.png)
 
