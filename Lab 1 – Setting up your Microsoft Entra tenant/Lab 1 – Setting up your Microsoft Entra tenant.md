@@ -258,12 +258,7 @@ generated](./media/image48.png)
 
     ![](./media/image49.png)
 
-4.  While in the **Microsoft Entra admin center**, click on **… Show
-    more**.
-
-    ![](./media/image50.png)
-
-5.  Expand **Billing** then click on **Licenses**, then select **All
+4.  While in the **Microsoft Entra admin center**, expand **Billing** then click on **Licenses**, then select **All
     Products**.
 
     ![](./media/image51.png)
