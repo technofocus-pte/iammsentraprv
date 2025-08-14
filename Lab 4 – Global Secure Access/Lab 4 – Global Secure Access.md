@@ -118,7 +118,7 @@ to register our Lab VM to the Contoso’s Entra ID.
 
     ![](./media/image16.png)
 
-1.  On the lefthand menu, under **Global Security Access** expand Connect and then select
+1.  On the lefthand menu, under **Global Security Access** expand **Connect** and then select
 **Traffic forwarding** and then click on the **Activate** button.
 
     ![](./media/image17.png)
@@ -127,7 +127,7 @@ to register our Lab VM to the Contoso’s Entra ID.
 
     ![](./media/image18.png)
 
-3. From the notificaiton - To use these capabilities the following licenses may be required: Microsoft Entra Internet Access or Microsoft Entra Private Access. Activate or Learn more. Click on the **Activate** link.
+3. Click on **Traffic Forwarding** from the left menu and then from the notificaiton - To use these capabilities the following licenses may be required: Microsoft Entra Internet Access or Microsoft Entra Private Access. Activate or Learn more. Click on the **Activate** link.
 
     ![](./media/image18b.png)
 
@@ -144,11 +144,12 @@ to register our Lab VM to the Contoso’s Entra ID.
 
 3. Switch back to the Microsoft Entra Portal tab and refresh the browser.
 
-3. From the left navigation, expand Global Secure Access and from the
-    connect dropdown, select **Traffic Forwarding**. Select the check
+3. From the left navigation, expand **Global Secure Access** and from the
+    **Connect** dropdown, select **Traffic Forwarding**. Select the check
     box near **Microsoft traffic profile.**
 
     ![ ](./media/image19.png)
+
 
 4.  Select **OK** on the prompt.
 
@@ -280,94 +281,9 @@ The most current version of the Global Secure Access Client can be downloaded fr
 
 ## Exercise 3 – Configuring Microsoft Entra Private Access
 
-### **Task 0 – Create a Windows Server 2019**
-
-1.  While still on LON-CL1, in a new tab navigate to the Azure portal
-    `https://portal.azure.com` login using the **Office 365
-    Tenant credential**.
-
-2.  From the Portal menu or from the **Home** page, select **Create a
-    resource**.
-
-    ![](./media/image37.png)
-
-3.  Select **Create** under **Virtual Machines**.
-
-     ![computer Description automatically
- generated](./media/image38.png)
-
-4. On the **Create a Virtual machine** page, provide the below details
-
-    * Resource group - Create new - `ContosoDevices` 
-
-    * Virtual machine name - `MyDevice`
-
-    * Region - **West US**
-
-    * Availability options - **No infrastructure redundancy required**
-
-    * Security type - **Standard**
-
-    * Image - **Windows Server 2019 Datacenter - x64 Gen2**
-
-    ![](./media/image39.png)
-
-    * Size  - **Standard_D2s_v3**
-
-    * Username – `Admin01`
-
-    * Password – `Pa55w.rd@123`
-    
-    * Confirm Password – `Pa55w.rd@123`
-
-    ![](./media/image40.png)
-
-5.  Click on **Review + create**.
-
-6.  Review the settings on the summary page, and then select **Create**.
-
-     ![](./media/image41.png)
-
-7.  Once the deployment is complete select **Go to resource**.
-
-    ![](./media/image42.png)
-
-8.  Select **Connect**.
-
-    ![ ](./media/image43.png)
-
-9.  Under **Native** **RDP** click on the **Download RDP file**, also
-    make a note of the **Public IP address** and if prompted for
-    downloading the RDP file click on **Keep** button.
-
-    ![](./media/image44.png)
-
 ### **Task 1 – Install the Private Network connector**
 
-1.  Using the RDP file downloaded in **Task 0** log into the **Windows
-    Server 2019** VM, using the following credentials.
-
-    * Username – `Admin01`
-
-    * Password – `Pa55w.rd@123`
-
-18. Open the Server Manager and Select Local Server, then click on
-    **On** link for **IE Enhanced Security Configuration**, the set the
-    **Administrator** and **Users** switch to **Off**
-
-    ![](./media/image45.png)
-
-20. Click on the **Start menu** and type `Default apps` and select
-    **Default apps**
-
-    ![](./media/image47.png)
-
-21. Scroll down and then under **Web browser**, click on Internet
-    Explorer, and then choose **Microsoft Edge**.
-
-    ![](./media/image48.png)
-
-22. Open the **Edge Browser** and navigate to
+1.  Switch to **LON-SVR1**, then open the **Edge Browser** and navigate to
     `https://entra.microsoft.com/` and sign in using the
     **Office 365 tenant credentials.**
 
@@ -407,7 +323,6 @@ The most current version of the Global Secure Access Client can be downloaded fr
 30. You will be able to see the **Microsoft Entra private network connector** service running in the **Standard** services tab.
 
     ![](./media/image55.png)
-    ![alt text](image.png)
 
 31. Return to the Microsoft Entra admin center in your browser and
     browse to **Global Secure Access** \ **Connect** \ **Connectors** refresh the page
