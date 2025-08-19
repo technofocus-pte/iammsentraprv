@@ -204,7 +204,9 @@ procedure to add it.
 
      ![computer](./media/image16.png)
 
-14. From the **Entra ID** menu select **Conditional Access**, then click on **Create new policy**, on the page, in the **Name** box, enter `Enforce ToU`.
+    > Note - When the terms of use is created, you will automatically be redirected to the Conditional access policy page. If it does not open, then from the **Entra ID** menu select **Conditional Access**, then click on **Create new policy**.
+
+14. On the **New Conditional Access policy** page, in the **Name** box, enter `Enforce ToU`.
 
     - Under **Users**, select **0 users and groups selected/Specific
       users included**. Then under **Include**, choose **Select users
