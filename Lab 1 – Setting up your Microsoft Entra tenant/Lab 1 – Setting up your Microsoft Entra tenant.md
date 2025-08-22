@@ -33,25 +33,12 @@ Password hash synchronization helps by reducing the number of passwords,
 your users need to maintain to just one. Password hash synchronization
 can:
 
-- Improve the productivity of your users.
+*   Improve the productivity of your users.
 
-- Reduce your helpdesk costs.
+*   Reduce your helpdesk costs.
+#
 
 1. Switch to the **LON-DC1** machine in the lab environment.
-2. Right click on the Start menu and choose **Windows PowerShell (Admin)**
-
-    ![](./media/image11b.png)
-
-3. Open a new tab in the Edge browser, navigate to `https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/reference-connect-tls-enforcement#powershell-script-to-enable-tls-12`. Then copy the code and paste it in a notepad file and save the notepad file as `EnableTLS.ps1` in the folder `C:\Labfiles`, the code can also be run directly in the **Windows PowerShell (Admin)** to enable the **TLS 1.2**. 
-
-    ![](./media/image11d.png)
-
-    Run the below script in **Windows PowerShell** on the **LON-DC1** to enable TLS ver. 1.2
-
-    `C:\Labfiles\EnableTLS.ps1`
-
-    ![](./media/image11c.png)
-
 
 1.  Open a browser and navigate to the URL — `https://entra.microsoft.com/#view/Microsoft_AAD_Connect_Provisioning/AADConnectMenuBlade/~/GetStarted` sign in using Office 365 Tenant admin credentials from the Home/Resource tab.
 
