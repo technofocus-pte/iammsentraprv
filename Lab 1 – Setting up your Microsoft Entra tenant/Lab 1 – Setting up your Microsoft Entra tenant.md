@@ -2,14 +2,8 @@
 
 ## Objective
 
-In this lab we will first redeem a pass for an Azure subscription.
-
-When Entra ID tenants are created, they receive a onmicrosoft.com tenant
-domain. In the real suppose you have just purchased a new domain that
-resides in Microsoft Azure but not in Adatum's on-premises environment.
-In this lab we will manually create the necessary DNS records required
-by this new custom domain and then integrate a single AD forest using
-Password Hash Sync (PHS). We will also enable MFS and add basic
+In this lab we will integrate a single AD forest using
+Password Hash Sync (PHS). We will also enable MFA and add basic
 conditional access policy.
 
 ## Exercise 1 – Integrate a single AD forest using Password Hash Sync (PHS)
