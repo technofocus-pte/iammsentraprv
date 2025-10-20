@@ -36,15 +36,22 @@ can:
 
 1.  Open a browser and navigate to the URL — `https://entra.microsoft.com/#view/Microsoft_AAD_Connect_Provisioning/AADConnectMenuBlade/~/GetStarted` sign in using Office 365 Tenant admin credentials from the Home/Resource tab.
 
-2.  Click on **Download Connect Sync Agent** and then click after **4 seconds** click on **Accept terms & download** button.
+    <Font color=darkgreen>
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image19.png)
+    > **Note -** you will be prompted **Let's Keep your account secure** to register for MFA, follow the steps to comlpete the process to proceed ahead 
+
+    </font>
+
+2.  Click on the **Manage** tab, then scroll down.
+    ![](./media/image19b.png)
+
+2. Click on **Download Connect Sync Agent** and then click after **4 seconds** click on **Accept terms & download** button.
+
+    ![](./media/image19.png)
 
 
 2. Click on **Open file**.
-    ![A screenshot of a computer Description automatically
-    generated](./media/image19a.png)
+    ![](./media/image19a.png)
     
 1.  Once installed, the **Microsoft Entra Connect Sync** configuration
     will start. select the **Terms & Conditions** check box and click
@@ -54,13 +61,11 @@ generated](./media/image19.png)
 
 2.  On the **Express Settings** page click **Customize**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image21.png)
+    ![](./media/image21.png)
 
 1.  On the Install required components page click **Install**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image22.png)
+    ![](./media/image22.png)
 
 
 1.  At the **User sign-in** page, choose **Password Hash
@@ -68,8 +73,7 @@ generated](./media/image22.png)
     will use the MEConnect user we had created in the **Azure portal**
     to continue the installation process of **ADConnect**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image23.png)
+    ![](./media/image23.png)
 
 1.  On the Connect to Microsoft Entra ID page, provide the **Office 365 Tenant Admin** username and then click on the **Next** button.
 
@@ -77,8 +81,7 @@ generated](./media/image23.png)
 
 4.  Provide the credential of the credentials of the **Office 365 Tenant Admin** and then click on the **Next** button.
 
-    ![A screenshot of a computer Description automatically
-    generated](./media/image27.png)
+    ![](./media/image27.png)
 
 5.  On the connect your directories page click **Add directory**.
 
@@ -198,8 +201,8 @@ location.
     - On the Add members tab, add **Abbi Skinner** and **Huong Tang** and
   click on **Select**.
 
-     ![A screenshot of a computer Description automatically
- generated](./media/image43.png)
+     ![
+ ](./media/image43.png)
 
     - Click on **Create**.
 
@@ -207,13 +210,11 @@ location.
 
 1.  You will get a prompt as shown in below image, click **Yes**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image45.png)
+    ![](./media/image45.png)
 
 1.  Your group is created, and you will get a successful notification.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image46.png)
+    ![](./media/image46.png)
 
 1.  Repeat the steps 3-5 to create another group with below details
 
@@ -224,11 +225,9 @@ generated](./media/image46.png)
 
     - Members – **Beth Burke** and **Logan Boyle**
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image47.png)
+    ![](./media/image47.png)
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image48.png)
+    ![](./media/image48.png)
 
 1.  You will get a prompt as shown in below image, click **Yes**.
 
@@ -277,8 +276,7 @@ generated](./media/image48.png)
 
 13. On the **Assign license to groups** window, select the **Research101** and **Sales101** groups and then click on **Assign** button.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image58.png)
+    ![](./media/image58.png)
 
 3. You should get the notification as shown in below image.
 
@@ -293,7 +291,7 @@ generated](./media/image58.png)
     center** `https://entra.microsoft.com` page.
 
 2. If prompted for credentials enter your **Office365 Tenant
-    Credentials** provided on the **Home/Resources** tab** of the lab Interface as
+    Credentials** provided on the **Home/Resources** tab of the lab Interface as
     show in the Image.
 
 3. Select **Entra ID** expand **Users**, select **All Users**, the from
@@ -396,7 +394,7 @@ on).
     ![](./media/image77.png)
 
 4. Select the users **Abbi Skinner** and **Beth Burke** and click
-    on **Enable**.
+    on **Enable MFA** button.
 
     ![](./media/image78.png)
 
@@ -436,19 +434,17 @@ on).
 13. On the **Scan the QR code** page, scan the QR image to add the
     account on your Microsoft Authenticator App on your phone.
 
-    ![A screenshot of a computer Description automatically
-    generated](./media/image84.png)
+    ![](./media/image84.png)
 
 14. Now, select **Next**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image85.png)
+    ![](./media/image85.png)
 
 15. When prompted, approve the notification on your phone. Once you see
     that the notification is approved, select **Next**.
 
     ![Graphical user interface, text, application Description automatically
-generated](./media/image86.png)
+](./media/image86.png)
 
 16. Click on **Done**
 
@@ -474,7 +470,7 @@ Group only when the Access **Microsoft Forms**
 1. Open the Edge browser and login to the **Microsoft Entra admin
 center** `https://entra.microsoft.com` page.
 
-2. In the **Microsoft Entra admin center**, scroll down and select **Conditional Access**. Click on **Create new policy**.
+2. In the **Microsoft Entra admin center**, scroll down and select **Conditional Access**. Click on **+ Create new policy**.
 
     ![](./media/image90.png)
 
@@ -487,8 +483,8 @@ center** `https://entra.microsoft.com` page.
    box near **Users and groups**. Then under **Select**, choose **0
    users and groups selected**.
 
-   ![A screenshot of a computer Description automatically
-   generated](./media/image91.png)
+   ![
+   ](./media/image91.png)
    
 
    - Scroll down on the **Select users and groups** page, select
@@ -501,22 +497,22 @@ center** `https://entra.microsoft.com` page.
    **None**. In the side pane, search for and select `Microsoft Forms`
    by selecting the check box near the app. Then choose **Select**.
 
-   ![A screenshot of a computer Description automatically
-   generated](./media/image93.png)
+   ![
+   ](./media/image93.png)
 
    - Similarly select **Access Controls** \ **Grant** \ **0 controls
    selected** \ **Grant access** \ **Require multi-factor
    authentication** \ **Select**.
 
-   ![A screenshot of a computer Description automatically
-   generated](./media/image94.png)
+   ![
+   ](./media/image94.png)
 
    - Enable policy – **Report-only**
 
    - Click on **Create**
 
-   ![A screenshot of a computer Description automatically
-   generated](./media/image95.png)
+   ![
+   ](./media/image95.png)
 
 4. You should get the notification as shown in below image.
 
