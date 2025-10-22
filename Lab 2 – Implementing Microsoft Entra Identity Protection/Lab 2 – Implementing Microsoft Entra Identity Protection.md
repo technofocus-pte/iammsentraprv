@@ -103,7 +103,7 @@ applications. You must deploy a Conditional access policy.
 
 
 
-13. Navigate to `https://www.office.com`.
+2. Navigate to `https://www.office.com`.
 
 14. When prompted, log in as **Allan Deyoung**:
 
@@ -118,15 +118,19 @@ applications. You must deploy a Conditional access policy.
 
     </font>
 
-15. Click on **Explore App** and then click on the **Engage** icon to
+15. Click on **Expand Navigation**
+
+    ![](./media/image16a.png)
+
+15. Click on **App** 
+
+    ![](./media/image16b.png)
+
+15. Scroll down and then click on the **Engage** icon to
     see that it loads correctly.
 
-    ![](./media/image16.png)
+    ![](./media/image16c.png)
 
-
-16. Click on **Log in with Microsoft account**.
-
-    ![](./media/image17.png)
 
 17. The portal should load successfully.
 
@@ -221,8 +225,18 @@ as expected.
 
     </font>
 
-5.  Click on **Explore App** and then click on the **Engage** icon to
+5. Click on **Expand Navigation**
+
+    ![](./media/image16a.png)
+
+5. Click on **App** 
+
+    ![](./media/image16b.png)
+
+5. Scroll down and then click on the **Engage** icon to
     see that it loads correctly.
+
+    ![](./media/image16c.png)
 
 6.  Verify you are prevented from accessing **Viva Engage**.
 
@@ -250,40 +264,41 @@ as expected.
     ![A screenshot of a computer Description automatically
 generated](./media/image27.png)
 
-28. Under **User or Workload identity**, select **No user or service
-    principal selected**. Under **Select identity type**, select
-    **User**, and then choose **No user selected**.
+3. Under **Identity**, click on **Edit user**
 
-    ![](./media/image28.png)
+    ![](./media/image28a.png)
 
 29. Choose **Allan Deyoung** as the user. Then choose **Select**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/image29.png)
 
-30. Under **Cloud apps, actions, or authentication context**,
-    select **Any cloud app**. Under **Select what this policy applies
-    to**, choose **Select apps** and then **None** under **Select**.
-
-    ![](./media/image30.png)
+30. Under **Target resources**,
+    select **+ Select cloud app**
+    
+    ![](./media/image30a.png)
 
 31. In the select pane, choose **Viva Engage**. And then choose
     **Select**.
 
     ![A screenshot of a computer Description automatically
-generated](./media/image31.png)
+generated](./media/image31a.png)
+
+32. Under **Sign-in conditions**, for Device platform select **Windows** and for Client app select **Browser**.
+
+    ![](./media/image31b.png)
 
 32. Select **What if**.
 
     ![A screenshot of a computer Description automatically
-generated](./media/image32.png)
+generated](./media/image32a.png)
 
 33. You will be provided with a report at the bottom of the tile
     for **Policies that will apply** and **Policies that will not
     apply**.
 
     ![A screenshot of a computer Description automatically
-generated](./media/image33.png)
+generated](./media/image33a.png)
 
 This allows you to test the policies and their effectiveness before
 enabling the policies.
@@ -356,23 +371,43 @@ generated](./media/image39.png)
     dashboard.
 
     ![A screenshot of a computer Description automatically
-generated](./media/image40.png)
+generated](./media/image40a.png)
 
-
-3. You may not see many recommendations but in a production environment you can view the **Improvement actions**. Sort the recommendations
-    by **User impact**.
+4. Click on the link **View your Microsoft Secure Score** this will open a new tab and redirect to Microsoft Defender portal.
 
     ![A screenshot of a computer Description automatically
-generated](./media/image41.png)
+generated](./media/image41a.png)
+    ![A screenshot of a computer Description automatically
+generated](./media/image41b.png)
 
-4. Select the first Improvement action. Review the recommendations
-    under **WHAT AM I ABOUT TO CHANGE?** section and then you can select
-    the status of the action from the dropdown. Change it to **Planned**
-    and then select **Save**.
+5. Scroll down and select the first **Recommended action**. 
 
-    ![](./media/image42.png)
+    ![](./media/image41c.png)
 
-In contrast to the improvement actions in Microsoft Defender for Cloud
+6. Review the **Description** and **User impact** sections.
+
+    ![](./media/image43.png)
+
+
+7. Click on **Edit status & action plan** button
+
+    ![](./media/image44.png)
+
+
+8. From the Status & action plan tab, select the radio button for **Planned**
+
+    ![](./media/image45.png)
+
+9. Click on the **Save and close** button.
+
+    ![](./media/image46.png)
+
+10. Notice the Status has been updated from **To Address** to **Planned**.
+
+    ![](./media/image47.png)
+
+
+In contrast to the **Recommended actions** in Microsoft Defender for Cloud
 and Microsoft 365 Defender, these improvement actions are specific to identity. This provides a more focused list of potential actions to your security posture management. Any improvement actions initiated from this
 list will also provide an impact to your overall tenant security
 posture.
