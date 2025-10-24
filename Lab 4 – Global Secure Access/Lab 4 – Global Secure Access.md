@@ -127,7 +127,9 @@ to register our Lab VM to the Contoso’s Entra ID.
 
     ![](./media/image18.png)
 
-3. Click on **Traffic Forwarding** from the left menu and then from the notificaiton - To use these capabilities the following licenses may be required: Microsoft Entra Internet Access or Microsoft Entra Private Access. Activate or Learn more. Click on the **Activate** link.
+3. From the left menu expand **Connect** then Click on **Traffic Forwarding**.
+
+3. From the notificaiton - To use these capabilities the following licenses may be required: Microsoft Entra Internet Access or Microsoft Entra Private Access. Activate or Learn more. Click on the **Activate** link.
 
     ![](./media/image18b.png)
 
@@ -142,7 +144,7 @@ to register our Lab VM to the Contoso’s Entra ID.
 
     ![](./media/image18e.png)
 
-3. Switch back to the Microsoft Entra Portal tab and refresh the browser.
+3. Switch back to the **Microsoft Entra Portal** tab and refresh the browser.
 
 3. From the left navigation, expand **Global Secure Access** and from the
     **Connect** dropdown, select **Traffic Forwarding**. Select the check
@@ -288,7 +290,7 @@ The most current version of the Global Secure Access Client can be downloaded fr
     **Office 365 tenant credentials.**
 
 23. Browse to **Global Secure Access** > **Connect** >
-    **Connectors**. Select **Download connector service**.
+    **Connectors and sensors**. Select **Download connector service**.
 
     ![ ](./media/image49.png)
 
@@ -325,7 +327,7 @@ The most current version of the Global Secure Access Client can be downloaded fr
     ![](./media/image55.png)
 
 31. Return to the Microsoft Entra admin center in your browser and
-    browse to **Global Secure Access** \ **Connect** \ **Connectors** refresh the page
+    browse to **Global Secure Access** \ **Connect** \ **Connectors and sensors** refresh the page
 
 32. View a connector to verify its details.
 
@@ -333,25 +335,6 @@ The most current version of the Global Secure Access Client can be downloaded fr
 
 33. Stay on the same page and continue to the next task.
 
-### Task 2 – Create connector groups
-
-To create as many connector groups as you want:
-
-1.  From the top bar, select **New connector group**.
-
-34. Provide `Test Connector Group` as the name, then use the
-    dropdown menu to select the available connector. click on the **Save** button.
-
-    ![](./media/image57.png)
-
-
-35. You will see the notification and the group created.
-
-    ![](./media/image58.png)
-
-36. Stay on the same page and continue to the next task.
-
-    ![](./media/image59.png)
 
 ## Exercise 4 – Configure Conditional Access policies.
 
@@ -401,7 +384,7 @@ To create as many connector groups as you want:
 
     ![](./media/image74.png)
 
-#### Step 2 – Test Conditional Access Policy to Allow Microsoft 365 Traffic from GSA Client
+#### Step 2 – Testing if user Joni Sherman has access to Viva Engage app.
 
 1.  Make sure you are logged into the **LON-CL1** VM using the following
     credentials.
@@ -434,15 +417,18 @@ To create as many connector groups as you want:
     
         [This Password was set in Lab 3] and click on **Sign in**
 
-3.  Click on **Explore apps**
+5. Click on **Expand Navigation**
 
-    ![computer Description automatically
-    generated](./media/image77.png)
+    ![](./media/image16a.png)
 
-4.  You will be able to log in to the **Office 365** portal. Select on
-    the **Engage** icon to see that it loads correctly.
+5. Click on **App** 
 
-    ![](./media/image78.png)
+    ![](./media/image16b.png)
+
+5. Scroll down and then click on the **Engage** icon to
+    see that it loads correctly.
+
+    ![](./media/image16c.png)
 
     ![](./media/image79.png)
 
@@ -483,11 +469,11 @@ To create as many connector groups as you want:
 
 - Under **Conditions**, select **0 conditions selected**. Under
   **Locations**, select **Not configured**. Select **Yes** under
-  **Configure.** Under **Include**, select **Any location**.
+  **Configure.** Under **Include**, select **Any network or location**.
 
     ![ ](./media/image83.png)
 
-- Choose **Selected locations** under **Exclude**. Then select **None**.
+- Choose **Selected networks and locations** under **Exclude**. Then select **None**.
 
     ![](./media/image84.png)
 
@@ -541,12 +527,18 @@ To create as many connector groups as you want:
     
         [This Password was set in Lab 3] and click on **Sign in**
 
-6.  Click on **Explore apps**
+5. Click on **Expand Navigation**
 
-52. You will be able to log in to the Office 365 portal. Select on
-    the **Engage** icon.
+    ![](./media/image16a.png)
 
-    ![](./media/image78.png)
+5. Click on **App** 
+
+    ![](./media/image16b.png)
+
+5. Scroll down and then click on the **Engage** icon to
+    see that it loads correctly.
+
+    ![](./media/image16c.png)
 
 53. You will get the notification that **You cannot access this right
     now**. Close the Inprivate browser tabs completely.
@@ -571,15 +563,19 @@ To create as many connector groups as you want:
     
         [This Password was set in Lab 3] and click on **Sign in**
 
-3.  Click on **Explore apps**
+3. 5. Click on **Expand Navigation**
 
-    ![computer Description automatically
-    generated](./media/image77.png)
+    ![](./media/image16a.png)
 
-4.  You will be able to log in to the **Office 365** portal. Select on
-    the **Engage**.
+5. Click on **App** 
 
-    ![](./media/image78.png)
+    ![](./media/image16b.png)
+
+5. Scroll down and then click on the **Engage** icon to
+    see that it loads correctly.
+
+    ![](./media/image16c.png)
+
 
 5. This time via the Global Secure Access the Engage application should be accessible.
 
