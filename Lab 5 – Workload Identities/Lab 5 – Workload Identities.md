@@ -35,7 +35,8 @@ service principle.
     ![computer ](./media/image4.png)
 
 6.  From the left navigation, select **Active users** under **Users**.
-    Select the admin user **MOD Administrator** from the list, expand
+
+6. Select the admin user **MOD Administrator** from the list, expand
     the three dots **(…)** in the top bar and select **Manage product
     Licenses**.
 
@@ -52,8 +53,7 @@ service principle.
 1.  Browse to `https://entra.microsoft.com/` in another tab and sign in using
     the **Office 365 tenant credentials**.
 
-2.  On the lefthand menu, under **Identity**, expand **Protection**, and
-    then select **Conditional access**. On the **Overview**,
+2.  On the lefthand menu, under **Entra ID** select **Conditional access**. On the **Overview**,
     click **+ Create new policy**.
 
     ![](./media/image7.png)
