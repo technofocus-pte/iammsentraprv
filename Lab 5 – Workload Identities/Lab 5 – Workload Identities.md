@@ -34,7 +34,7 @@ service principle.
 
     ![computer ](./media/image4.png)
 
-6.  From the left navigation, select **Active us**ers under **Users**.
+6.  From the left navigation, select **Active users** under **Users**.
     Select the admin user **MOD Administrator** from the list, expand
     the three dots **(…)** in the top bar and select **Manage product
     Licenses**.
