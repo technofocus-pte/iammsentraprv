@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 3 – Microsoft Entra Identity Governance
+  description: In this lab we focused on creating and managing a catalog of resources, adding terms of use, and implementing acceptance reporting, configuring basics for external identities, conducting access reviews for guest users, and managing the lifecycle of external users. Additionally, learnt to configure Microsoft Entra roles using Privileged Identity Management (PIM) and understand the role activation process with approval requirements, role assignment, activation, approval, and updating or removing existing role assignments.
+  duration: 180 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Microsoft Entra
+---
+
 # Lab 3 – Microsoft Entra Identity Governance
 
 ## Objective:

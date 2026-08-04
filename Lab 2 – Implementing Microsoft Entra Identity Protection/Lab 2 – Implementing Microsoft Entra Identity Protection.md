@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 2 – Implementing Microsoft Entra Identity Protection​
+  description: In this lab we enabled user risk policy, created a conditional access policy to block a user from accessing a cloud app, and explored the Identity Secure Score.
+  duration: 5 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Microsoft Entra
+---
+
 # Lab 2 – Implementing Microsoft Entra Identity Protection​
 
 ## Objective:

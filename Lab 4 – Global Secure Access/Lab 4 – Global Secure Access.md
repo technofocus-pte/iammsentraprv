@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 4 – Global Secure Access​
+  description: In this lab, we tested the Microsoft Entra private Access and Microsoft Entra Internet Access available in Global Secure Access.
+  duration: 162 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft Entra
+---
+
 # Lab 4 – Global Secure Access​
 
 ## Objective:

@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 1 – Setting up your Microsoft Entra tenant
+  description: In this lab we assigned the required licenses and created the required records using the provided public domain. We enabled MFA for our users and assigned a basic conditional access policy to a group of users in our organization.
+  duration: 150 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Entra
+---
+
 # Lab 1 – Setting up your Microsoft Entra tenant
 
 ## Objective

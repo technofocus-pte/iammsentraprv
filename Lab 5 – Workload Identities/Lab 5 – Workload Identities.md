@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 5 – Workload Identities
+  description: Conditional Access policies historically applied only to users when they access apps and services like SharePoint Online. Now the support is extended for Conditional Access policies to be applied to service principals owned by the organization. This capability is called Conditional Access for workload identities. In this lab we will explore how to opt for Workload Identities trial and create a CA Policy for any service principle.
+  duration: 56 minutes
+  level: 100
+  islab: true
+---
+
 # Lab 5 – Workload Identities
 
 ## Objective:
